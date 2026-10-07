@@ -1,0 +1,1501 @@
+{
+  "__kind__": "tuple",
+  "items": [
+    {
+      "Pointwise": {
+        "__kind__": "array",
+        "values": [
+          [
+            0.3336446322763417,
+            0.408823227378983,
+            0.2330971265313668
+          ],
+          [
+            0.42680181322653565,
+            0.37913671497908363,
+            0.3751134662267669
+          ],
+          [
+            0.28383542926549005,
+            0.31722046972147433,
+            0.27600009616446397
+          ],
+          [
+            0.6016193578311154,
+            0.43343687220066124,
+            0.40828720619597253
+          ],
+          [
+            0.41147530814987077,
+            0.38465432107005054,
+            0.32312447377964254
+          ]
+        ],
+        "dtype": "float64",
+        "shape": [
+          5,
+          3
+        ]
+      },
+      "Complete": {
+        "__kind__": "array",
+        "values": [
+          [
+            0.32743976996520247,
+            0.44393744354641423,
+            0.28587185210228794
+          ],
+          [
+            0.35493285065545344,
+            0.3816779509653487,
+            0.40535278695052857
+          ],
+          [
+            0.2838294370147387,
+            0.2863627434617796,
+            0.2622590117533524
+          ],
+          [
+            0.4768310443202856,
+            0.37301300453679964,
+            0.38331971246713087
+          ],
+          [
+            0.3607582754889201,
+            0.37124778562758554,
+            0.33420084081832496
+          ]
+        ],
+        "dtype": "float64",
+        "shape": [
+          5,
+          3
+        ]
+      }
+    },
+    [
+      {
+        "grid": "canonical512",
+        "stage": "Oil",
+        "seed": 42,
+        "method": "Pointwise",
+        "class_id": 3,
+        "class_name": "Film oil",
+        "reference_fraction": 0.06518956863602944,
+        "predicted_fraction": 0.07268761132963299,
+        "absolute_error_pp": 0.7498042693603546
+      },
+      {
+        "grid": "canonical512",
+        "stage": "Oil",
+        "seed": 42,
+        "method": "Pointwise",
+        "class_id": 4,
+        "class_name": "Pore-corner",
+        "reference_fraction": 0.06345475509050805,
+        "predicted_fraction": 0.06387775170376135,
+        "absolute_error_pp": 0.04229966132533042
+      },
+      {
+        "grid": "canonical512",
+        "stage": "Oil",
+        "seed": 42,
+        "method": "Pointwise",
+        "class_id": 5,
+        "class_name": "Droplet",
+        "reference_fraction": 0.05835930996348081,
+        "predicted_fraction": 0.058779386463532514,
+        "absolute_error_pp": 0.04200765000517068
+      },
+      {
+        "grid": "canonical512",
+        "stage": "Oil",
+        "seed": 42,
+        "method": "Pointwise",
+        "class_id": 6,
+        "class_name": "Columnar",
+        "reference_fraction": 0.035377587788857086,
+        "predicted_fraction": 0.03206217437032263,
+        "absolute_error_pp": 0.3315413418534453
+      },
+      {
+        "grid": "canonical512",
+        "stage": "Oil",
+        "seed": 42,
+        "method": "Pointwise",
+        "class_id": 7,
+        "class_name": "Clustered",
+        "reference_fraction": 0.7776187785211246,
+        "predicted_fraction": 0.7725930761327505,
+        "absolute_error_pp": 0.5025702388374076
+      },
+      {
+        "grid": "canonical512",
+        "stage": "Oil",
+        "seed": 42,
+        "method": "Complete",
+        "class_id": 3,
+        "class_name": "Film oil",
+        "reference_fraction": 0.06518956863602944,
+        "predicted_fraction": 0.07181179288584646,
+        "absolute_error_pp": 0.6622224249817024
+      },
+      {
+        "grid": "canonical512",
+        "stage": "Oil",
+        "seed": 42,
+        "method": "Complete",
+        "class_id": 4,
+        "class_name": "Pore-corner",
+        "reference_fraction": 0.06345475509050805,
+        "predicted_fraction": 0.06311896236222483,
+        "absolute_error_pp": 0.033579272828321294
+      },
+      {
+        "grid": "canonical512",
+        "stage": "Oil",
+        "seed": 42,
+        "method": "Complete",
+        "class_id": 5,
+        "class_name": "Droplet",
+        "reference_fraction": 0.05835930996348081,
+        "predicted_fraction": 0.05992307996279386,
+        "absolute_error_pp": 0.15637699993130555
+      },
+      {
+        "grid": "canonical512",
+        "stage": "Oil",
+        "seed": 42,
+        "method": "Complete",
+        "class_id": 6,
+        "class_name": "Columnar",
+        "reference_fraction": 0.035377587788857086,
+        "predicted_fraction": 0.03256942713494519,
+        "absolute_error_pp": 0.2808160653911894
+      },
+      {
+        "grid": "canonical512",
+        "stage": "Oil",
+        "seed": 42,
+        "method": "Complete",
+        "class_id": 7,
+        "class_name": "Clustered",
+        "reference_fraction": 0.7776187785211246,
+        "predicted_fraction": 0.7725767376541897,
+        "absolute_error_pp": 0.5042040866934938
+      },
+      {
+        "grid": "canonical512",
+        "stage": "WI",
+        "seed": 42,
+        "method": "Pointwise",
+        "class_id": 3,
+        "class_name": "Film oil",
+        "reference_fraction": 0.09883789237850407,
+        "predicted_fraction": 0.10733412267981653,
+        "absolute_error_pp": 0.8496230301312455
+      },
+      {
+        "grid": "canonical512",
+        "stage": "WI",
+        "seed": 42,
+        "method": "Pointwise",
+        "class_id": 4,
+        "class_name": "Pore-corner",
+        "reference_fraction": 0.10772864007472012,
+        "predicted_fraction": 0.10990245510407105,
+        "absolute_error_pp": 0.2173815029350934
+      },
+      {
+        "grid": "canonical512",
+        "stage": "WI",
+        "seed": 42,
+        "method": "Pointwise",
+        "class_id": 5,
+        "class_name": "Droplet",
+        "reference_fraction": 0.10980945336532387,
+        "predicted_fraction": 0.10808947109351096,
+        "absolute_error_pp": 0.17199822718129143
+      },
+      {
+        "grid": "canonical512",
+        "stage": "WI",
+        "seed": 42,
+        "method": "Pointwise",
+        "class_id": 6,
+        "class_name": "Columnar",
+        "reference_fraction": 0.06020983997097502,
+        "predicted_fraction": 0.05422248632316791,
+        "absolute_error_pp": 0.5987353647807108
+      },
+      {
+        "grid": "canonical512",
+        "stage": "WI",
+        "seed": 42,
+        "method": "Pointwise",
+        "class_id": 7,
+        "class_name": "Clustered",
+        "reference_fraction": 0.623414174210477,
+        "predicted_fraction": 0.6204514647994336,
+        "absolute_error_pp": 0.2962709411043374
+      },
+      {
+        "grid": "canonical512",
+        "stage": "WI",
+        "seed": 42,
+        "method": "Complete",
+        "class_id": 3,
+        "class_name": "Film oil",
+        "reference_fraction": 0.09883789237850407,
+        "predicted_fraction": 0.10610132311617436,
+        "absolute_error_pp": 0.7263430737670287
+      },
+      {
+        "grid": "canonical512",
+        "stage": "WI",
+        "seed": 42,
+        "method": "Complete",
+        "class_id": 4,
+        "class_name": "Pore-corner",
+        "reference_fraction": 0.10772864007472012,
+        "predicted_fraction": 0.10933853060343617,
+        "absolute_error_pp": 0.1609890528716046
+      },
+      {
+        "grid": "canonical512",
+        "stage": "WI",
+        "seed": 42,
+        "method": "Complete",
+        "class_id": 5,
+        "class_name": "Droplet",
+        "reference_fraction": 0.10980945336532387,
+        "predicted_fraction": 0.10926166540282539,
+        "absolute_error_pp": 0.05477879624984777
+      },
+      {
+        "grid": "canonical512",
+        "stage": "WI",
+        "seed": 42,
+        "method": "Complete",
+        "class_id": 6,
+        "class_name": "Columnar",
+        "reference_fraction": 0.06020983997097502,
+        "predicted_fraction": 0.054529947125611045,
+        "absolute_error_pp": 0.5679892845363972
+      },
+      {
+        "grid": "canonical512",
+        "stage": "WI",
+        "seed": 42,
+        "method": "Complete",
+        "class_id": 7,
+        "class_name": "Clustered",
+        "reference_fraction": 0.623414174210477,
+        "predicted_fraction": 0.6207685337519531,
+        "absolute_error_pp": 0.264564045852389
+      },
+      {
+        "grid": "canonical512",
+        "stage": "NPI-006",
+        "seed": 42,
+        "method": "Pointwise",
+        "class_id": 3,
+        "class_name": "Film oil",
+        "reference_fraction": 0.02458317605850524,
+        "predicted_fraction": 0.025536859816491644,
+        "absolute_error_pp": 0.09536837579864031
+      },
+      {
+        "grid": "canonical512",
+        "stage": "NPI-006",
+        "seed": 42,
+        "method": "Pointwise",
+        "class_id": 4,
+        "class_name": "Pore-corner",
+        "reference_fraction": 0.07225164105286326,
+        "predicted_fraction": 0.07453103060448375,
+        "absolute_error_pp": 0.2279389551620492
+      },
+      {
+        "grid": "canonical512",
+        "stage": "NPI-006",
+        "seed": 42,
+        "method": "Pointwise",
+        "class_id": 5,
+        "class_name": "Droplet",
+        "reference_fraction": 0.13818207893586273,
+        "predicted_fraction": 0.14204489135789308,
+        "absolute_error_pp": 0.38628124220303484
+      },
+      {
+        "grid": "canonical512",
+        "stage": "NPI-006",
+        "seed": 42,
+        "method": "Pointwise",
+        "class_id": 6,
+        "class_name": "Columnar",
+        "reference_fraction": 0.06071273134338764,
+        "predicted_fraction": 0.054414446364326,
+        "absolute_error_pp": 0.6298284979061639
+      },
+      {
+        "grid": "canonical512",
+        "stage": "NPI-006",
+        "seed": 42,
+        "method": "Pointwise",
+        "class_id": 7,
+        "class_name": "Clustered",
+        "reference_fraction": 0.7042703726093811,
+        "predicted_fraction": 0.7034727718568055,
+        "absolute_error_pp": 0.07976007525756224
+      },
+      {
+        "grid": "canonical512",
+        "stage": "NPI-006",
+        "seed": 42,
+        "method": "Complete",
+        "class_id": 3,
+        "class_name": "Film oil",
+        "reference_fraction": 0.02458317605850524,
+        "predicted_fraction": 0.025016848081360916,
+        "absolute_error_pp": 0.04336720228556752
+      },
+      {
+        "grid": "canonical512",
+        "stage": "NPI-006",
+        "seed": 42,
+        "method": "Complete",
+        "class_id": 4,
+        "class_name": "Pore-corner",
+        "reference_fraction": 0.07225164105286326,
+        "predicted_fraction": 0.07498230515623514,
+        "absolute_error_pp": 0.2730664103371874
+      },
+      {
+        "grid": "canonical512",
+        "stage": "NPI-006",
+        "seed": 42,
+        "method": "Complete",
+        "class_id": 5,
+        "class_name": "Droplet",
+        "reference_fraction": 0.13818207893586273,
+        "predicted_fraction": 0.14063179433436257,
+        "absolute_error_pp": 0.24497153984998354
+      },
+      {
+        "grid": "canonical512",
+        "stage": "NPI-006",
+        "seed": 42,
+        "method": "Complete",
+        "class_id": 6,
+        "class_name": "Columnar",
+        "reference_fraction": 0.06071273134338764,
+        "predicted_fraction": 0.0536169954180192,
+        "absolute_error_pp": 0.7095735925368434
+      },
+      {
+        "grid": "canonical512",
+        "stage": "NPI-006",
+        "seed": 42,
+        "method": "Complete",
+        "class_id": 7,
+        "class_name": "Clustered",
+        "reference_fraction": 0.7042703726093811,
+        "predicted_fraction": 0.7057520570100222,
+        "absolute_error_pp": 0.14816844006411145
+      },
+      {
+        "grid": "canonical512",
+        "stage": "NPI-012",
+        "seed": 42,
+        "method": "Pointwise",
+        "class_id": 3,
+        "class_name": "Film oil",
+        "reference_fraction": 0.03978352214269582,
+        "predicted_fraction": 0.042188873172242354,
+        "absolute_error_pp": 0.2405351029546532
+      },
+      {
+        "grid": "canonical512",
+        "stage": "NPI-012",
+        "seed": 42,
+        "method": "Pointwise",
+        "class_id": 4,
+        "class_name": "Pore-corner",
+        "reference_fraction": 0.0932828850330823,
+        "predicted_fraction": 0.09733644690330914,
+        "absolute_error_pp": 0.4053561870226846
+      },
+      {
+        "grid": "canonical512",
+        "stage": "NPI-012",
+        "seed": 42,
+        "method": "Pointwise",
+        "class_id": 5,
+        "class_name": "Droplet",
+        "reference_fraction": 0.1886413254110542,
+        "predicted_fraction": 0.19722289645705868,
+        "absolute_error_pp": 0.8581571046004488
+      },
+      {
+        "grid": "canonical512",
+        "stage": "NPI-012",
+        "seed": 42,
+        "method": "Pointwise",
+        "class_id": 6,
+        "class_name": "Columnar",
+        "reference_fraction": 0.07472612651296107,
+        "predicted_fraction": 0.06840423958865165,
+        "absolute_error_pp": 0.6321886924309419
+      },
+      {
+        "grid": "canonical512",
+        "stage": "NPI-012",
+        "seed": 42,
+        "method": "Pointwise",
+        "class_id": 7,
+        "class_name": "Clustered",
+        "reference_fraction": 0.6035661409002067,
+        "predicted_fraction": 0.5948475438787382,
+        "absolute_error_pp": 0.8718597021468488
+      },
+      {
+        "grid": "canonical512",
+        "stage": "NPI-012",
+        "seed": 42,
+        "method": "Complete",
+        "class_id": 3,
+        "class_name": "Film oil",
+        "reference_fraction": 0.03978352214269582,
+        "predicted_fraction": 0.04211242889147423,
+        "absolute_error_pp": 0.2328906748778406
+      },
+      {
+        "grid": "canonical512",
+        "stage": "NPI-012",
+        "seed": 42,
+        "method": "Complete",
+        "class_id": 4,
+        "class_name": "Pore-corner",
+        "reference_fraction": 0.0932828850330823,
+        "predicted_fraction": 0.09752727861150402,
+        "absolute_error_pp": 0.4244393578421726
+      },
+      {
+        "grid": "canonical512",
+        "stage": "NPI-012",
+        "seed": 42,
+        "method": "Complete",
+        "class_id": 5,
+        "class_name": "Droplet",
+        "reference_fraction": 0.1886413254110542,
+        "predicted_fraction": 0.19398880119186118,
+        "absolute_error_pp": 0.5347475780806993
+      },
+      {
+        "grid": "canonical512",
+        "stage": "NPI-012",
+        "seed": 42,
+        "method": "Complete",
+        "class_id": 6,
+        "class_name": "Columnar",
+        "reference_fraction": 0.07472612651296107,
+        "predicted_fraction": 0.06898733647480268,
+        "absolute_error_pp": 0.5738790038158387
+      },
+      {
+        "grid": "canonical512",
+        "stage": "NPI-012",
+        "seed": 42,
+        "method": "Complete",
+        "class_id": 7,
+        "class_name": "Clustered",
+        "reference_fraction": 0.6035661409002067,
+        "predicted_fraction": 0.5973841548303579,
+        "absolute_error_pp": 0.6181986069848766
+      },
+      {
+        "grid": "canonical512",
+        "stage": "Oil",
+        "seed": 2024,
+        "method": "Pointwise",
+        "class_id": 3,
+        "class_name": "Film oil",
+        "reference_fraction": 0.06518956863602944,
+        "predicted_fraction": 0.0734112754467908,
+        "absolute_error_pp": 0.8221706810761356
+      },
+      {
+        "grid": "canonical512",
+        "stage": "Oil",
+        "seed": 2024,
+        "method": "Pointwise",
+        "class_id": 4,
+        "class_name": "Pore-corner",
+        "reference_fraction": 0.06345475509050805,
+        "predicted_fraction": 0.06520820861278334,
+        "absolute_error_pp": 0.17534535222752945
+      },
+      {
+        "grid": "canonical512",
+        "stage": "Oil",
+        "seed": 2024,
+        "method": "Pointwise",
+        "class_id": 5,
+        "class_name": "Droplet",
+        "reference_fraction": 0.05835930996348081,
+        "predicted_fraction": 0.05860473031491876,
+        "absolute_error_pp": 0.024542035143795132
+      },
+      {
+        "grid": "canonical512",
+        "stage": "Oil",
+        "seed": 2024,
+        "method": "Pointwise",
+        "class_id": 6,
+        "class_name": "Columnar",
+        "reference_fraction": 0.035377587788857086,
+        "predicted_fraction": 0.032259951560311056,
+        "absolute_error_pp": 0.3117636228546029
+      },
+      {
+        "grid": "canonical512",
+        "stage": "Oil",
+        "seed": 2024,
+        "method": "Pointwise",
+        "class_id": 7,
+        "class_name": "Clustered",
+        "reference_fraction": 0.7776187785211246,
+        "predicted_fraction": 0.7705158340651961,
+        "absolute_error_pp": 0.7102944455928517
+      },
+      {
+        "grid": "canonical512",
+        "stage": "Oil",
+        "seed": 2024,
+        "method": "Complete",
+        "class_id": 3,
+        "class_name": "Film oil",
+        "reference_fraction": 0.06518956863602944,
+        "predicted_fraction": 0.07316588618192538,
+        "absolute_error_pp": 0.7976317545895937
+      },
+      {
+        "grid": "canonical512",
+        "stage": "Oil",
+        "seed": 2024,
+        "method": "Complete",
+        "class_id": 4,
+        "class_name": "Pore-corner",
+        "reference_fraction": 0.06345475509050805,
+        "predicted_fraction": 0.06575558621444134,
+        "absolute_error_pp": 0.23008311239332974
+      },
+      {
+        "grid": "canonical512",
+        "stage": "Oil",
+        "seed": 2024,
+        "method": "Complete",
+        "class_id": 5,
+        "class_name": "Droplet",
+        "reference_fraction": 0.05835930996348081,
+        "predicted_fraction": 0.05918059738231192,
+        "absolute_error_pp": 0.08212874188311126
+      },
+      {
+        "grid": "canonical512",
+        "stage": "Oil",
+        "seed": 2024,
+        "method": "Complete",
+        "class_id": 6,
+        "class_name": "Columnar",
+        "reference_fraction": 0.035377587788857086,
+        "predicted_fraction": 0.032291859761934424,
+        "absolute_error_pp": 0.30857280269226617
+      },
+      {
+        "grid": "canonical512",
+        "stage": "Oil",
+        "seed": 2024,
+        "method": "Complete",
+        "class_id": 7,
+        "class_name": "Clustered",
+        "reference_fraction": 0.7776187785211246,
+        "predicted_fraction": 0.7696060704593869,
+        "absolute_error_pp": 0.8012708061737706
+      },
+      {
+        "grid": "canonical512",
+        "stage": "WI",
+        "seed": 2024,
+        "method": "Pointwise",
+        "class_id": 3,
+        "class_name": "Film oil",
+        "reference_fraction": 0.09883789237850407,
+        "predicted_fraction": 0.10608699891849724,
+        "absolute_error_pp": 0.7249106539993166
+      },
+      {
+        "grid": "canonical512",
+        "stage": "WI",
+        "seed": 2024,
+        "method": "Pointwise",
+        "class_id": 4,
+        "class_name": "Pore-corner",
+        "reference_fraction": 0.10772864007472012,
+        "predicted_fraction": 0.109957951409204,
+        "absolute_error_pp": 0.22293113344838827
+      },
+      {
+        "grid": "canonical512",
+        "stage": "WI",
+        "seed": 2024,
+        "method": "Pointwise",
+        "class_id": 5,
+        "class_name": "Droplet",
+        "reference_fraction": 0.10980945336532387,
+        "predicted_fraction": 0.10894588940304593,
+        "absolute_error_pp": 0.08635639622779356
+      },
+      {
+        "grid": "canonical512",
+        "stage": "WI",
+        "seed": 2024,
+        "method": "Pointwise",
+        "class_id": 6,
+        "class_name": "Columnar",
+        "reference_fraction": 0.06020983997097502,
+        "predicted_fraction": 0.05323593898669692,
+        "absolute_error_pp": 0.6973900984278094
+      },
+      {
+        "grid": "canonical512",
+        "stage": "WI",
+        "seed": 2024,
+        "method": "Pointwise",
+        "class_id": 7,
+        "class_name": "Clustered",
+        "reference_fraction": 0.623414174210477,
+        "predicted_fraction": 0.6217732212825559,
+        "absolute_error_pp": 0.16409529279211021
+      },
+      {
+        "grid": "canonical512",
+        "stage": "WI",
+        "seed": 2024,
+        "method": "Complete",
+        "class_id": 3,
+        "class_name": "Film oil",
+        "reference_fraction": 0.09883789237850407,
+        "predicted_fraction": 0.10516284594791057,
+        "absolute_error_pp": 0.6324953569406502
+      },
+      {
+        "grid": "canonical512",
+        "stage": "WI",
+        "seed": 2024,
+        "method": "Complete",
+        "class_id": 4,
+        "class_name": "Pore-corner",
+        "reference_fraction": 0.10772864007472012,
+        "predicted_fraction": 0.11094563527944731,
+        "absolute_error_pp": 0.3216995204727194
+      },
+      {
+        "grid": "canonical512",
+        "stage": "WI",
+        "seed": 2024,
+        "method": "Complete",
+        "class_id": 5,
+        "class_name": "Droplet",
+        "reference_fraction": 0.10980945336532387,
+        "predicted_fraction": 0.10908550963601227,
+        "absolute_error_pp": 0.07239437293116019
+      },
+      {
+        "grid": "canonical512",
+        "stage": "WI",
+        "seed": 2024,
+        "method": "Complete",
+        "class_id": 6,
+        "class_name": "Columnar",
+        "reference_fraction": 0.06020983997097502,
+        "predicted_fraction": 0.05428863121937958,
+        "absolute_error_pp": 0.5921208751595436
+      },
+      {
+        "grid": "canonical512",
+        "stage": "WI",
+        "seed": 2024,
+        "method": "Complete",
+        "class_id": 7,
+        "class_name": "Clustered",
+        "reference_fraction": 0.623414174210477,
+        "predicted_fraction": 0.6205173779172503,
+        "absolute_error_pp": 0.28967962932267
+      },
+      {
+        "grid": "canonical512",
+        "stage": "NPI-006",
+        "seed": 2024,
+        "method": "Pointwise",
+        "class_id": 3,
+        "class_name": "Film oil",
+        "reference_fraction": 0.02458317605850524,
+        "predicted_fraction": 0.02286190968288158,
+        "absolute_error_pp": 0.17212663756236596
+      },
+      {
+        "grid": "canonical512",
+        "stage": "NPI-006",
+        "seed": 2024,
+        "method": "Pointwise",
+        "class_id": 4,
+        "class_name": "Pore-corner",
+        "reference_fraction": 0.07225164105286326,
+        "predicted_fraction": 0.07600632493743541,
+        "absolute_error_pp": 0.37546838845721464
+      },
+      {
+        "grid": "canonical512",
+        "stage": "NPI-006",
+        "seed": 2024,
+        "method": "Pointwise",
+        "class_id": 5,
+        "class_name": "Droplet",
+        "reference_fraction": 0.13818207893586273,
+        "predicted_fraction": 0.14235790679432747,
+        "absolute_error_pp": 0.4175827858464737
+      },
+      {
+        "grid": "canonical512",
+        "stage": "NPI-006",
+        "seed": 2024,
+        "method": "Pointwise",
+        "class_id": 6,
+        "class_name": "Columnar",
+        "reference_fraction": 0.06071273134338764,
+        "predicted_fraction": 0.05651107486584409,
+        "absolute_error_pp": 0.42016564775435444
+      },
+      {
+        "grid": "canonical512",
+        "stage": "NPI-006",
+        "seed": 2024,
+        "method": "Pointwise",
+        "class_id": 7,
+        "class_name": "Clustered",
+        "reference_fraction": 0.7042703726093811,
+        "predicted_fraction": 0.7022627837195115,
+        "absolute_error_pp": 0.2007588889869627
+      },
+      {
+        "grid": "canonical512",
+        "stage": "NPI-006",
+        "seed": 2024,
+        "method": "Complete",
+        "class_id": 3,
+        "class_name": "Film oil",
+        "reference_fraction": 0.02458317605850524,
+        "predicted_fraction": 0.02362936862681624,
+        "absolute_error_pp": 0.09538074316890015
+      },
+      {
+        "grid": "canonical512",
+        "stage": "NPI-006",
+        "seed": 2024,
+        "method": "Complete",
+        "class_id": 4,
+        "class_name": "Pore-corner",
+        "reference_fraction": 0.07225164105286326,
+        "predicted_fraction": 0.07642616133570726,
+        "absolute_error_pp": 0.4174520282843999
+      },
+      {
+        "grid": "canonical512",
+        "stage": "NPI-006",
+        "seed": 2024,
+        "method": "Complete",
+        "class_id": 5,
+        "class_name": "Droplet",
+        "reference_fraction": 0.13818207893586273,
+        "predicted_fraction": 0.14116662723956322,
+        "absolute_error_pp": 0.2984548303700485
+      },
+      {
+        "grid": "canonical512",
+        "stage": "NPI-006",
+        "seed": 2024,
+        "method": "Complete",
+        "class_id": 6,
+        "class_name": "Columnar",
+        "reference_fraction": 0.06071273134338764,
+        "predicted_fraction": 0.05513154126772663,
+        "absolute_error_pp": 0.5581190075661004
+      },
+      {
+        "grid": "canonical512",
+        "stage": "NPI-006",
+        "seed": 2024,
+        "method": "Complete",
+        "class_id": 7,
+        "class_name": "Clustered",
+        "reference_fraction": 0.7042703726093811,
+        "predicted_fraction": 0.7036463015301866,
+        "absolute_error_pp": 0.06240710791944881
+      },
+      {
+        "grid": "canonical512",
+        "stage": "NPI-012",
+        "seed": 2024,
+        "method": "Pointwise",
+        "class_id": 3,
+        "class_name": "Film oil",
+        "reference_fraction": 0.03978352214269582,
+        "predicted_fraction": 0.03891514105587834,
+        "absolute_error_pp": 0.08683810868174852
+      },
+      {
+        "grid": "canonical512",
+        "stage": "NPI-012",
+        "seed": 2024,
+        "method": "Pointwise",
+        "class_id": 4,
+        "class_name": "Pore-corner",
+        "reference_fraction": 0.0932828850330823,
+        "predicted_fraction": 0.09944521722343021,
+        "absolute_error_pp": 0.616233219034791
+      },
+      {
+        "grid": "canonical512",
+        "stage": "NPI-012",
+        "seed": 2024,
+        "method": "Pointwise",
+        "class_id": 5,
+        "class_name": "Droplet",
+        "reference_fraction": 0.1886413254110542,
+        "predicted_fraction": 0.1915197410158166,
+        "absolute_error_pp": 0.2878415604762402
+      },
+      {
+        "grid": "canonical512",
+        "stage": "NPI-012",
+        "seed": 2024,
+        "method": "Pointwise",
+        "class_id": 6,
+        "class_name": "Columnar",
+        "reference_fraction": 0.07472612651296107,
+        "predicted_fraction": 0.07652130052286728,
+        "absolute_error_pp": 0.17951740099062113
+      },
+      {
+        "grid": "canonical512",
+        "stage": "NPI-012",
+        "seed": 2024,
+        "method": "Pointwise",
+        "class_id": 7,
+        "class_name": "Clustered",
+        "reference_fraction": 0.6035661409002067,
+        "predicted_fraction": 0.5935986001820076,
+        "absolute_error_pp": 0.9967540718199053
+      },
+      {
+        "grid": "canonical512",
+        "stage": "NPI-012",
+        "seed": 2024,
+        "method": "Complete",
+        "class_id": 3,
+        "class_name": "Film oil",
+        "reference_fraction": 0.03978352214269582,
+        "predicted_fraction": 0.03988655492896292,
+        "absolute_error_pp": 0.0103032786267096
+      },
+      {
+        "grid": "canonical512",
+        "stage": "NPI-012",
+        "seed": 2024,
+        "method": "Complete",
+        "class_id": 4,
+        "class_name": "Pore-corner",
+        "reference_fraction": 0.0932828850330823,
+        "predicted_fraction": 0.09857981635200334,
+        "absolute_error_pp": 0.5296931318921048
+      },
+      {
+        "grid": "canonical512",
+        "stage": "NPI-012",
+        "seed": 2024,
+        "method": "Complete",
+        "class_id": 5,
+        "class_name": "Droplet",
+        "reference_fraction": 0.1886413254110542,
+        "predicted_fraction": 0.1892421353696757,
+        "absolute_error_pp": 0.06008099586215232
+      },
+      {
+        "grid": "canonical512",
+        "stage": "NPI-012",
+        "seed": 2024,
+        "method": "Complete",
+        "class_id": 6,
+        "class_name": "Columnar",
+        "reference_fraction": 0.07472612651296107,
+        "predicted_fraction": 0.07805067756257139,
+        "absolute_error_pp": 0.3324551049610325
+      },
+      {
+        "grid": "canonical512",
+        "stage": "NPI-012",
+        "seed": 2024,
+        "method": "Complete",
+        "class_id": 7,
+        "class_name": "Clustered",
+        "reference_fraction": 0.6035661409002067,
+        "predicted_fraction": 0.5942408157867867,
+        "absolute_error_pp": 0.9325325113419991
+      },
+      {
+        "grid": "canonical512",
+        "stage": "Oil",
+        "seed": 2025,
+        "method": "Pointwise",
+        "class_id": 3,
+        "class_name": "Film oil",
+        "reference_fraction": 0.06518956863602944,
+        "predicted_fraction": 0.06973304192451348,
+        "absolute_error_pp": 0.45434732884840345
+      },
+      {
+        "grid": "canonical512",
+        "stage": "Oil",
+        "seed": 2025,
+        "method": "Pointwise",
+        "class_id": 4,
+        "class_name": "Pore-corner",
+        "reference_fraction": 0.06345475509050805,
+        "predicted_fraction": 0.06473870996530817,
+        "absolute_error_pp": 0.1283954874800125
+      },
+      {
+        "grid": "canonical512",
+        "stage": "Oil",
+        "seed": 2025,
+        "method": "Pointwise",
+        "class_id": 5,
+        "class_name": "Droplet",
+        "reference_fraction": 0.05835930996348081,
+        "predicted_fraction": 0.05806770128190765,
+        "absolute_error_pp": 0.029160868157315778
+      },
+      {
+        "grid": "canonical512",
+        "stage": "Oil",
+        "seed": 2025,
+        "method": "Pointwise",
+        "class_id": 6,
+        "class_name": "Columnar",
+        "reference_fraction": 0.035377587788857086,
+        "predicted_fraction": 0.03056868393219618,
+        "absolute_error_pp": 0.48089038566609055
+      },
+      {
+        "grid": "canonical512",
+        "stage": "Oil",
+        "seed": 2025,
+        "method": "Pointwise",
+        "class_id": 7,
+        "class_name": "Clustered",
+        "reference_fraction": 0.7776187785211246,
+        "predicted_fraction": 0.7768918628960745,
+        "absolute_error_pp": 0.07269156250501174
+      },
+      {
+        "grid": "canonical512",
+        "stage": "Oil",
+        "seed": 2025,
+        "method": "Complete",
+        "class_id": 3,
+        "class_name": "Film oil",
+        "reference_fraction": 0.06518956863602944,
+        "predicted_fraction": 0.06987887292385457,
+        "absolute_error_pp": 0.468930428782513
+      },
+      {
+        "grid": "canonical512",
+        "stage": "Oil",
+        "seed": 2025,
+        "method": "Complete",
+        "class_id": 4,
+        "class_name": "Pore-corner",
+        "reference_fraction": 0.06345475509050805,
+        "predicted_fraction": 0.06570256172657826,
+        "absolute_error_pp": 0.22478066360702154
+      },
+      {
+        "grid": "canonical512",
+        "stage": "Oil",
+        "seed": 2025,
+        "method": "Complete",
+        "class_id": 5,
+        "class_name": "Droplet",
+        "reference_fraction": 0.05835930996348081,
+        "predicted_fraction": 0.05856899534214269,
+        "absolute_error_pp": 0.020968537866188075
+      },
+      {
+        "grid": "canonical512",
+        "stage": "Oil",
+        "seed": 2025,
+        "method": "Complete",
+        "class_id": 6,
+        "class_name": "Columnar",
+        "reference_fraction": 0.035377587788857086,
+        "predicted_fraction": 0.031941546074430775,
+        "absolute_error_pp": 0.34360417144263106
+      },
+      {
+        "grid": "canonical512",
+        "stage": "Oil",
+        "seed": 2025,
+        "method": "Complete",
+        "class_id": 7,
+        "class_name": "Clustered",
+        "reference_fraction": 0.7776187785211246,
+        "predicted_fraction": 0.7739080239329937,
+        "absolute_error_pp": 0.371075458813086
+      },
+      {
+        "grid": "canonical512",
+        "stage": "WI",
+        "seed": 2025,
+        "method": "Pointwise",
+        "class_id": 3,
+        "class_name": "Film oil",
+        "reference_fraction": 0.09883789237850407,
+        "predicted_fraction": 0.10668376188382396,
+        "absolute_error_pp": 0.7845869505319889
+      },
+      {
+        "grid": "canonical512",
+        "stage": "WI",
+        "seed": 2025,
+        "method": "Pointwise",
+        "class_id": 4,
+        "class_name": "Pore-corner",
+        "reference_fraction": 0.10772864007472012,
+        "predicted_fraction": 0.10926060722506938,
+        "absolute_error_pp": 0.1531967150349256
+      },
+      {
+        "grid": "canonical512",
+        "stage": "WI",
+        "seed": 2025,
+        "method": "Pointwise",
+        "class_id": 5,
+        "class_name": "Droplet",
+        "reference_fraction": 0.10980945336532387,
+        "predicted_fraction": 0.10674805369474692,
+        "absolute_error_pp": 0.30613996705769475
+      },
+      {
+        "grid": "canonical512",
+        "stage": "WI",
+        "seed": 2025,
+        "method": "Pointwise",
+        "class_id": 6,
+        "class_name": "Columnar",
+        "reference_fraction": 0.06020983997097502,
+        "predicted_fraction": 0.054987234011106965,
+        "absolute_error_pp": 0.5222605959868052
+      },
+      {
+        "grid": "canonical512",
+        "stage": "WI",
+        "seed": 2025,
+        "method": "Pointwise",
+        "class_id": 7,
+        "class_name": "Clustered",
+        "reference_fraction": 0.623414174210477,
+        "predicted_fraction": 0.6223203431852528,
+        "absolute_error_pp": 0.10938310252242012
+      },
+      {
+        "grid": "canonical512",
+        "stage": "WI",
+        "seed": 2025,
+        "method": "Complete",
+        "class_id": 3,
+        "class_name": "Film oil",
+        "reference_fraction": 0.09883789237850407,
+        "predicted_fraction": 0.1060208911436183,
+        "absolute_error_pp": 0.7182998765114232
+      },
+      {
+        "grid": "canonical512",
+        "stage": "WI",
+        "seed": 2025,
+        "method": "Complete",
+        "class_id": 4,
+        "class_name": "Pore-corner",
+        "reference_fraction": 0.10772864007472012,
+        "predicted_fraction": 0.11067946098336912,
+        "absolute_error_pp": 0.2950820908648996
+      },
+      {
+        "grid": "canonical512",
+        "stage": "WI",
+        "seed": 2025,
+        "method": "Complete",
+        "class_id": 5,
+        "class_name": "Droplet",
+        "reference_fraction": 0.10980945336532387,
+        "predicted_fraction": 0.1074360499702558,
+        "absolute_error_pp": 0.23734033950680716
+      },
+      {
+        "grid": "canonical512",
+        "stage": "WI",
+        "seed": 2025,
+        "method": "Complete",
+        "class_id": 6,
+        "class_name": "Columnar",
+        "reference_fraction": 0.06020983997097502,
+        "predicted_fraction": 0.055566599295746026,
+        "absolute_error_pp": 0.46432406752289906
+      },
+      {
+        "grid": "canonical512",
+        "stage": "WI",
+        "seed": 2025,
+        "method": "Complete",
+        "class_id": 7,
+        "class_name": "Clustered",
+        "reference_fraction": 0.623414174210477,
+        "predicted_fraction": 0.6202969986070108,
+        "absolute_error_pp": 0.3117175603466138
+      },
+      {
+        "grid": "canonical512",
+        "stage": "NPI-006",
+        "seed": 2025,
+        "method": "Pointwise",
+        "class_id": 3,
+        "class_name": "Film oil",
+        "reference_fraction": 0.02458317605850524,
+        "predicted_fraction": 0.0235354057027428,
+        "absolute_error_pp": 0.10477703557624403
+      },
+      {
+        "grid": "canonical512",
+        "stage": "NPI-006",
+        "seed": 2025,
+        "method": "Pointwise",
+        "class_id": 4,
+        "class_name": "Pore-corner",
+        "reference_fraction": 0.07225164105286326,
+        "predicted_fraction": 0.07516169790394096,
+        "absolute_error_pp": 0.29100568510777025
+      },
+      {
+        "grid": "canonical512",
+        "stage": "NPI-006",
+        "seed": 2025,
+        "method": "Pointwise",
+        "class_id": 5,
+        "class_name": "Droplet",
+        "reference_fraction": 0.13818207893586273,
+        "predicted_fraction": 0.1394533921075187,
+        "absolute_error_pp": 0.12713131716559634
+      },
+      {
+        "grid": "canonical512",
+        "stage": "NPI-006",
+        "seed": 2025,
+        "method": "Pointwise",
+        "class_id": 6,
+        "class_name": "Columnar",
+        "reference_fraction": 0.06071273134338764,
+        "predicted_fraction": 0.05486049929503847,
+        "absolute_error_pp": 0.5852232048349164
+      },
+      {
+        "grid": "canonical512",
+        "stage": "NPI-006",
+        "seed": 2025,
+        "method": "Pointwise",
+        "class_id": 7,
+        "class_name": "Clustered",
+        "reference_fraction": 0.7042703726093811,
+        "predicted_fraction": 0.706989004990759,
+        "absolute_error_pp": 0.2718632381377928
+      },
+      {
+        "grid": "canonical512",
+        "stage": "NPI-006",
+        "seed": 2025,
+        "method": "Complete",
+        "class_id": 3,
+        "class_name": "Film oil",
+        "reference_fraction": 0.02458317605850524,
+        "predicted_fraction": 0.02389348930306174,
+        "absolute_error_pp": 0.06896867554435013
+      },
+      {
+        "grid": "canonical512",
+        "stage": "NPI-006",
+        "seed": 2025,
+        "method": "Complete",
+        "class_id": 4,
+        "class_name": "Pore-corner",
+        "reference_fraction": 0.07225164105286326,
+        "predicted_fraction": 0.0765457233911264,
+        "absolute_error_pp": 0.42940823382631443
+      },
+      {
+        "grid": "canonical512",
+        "stage": "NPI-006",
+        "seed": 2025,
+        "method": "Complete",
+        "class_id": 5,
+        "class_name": "Droplet",
+        "reference_fraction": 0.13818207893586273,
+        "predicted_fraction": 0.14044447189143344,
+        "absolute_error_pp": 0.22623929555707079
+      },
+      {
+        "grid": "canonical512",
+        "stage": "NPI-006",
+        "seed": 2025,
+        "method": "Complete",
+        "class_id": 6,
+        "class_name": "Columnar",
+        "reference_fraction": 0.06071273134338764,
+        "predicted_fraction": 0.05792736829471028,
+        "absolute_error_pp": 0.27853630486773595
+      },
+      {
+        "grid": "canonical512",
+        "stage": "NPI-006",
+        "seed": 2025,
+        "method": "Complete",
+        "class_id": 7,
+        "class_name": "Clustered",
+        "reference_fraction": 0.7042703726093811,
+        "predicted_fraction": 0.7011889471196682,
+        "absolute_error_pp": 0.3081425489712908
+      },
+      {
+        "grid": "canonical512",
+        "stage": "NPI-012",
+        "seed": 2025,
+        "method": "Pointwise",
+        "class_id": 3,
+        "class_name": "Film oil",
+        "reference_fraction": 0.03978352214269582,
+        "predicted_fraction": 0.03805088437696453,
+        "absolute_error_pp": 0.1732637765731293
+      },
+      {
+        "grid": "canonical512",
+        "stage": "NPI-012",
+        "seed": 2025,
+        "method": "Pointwise",
+        "class_id": 4,
+        "class_name": "Pore-corner",
+        "reference_fraction": 0.0932828850330823,
+        "predicted_fraction": 0.09774695701697578,
+        "absolute_error_pp": 0.44640719838934806
+      },
+      {
+        "grid": "canonical512",
+        "stage": "NPI-012",
+        "seed": 2025,
+        "method": "Pointwise",
+        "class_id": 5,
+        "class_name": "Droplet",
+        "reference_fraction": 0.1886413254110542,
+        "predicted_fraction": 0.19438443358206,
+        "absolute_error_pp": 0.5743108171005817
+      },
+      {
+        "grid": "canonical512",
+        "stage": "NPI-012",
+        "seed": 2025,
+        "method": "Pointwise",
+        "class_id": 6,
+        "class_name": "Columnar",
+        "reference_fraction": 0.07472612651296107,
+        "predicted_fraction": 0.06840290037936533,
+        "absolute_error_pp": 0.6323226133595733
+      },
+      {
+        "grid": "canonical512",
+        "stage": "NPI-012",
+        "seed": 2025,
+        "method": "Pointwise",
+        "class_id": 7,
+        "class_name": "Clustered",
+        "reference_fraction": 0.6035661409002067,
+        "predicted_fraction": 0.6014148246446344,
+        "absolute_error_pp": 0.21513162555722998
+      },
+      {
+        "grid": "canonical512",
+        "stage": "NPI-012",
+        "seed": 2025,
+        "method": "Complete",
+        "class_id": 3,
+        "class_name": "Film oil",
+        "reference_fraction": 0.03978352214269582,
+        "predicted_fraction": 0.03921447222143199,
+        "absolute_error_pp": 0.056904992126383114
+      },
+      {
+        "grid": "canonical512",
+        "stage": "NPI-012",
+        "seed": 2025,
+        "method": "Complete",
+        "class_id": 4,
+        "class_name": "Pore-corner",
+        "reference_fraction": 0.0932828850330823,
+        "predicted_fraction": 0.09918610209786075,
+        "absolute_error_pp": 0.5903217064778449
+      },
+      {
+        "grid": "canonical512",
+        "stage": "NPI-012",
+        "seed": 2025,
+        "method": "Complete",
+        "class_id": 5,
+        "class_name": "Droplet",
+        "reference_fraction": 0.1886413254110542,
+        "predicted_fraction": 0.19232110115795398,
+        "absolute_error_pp": 0.3679775746899788
+      },
+      {
+        "grid": "canonical512",
+        "stage": "NPI-012",
+        "seed": 2025,
+        "method": "Complete",
+        "class_id": 6,
+        "class_name": "Columnar",
+        "reference_fraction": 0.07472612651296107,
+        "predicted_fraction": 0.07208722334806504,
+        "absolute_error_pp": 0.26389031648960254
+      },
+      {
+        "grid": "canonical512",
+        "stage": "NPI-012",
+        "seed": 2025,
+        "method": "Complete",
+        "class_id": 7,
+        "class_name": "Clustered",
+        "reference_fraction": 0.6035661409002067,
+        "predicted_fraction": 0.5971911011746882,
+        "absolute_error_pp": 0.637503972551845
+      }
+    ],
+    {
+      "split": "test",
+      "grid": "canonical512",
+      "slice_ids": [
+        760,
+        844
+      ],
+      "subvolumes": 4,
+      "slices_per_subvolume": 85,
+      "seeds": [
+        42,
+        2024,
+        2025
+      ],
+      "specimen_count": 1,
+      "stages": [
+        "Oil",
+        "WI",
+        "NPI-006",
+        "NPI-012"
+      ],
+      "stage_unit": "Four stages of the same core",
+      "endpoint": "Mean absolute error of five morphology volume fractions within total oil",
+      "units": "percentage points",
+      "center": "mean",
+      "spread": "sample SD (ddof=1) across seeds",
+      "all_stages_aggregation": "Equally average four stage MAEs within each seed, then mean and sample SD across seeds",
+      "summary_sha256": "63752205fbfc8c1b9002c0c68365f0d3818477836678730b1a12829620029594",
+      "inputs": [
+        {
+          "path": "recorded_inputs/e15876081d33/seed42_Oil.json",
+          "sha256": "0ed9d168e5cbd5eafcd9a75b710bc8fd0b42a0e0c505c8c4c3f4c556fefd0a05"
+        },
+        {
+          "path": "recorded_inputs/812b6b4943d2/seed42_WI.json",
+          "sha256": "3f464cac5fd5ca1994d35af6dc549b7269dc4ea40c8e4eec0cc2e4b2c181c993"
+        },
+        {
+          "path": "recorded_inputs/eb498c06647d/seed42_NPI-006.json",
+          "sha256": "a71c512c25fe2b97b9b199e0189234f282935abfe4c094fe57bea68abfc2540b"
+        },
+        {
+          "path": "recorded_inputs/fa591bf7e280/seed42_NPI-012.json",
+          "sha256": "1ecbbedd42afe2536866af19983856595971ca28ebcaa77648fe32c8a43dd03a"
+        },
+        {
+          "path": "recorded_inputs/54c11308de05/seed2024_Oil.json",
+          "sha256": "2ec9077355f77a68e7b305c5ae01290ca190e8a25925669be629a457543c57d9"
+        },
+        {
+          "path": "recorded_inputs/a40d2fd1c9dd/seed2024_WI.json",
+          "sha256": "f5b79895c53b012cff125674fbef18c92f20b5d48cd01e42d95a22af52097a48"
+        },
+        {
+          "path": "recorded_inputs/40c15ed74da1/seed2024_NPI-006.json",
+          "sha256": "3e7a130a0f1e644070eeddc8cca960227a97c3a427552543653486ab01b77734"
+        },
+        {
+          "path": "recorded_inputs/336d5f272489/seed2024_NPI-012.json",
+          "sha256": "93cef3569340e6d1e276ec9584f19fe07e942a3e2ca1a7c3b49b860361159f97"
+        },
+        {
+          "path": "recorded_inputs/74d8b0420598/seed2025_Oil.json",
+          "sha256": "cb5cece98fa31e74c14a1381bd37e1feb6901228625370d205ce8a0dfc511e0b"
+        },
+        {
+          "path": "recorded_inputs/55ca7e7255ba/seed2025_WI.json",
+          "sha256": "f6499431fe4ade8a80dc733791c4f6bc24a96479ab38f855ee33b5e27c9eeab8"
+        },
+        {
+          "path": "recorded_inputs/dda70a8f8a30/seed2025_NPI-006.json",
+          "sha256": "af9b2ab62661e849f5b7d37a4fd01d2078d58ee7076dfaf05da918174b500531"
+        },
+        {
+          "path": "recorded_inputs/bc1842319a28/seed2025_NPI-012.json",
+          "sha256": "7eb209b5e996154dbbfff9b9edd287fbf55f62f4c2d899e41daec60f965ab0a9"
+        }
+      ],
+      "raw_test_pixels_read": false,
+      "inference_performed": false,
+      "p_values": null,
+      "aggregate": {
+        "Pointwise": {
+          "seed_values": [
+            0.41147530814987077,
+            0.38465432107005054,
+            0.32312447377964254
+          ],
+          "mean": 0.37308470099985463,
+          "sample_sd": 0.04529745649487823
+        },
+        "Complete": {
+          "seed_values": [
+            0.3607582754889201,
+            0.37124778562758554,
+            0.33420084081832496
+          ],
+          "mean": 0.35540230064494355,
+          "sample_sd": 0.019095388967551356
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "__kind__": "tuple",
+  "items": [
+    [
+      {
+        "__kind__": "image_array",
+        "key": "array_0",
+        "array_sha256": "3dbb6ce1c9f49bde4a4c93d4d0aa793c9b57372cbfc2f9a268904aa7bee92823",
+        "dtype": "float32",
+        "shape": [
+          980,
+          980
+        ]
+      },
+      {
+        "__kind__": "image_array",
+        "key": "array_1",
+        "array_sha256": "cc5776e9978c9131055d6a10850fccc07470af8ffc17c2bbb108a6da7515a047",
+        "dtype": "uint8",
+        "shape": [
+          980,
+          980
+        ]
+      },
+      {
+        "__kind__": "image_array",
+        "key": "array_2",
+        "array_sha256": "7b020e9351a7664eed9641db624e4df693908cd59e7a5550eb8510385d552f55",
+        "dtype": "uint8",
+        "shape": [
+          980,
+          980
+        ]
+      },
+      {
+        "__kind__": "image_array",
+        "key": "array_3",
+        "array_sha256": "eab27faedba685417fc6434e46fc4de998749fcfd46c655c806d1cae002b3e25",
+        "dtype": "uint8",
+        "shape": [
+          980,
+          980
+        ]
+      }
+    ],
+    {
+      "index": 44,
+      "label_id": "bentheimer_core1_0814",
+      "full_field_mIoU_gain_pp": 12.978756219300625,
+      "full_field_oil_IoU_gain_pp": 20.904339371261905,
+      "roi": {
+        "y0": 416,
+        "y1": 672,
+        "x0": 672,
+        "x1": 928,
+        "mIoU_gain_pp": 36.19994251694125,
+        "oil_IoU_gain_pp": 54.51232215714005,
+        "reference_class_pixels": [
+          0,
+          50128,
+          10558,
+          0,
+          146,
+          127,
+          464,
+          4113
+        ]
+      },
+      "seed": 42,
+      "grid": "native",
+      "label": "recorded_inputs/6b36404dd343/Core_1_imbFo0_3_45_zoom814.png",
+      "label_sha256": "0fbf0c7ec942db37c697a802e4628f642d1514a155fd1be6668f8fa4f3ba5896",
+      "raw_source": "recorded_inputs/1520814332f8/Core_1_imbFo0_3_45_zoom814.tif",
+      "raw_sha256": "f3fc60982e371e28d9d30e412c8896f72c80ec7ea0f2cf4a134ccf038ac5c2fd",
+      "image_cache": "recorded_inputs/546af12658eb/bentheimer_image.npy",
+      "image_index": 44,
+      "displayed_native_image_sha256": "3dbb6ce1c9f49bde4a4c93d4d0aa793c9b57372cbfc2f9a268904aa7bee92823",
+      "prediction": "recorded_inputs/09b04bed4278/0044.npz",
+      "prediction_sha256": "be9fa84dbcdc64376e11686334de1962fe18eac0593e301794f5bfd14fc6d6ca",
+      "manifest_sha256": "a021601def81c57bf153172bc4d98a1b7a308543e35d03f77a9059203a22149b",
+      "native_shape": [
+        980,
+        980
+      ],
+      "attempt": "initial"
+    }
+  ]
+}

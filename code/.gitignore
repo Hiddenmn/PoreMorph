@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.venv/
+resources/
+runs/
+checks/
+*.pth
+*.pt
+*.ckpt
+*.zip
+.env

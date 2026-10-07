@@ -1,0 +1,33 @@
+{
+  "status": "completed",
+  "pid": 41316,
+  "created_utc": "2026-09-30T08:51:18.104791+00:00",
+  "identity": {
+    "checkpoint": "87660bf633dad323022b44877ab5edef9ee9ca236b5137945a2f9cab5333aed4",
+    "tokenizer": "f0a1ec5c799f5430e8fedd06d391d02f4e685306347b30283b1031953d6e8969",
+    "canonical_metadata": "e8dc1ed199726eeb8a0febfe57594b6d516f7ef49371e8018bcadd89e83375ba",
+    "splits": {
+      "train": "7706f86161c135b6072559220991ce07a59909288e074e8d9b80361f5563676e",
+      "val": "9879fa300c222db931b600759c982d973a872ebec46a2654eda857aa0c2ef801"
+    },
+    "sources": {
+      "实验/native_detail_decoder_20260930/run_study.py": "30a74b6af277614110cdf0f3cc5c93461c1f8051f2ad1abdf10aa44065d9f920",
+      "实验/native_detail_decoder_20260930/architecture.py": "ba15149cd46b59ea90219bb9f13c5e4d01c8ec201cfde87c3bbfbd856ccb70b0",
+      "实验/native_detail_decoder_20260930/PROTOCOL.md": "595142476de310acd8fa4ec51ba0a7902cc645a8db0815e06a0af8ae7ec2d222",
+      "实验/architecture_upgrade_20260928/prototype.py": "ff9c53de44fa33ae0041320da0d019a773321d2d1fb23c55fe9ccc8257291b6b",
+      "MM-PoreFormer/scripts/run_fusion_order_ablation.py": "ad0e4ae27df3eeccd6be2053477235d3e007fe622b6365a3a804aaf49d826f04",
+      "MM-PoreFormer/scripts/run_seed_statistics.py": "b43bb8683f87e3df93c096f09d8aae68ed7c8ae9a0f71cc465ae88f83443c4ff"
+    }
+  },
+  "n": 3040,
+  "smoke": false,
+  "train_count": 2364,
+  "val_count": 676,
+  "test_pixels_read": false,
+  "precision": "BF16 logits stored as uint16 bit patterns; pooled context stored in float32; exact round-trip checked",
+  "completed_records": 3040,
+  "updated_utc": "2026-09-30T08:53:39.078377+00:00",
+  "records_sha256": "2064744a0935dd90691ea96f6256b9030ac58aac2899b979459c6cf2af728262",
+  "frozen_parameter_gradients": 0,
+  "native_to_canonical_match_all": true
+}

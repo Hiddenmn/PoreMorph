@@ -1,0 +1,15 @@
+{
+  "python": "3.12.13 | packaged by conda-forge | (main, Mar  5 2026, 16:36:12) [MSC v.1944 64 bit (AMD64)]",
+  "packages": {
+    "torch": "2.11.0+cu128",
+    "torchvision": "0.26.0+cu128",
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "pandas": "3.0.3",
+    "Pillow": "12.2.0",
+    "matplotlib": "3.10.9",
+    "tqdm": "4.67.3",
+    "tifffile": "2026.5.15"
+  },
+  "scope": "Packaging/test interpreter; original executed environments are retained in run manifests."
+}

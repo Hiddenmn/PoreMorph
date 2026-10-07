@@ -1,0 +1,26 @@
+{
+  "status": "VERSIONED_RELEASE",
+  "repository_url": "https://github.com/Hiddenmn/PoreMorph",
+  "version_tag": "v0.1.0",
+  "release_url": "https://github.com/Hiddenmn/PoreMorph/releases/tag/v0.1.0",
+  "software_license": "MIT",
+  "author_resource_license": "CC-BY-4.0",
+  "assets": [
+    {
+      "role": "labels",
+      "file": "PoreMorph_labels_v0.1.0.zip",
+      "bytes": 358509701,
+      "sha256": "4944b9b19c58e64b61daac01aadadc65f7d7af9be82de422fe72b55b3fd972dc",
+      "license": "CC-BY-4.0",
+      "download_url": "https://github.com/Hiddenmn/PoreMorph/releases/download/v0.1.0/PoreMorph_labels_v0.1.0.zip"
+    },
+    {
+      "role": "weights",
+      "file": "PoreMorph_weights_v0.1.0.zip",
+      "bytes": 709850148,
+      "sha256": "12bf5d77bc14cc644624d96935b5331de5886590d0f37c140fbd4cab4353c160",
+      "license": "CC-BY-4.0",
+      "download_url": "https://github.com/Hiddenmn/PoreMorph/releases/download/v0.1.0/PoreMorph_weights_v0.1.0.zip"
+    }
+  ]
+}

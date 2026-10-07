@@ -1,0 +1,1012 @@
+{
+  "format": "verified-model-state-exports-v1",
+  "source_contents_sha256": "7bbae3f12f387bded6c1bc0914591b1c29677b25ab816be8e4adc6cd2001ade9",
+  "optimizer_resume_supported": false,
+  "purpose": "Selected model parameters for inference and fresh optimization, not optimizer resume",
+  "checkpoints": [
+    {
+      "path": "实验/multimodal_remaining_oil_outputs_fusion_order_ablation/models/seed_42_fusion_before_ppm/best_model.pth",
+      "original_sha256": "87660bf633dad323022b44877ab5edef9ee9ca236b5137945a2f9cab5333aed4",
+      "sha256": "23aba400fbc4e0a9f2c03222c27c642bdff51ca5911da12c0df4fd0de56e3991",
+      "bytes": 36197683,
+      "epoch": 58,
+      "retained_fields": [
+        "epoch",
+        "model_state_dict"
+      ],
+      "omitted_training_fields": [
+        "best_epoch",
+        "best_val_miou",
+        "checkpoint_type",
+        "class_names",
+        "experiment",
+        "history",
+        "max_text_len",
+        "optimizer_state_dict",
+        "patience_counter",
+        "saved_time",
+        "scaler_state_dict",
+        "scheduler_state_dict",
+        "vocab_size"
+      ],
+      "state_sha256": "1a468783b524ab78bf42eed7b31dbd6799218f8ff4975ac251e6ac607b9d441c",
+      "tensor_count": 230,
+      "tensor_bytes": 36115136,
+      "tensor_values_shapes_dtypes_strides_and_module_metadata_exact": true,
+      "weights_only_reload": true,
+      "role": "main/seed42/global_checkpoint"
+    },
+    {
+      "path": "实验/native_detail_context_control_20260930/outputs/native_no_context_seed42/best.pth",
+      "original_sha256": "a482034167370b11ff966c87e206c22c42d36d06f8d6c76d51dcea4a041aafad",
+      "sha256": "20e0c746c486052731cf85dcde38e6bbd63b524ee895c9ab1b121107612befc7",
+      "bytes": 489253,
+      "epoch": 11,
+      "retained_fields": [
+        "epoch",
+        "model"
+      ],
+      "omitted_training_fields": [
+        "validation"
+      ],
+      "state_sha256": "abd5301f6adecec8076063ff27be91076d2b6d8cdbb82c2cc891a88d286163c2",
+      "tensor_count": 42,
+      "tensor_bytes": 474976,
+      "tensor_values_shapes_dtypes_strides_and_module_metadata_exact": true,
+      "weights_only_reload": true,
+      "role": "main/seed42/native_checkpoint"
+    },
+    {
+      "path": "实验/body_interface_decoder_20260930/outputs/pair12_seed42/separate_best.pth",
+      "original_sha256": "2df29666d0329d3d3838394ca3e0e80dac4f9546bae9b38f84b6d425eeade5e6",
+      "sha256": "ce01357751b4b9667ff5a2099d872db05b3e35513b47d35b94550e494e2895e2",
+      "bytes": 112262,
+      "epoch": 12,
+      "retained_fields": [
+        "epoch",
+        "model"
+      ],
+      "omitted_training_fields": [
+        "arm",
+        "cache_manifest_sha256",
+        "config",
+        "identity",
+        "validation"
+      ],
+      "state_sha256": "51aeae6c571c90d01e75c03b9bb94b43af6491e673d8c09ac2297908c3accdd7",
+      "tensor_count": 31,
+      "tensor_bytes": 102292,
+      "tensor_values_shapes_dtypes_strides_and_module_metadata_exact": true,
+      "weights_only_reload": true,
+      "role": "main/seed42/separate_checkpoint"
+    },
+    {
+      "path": "实验/body_pointwise_control_20260930/outputs/control12_seed42/best.pth",
+      "original_sha256": "944ac4e283736490fba8ad5a613320a6aebf0cfcd470ff1aa9ad810ae5ff5b26",
+      "sha256": "57d0d252bcd5a5870d344e302c03e14d6ef4f1938c715ee24bb2b054a27f19e6",
+      "bytes": 112262,
+      "epoch": 12,
+      "retained_fields": [
+        "epoch",
+        "model"
+      ],
+      "omitted_training_fields": [
+        "config",
+        "identity",
+        "validation"
+      ],
+      "state_sha256": "09ae2a2194c8136aa4a87d64a1477f62b4281d771919c9a196d9543aed9a9650",
+      "tensor_count": 31,
+      "tensor_bytes": 102036,
+      "tensor_values_shapes_dtypes_strides_and_module_metadata_exact": true,
+      "weights_only_reload": true,
+      "role": "main/seed42/pointwise_checkpoint"
+    },
+    {
+      "path": "实验/multimodal_remaining_oil_outputs_fusion_order_ablation/models/seed_2024_fusion_before_ppm/best_model.pth",
+      "original_sha256": "ac56bc532e39d89120ebe31038f0540f48d3d0466f1e2b6e936b9f76b2185c7d",
+      "sha256": "f593852fda6677584f27ec953c4ecf6d09292038264e79a29057a31acba71db4",
+      "bytes": 36197683,
+      "epoch": 57,
+      "retained_fields": [
+        "epoch",
+        "model_state_dict"
+      ],
+      "omitted_training_fields": [
+        "best_epoch",
+        "best_val_miou",
+        "checkpoint_type",
+        "class_names",
+        "experiment",
+        "history",
+        "max_text_len",
+        "optimizer_state_dict",
+        "patience_counter",
+        "saved_time",
+        "scaler_state_dict",
+        "scheduler_state_dict",
+        "vocab_size"
+      ],
+      "state_sha256": "f4316a78ba6a37a229b0f338fd6bd1f0cfecec36823fc478e4bd0319ea0702b2",
+      "tensor_count": 230,
+      "tensor_bytes": 36115136,
+      "tensor_values_shapes_dtypes_strides_and_module_metadata_exact": true,
+      "weights_only_reload": true,
+      "role": "main/seed2024/global_checkpoint"
+    },
+    {
+      "path": "实验/native_detail_replication_20260930/outputs/native_no_context_seed2024/best.pth",
+      "original_sha256": "19b1485e3e6adbbc3df13608f535ed8809ca68f02967fe2e6721b62bd2cf6b46",
+      "sha256": "caeb14003fe1c8360a287edee8698acd9c310fa60845a356ef565dd279fac547",
+      "bytes": 489253,
+      "epoch": 11,
+      "retained_fields": [
+        "epoch",
+        "model"
+      ],
+      "omitted_training_fields": [
+        "validation"
+      ],
+      "state_sha256": "bb327a8b477646c74dc10caea6739afaa44be3ab0a1ca4f7ee6863ef876365a2",
+      "tensor_count": 42,
+      "tensor_bytes": 474976,
+      "tensor_values_shapes_dtypes_strides_and_module_metadata_exact": true,
+      "weights_only_reload": true,
+      "role": "main/seed2024/native_checkpoint"
+    },
+    {
+      "path": "实验/body_decoder_replication_20260930/outputs/pair12_seed2024/separate_best.pth",
+      "original_sha256": "2e0b5ecf157919d4489a2fe4b3b89124b3a68a9e33007721937b9a325551b78f",
+      "sha256": "755a581fb6fb04847c497f0569c6c061d6ecf35d04ce2485500bdb1feacb29f1",
+      "bytes": 112262,
+      "epoch": 12,
+      "retained_fields": [
+        "epoch",
+        "model"
+      ],
+      "omitted_training_fields": [
+        "arm",
+        "cache_manifest_sha256",
+        "config",
+        "identity",
+        "seed",
+        "validation"
+      ],
+      "state_sha256": "7aaac4b0d5fe66ee39260ffb3bb639dc85b2e5eb5ad6a3712d3c81974c0ffe3e",
+      "tensor_count": 31,
+      "tensor_bytes": 102292,
+      "tensor_values_shapes_dtypes_strides_and_module_metadata_exact": true,
+      "weights_only_reload": true,
+      "role": "main/seed2024/separate_checkpoint"
+    },
+    {
+      "path": "实验/body_decoder_replication_20260930/outputs/pair12_seed2024/pointwise_best.pth",
+      "original_sha256": "5cf374c1fab6e009f1c9925d6e8a83f9d70364f65e7b121c6af1f70679b6e55d",
+      "sha256": "1d91e7256ce1177f65d7ee8ae02f79b226c8726b309430b6aa8ecb6b661d7328",
+      "bytes": 112262,
+      "epoch": 12,
+      "retained_fields": [
+        "epoch",
+        "model"
+      ],
+      "omitted_training_fields": [
+        "arm",
+        "cache_manifest_sha256",
+        "config",
+        "identity",
+        "seed",
+        "validation"
+      ],
+      "state_sha256": "6a10c561e978c4d9732f6a201dabacaed8e0c3ae5f682c562c30a82396200dfc",
+      "tensor_count": 31,
+      "tensor_bytes": 102036,
+      "tensor_values_shapes_dtypes_strides_and_module_metadata_exact": true,
+      "weights_only_reload": true,
+      "role": "main/seed2024/pointwise_checkpoint"
+    },
+    {
+      "path": "实验/multimodal_remaining_oil_outputs_fusion_order_ablation/models/seed_2025_fusion_before_ppm/best_model.pth",
+      "original_sha256": "b7e309a727af15627e2fc3f21aed4825300be0d7e062ecf3797fe3e1f94bbebf",
+      "sha256": "90abc3822cc2a76b8e6f903a80bb70fba0a99204f123253d44e9408b82d243f4",
+      "bytes": 36197683,
+      "epoch": 59,
+      "retained_fields": [
+        "epoch",
+        "model_state_dict"
+      ],
+      "omitted_training_fields": [
+        "best_epoch",
+        "best_val_miou",
+        "checkpoint_type",
+        "class_names",
+        "experiment",
+        "history",
+        "max_text_len",
+        "optimizer_state_dict",
+        "patience_counter",
+        "saved_time",
+        "scaler_state_dict",
+        "scheduler_state_dict",
+        "vocab_size"
+      ],
+      "state_sha256": "e85f914ac9b089fd2f24431ee566043ae61457aed8b8dc10c16711c5cf4e0e95",
+      "tensor_count": 230,
+      "tensor_bytes": 36115136,
+      "tensor_values_shapes_dtypes_strides_and_module_metadata_exact": true,
+      "weights_only_reload": true,
+      "role": "main/seed2025/global_checkpoint"
+    },
+    {
+      "path": "实验/native_detail_replication_seed2025_20260930/outputs/native_no_context_seed2025/best.pth",
+      "original_sha256": "67f24c827403cb3a6e1510df8ed772feda6a89f67107ab405bb93f89ae01c14e",
+      "sha256": "af6f9481b09a4a2769a38f832fbf8ba2d5ce839cc0c61c57f4ee26a4615566aa",
+      "bytes": 489253,
+      "epoch": 11,
+      "retained_fields": [
+        "epoch",
+        "model"
+      ],
+      "omitted_training_fields": [
+        "validation"
+      ],
+      "state_sha256": "e30e6fd1a6052285b52ab5c674c473eda384512579f5d8ad2c76aa16e1c9014e",
+      "tensor_count": 42,
+      "tensor_bytes": 474976,
+      "tensor_values_shapes_dtypes_strides_and_module_metadata_exact": true,
+      "weights_only_reload": true,
+      "role": "main/seed2025/native_checkpoint"
+    },
+    {
+      "path": "实验/body_decoder_replication_20260930/outputs/pair12_seed2025/separate_best.pth",
+      "original_sha256": "360e365e174b622cb017f3618a0e7d8d43a7286e61dbf1102d438922d52bc6cd",
+      "sha256": "686c61fa7cbb615e162f733555f2dcf0f790f8e3c31c354095f161456f8f3938",
+      "bytes": 112262,
+      "epoch": 12,
+      "retained_fields": [
+        "epoch",
+        "model"
+      ],
+      "omitted_training_fields": [
+        "arm",
+        "cache_manifest_sha256",
+        "config",
+        "identity",
+        "seed",
+        "validation"
+      ],
+      "state_sha256": "e32a2d2f22e4e6e6cbe35517e814ec45007266fab17f3ccec36b51806e3a1a43",
+      "tensor_count": 31,
+      "tensor_bytes": 102292,
+      "tensor_values_shapes_dtypes_strides_and_module_metadata_exact": true,
+      "weights_only_reload": true,
+      "role": "main/seed2025/separate_checkpoint"
+    },
+    {
+      "path": "实验/body_decoder_replication_20260930/outputs/pair12_seed2025/pointwise_best.pth",
+      "original_sha256": "bc834208061d4c2ee241e97fa0e1d29962c2d405f1aff9c86af49f78c6f1b969",
+      "sha256": "286a0030e42717e2c73748338cf7bdf783e69b9cb773e24bc083c3161eb96cdd",
+      "bytes": 112262,
+      "epoch": 10,
+      "retained_fields": [
+        "epoch",
+        "model"
+      ],
+      "omitted_training_fields": [
+        "arm",
+        "cache_manifest_sha256",
+        "config",
+        "identity",
+        "seed",
+        "validation"
+      ],
+      "state_sha256": "c8bc86bdb7fc4c12dbdb8527f86c4a66dfbafd7efeab04da61915edc8284687e",
+      "tensor_count": 31,
+      "tensor_bytes": 102036,
+      "tensor_values_shapes_dtypes_strides_and_module_metadata_exact": true,
+      "weights_only_reload": true,
+      "role": "main/seed2025/pointwise_checkpoint"
+    },
+    {
+      "path": "实验/external_eightclass_extension20_recovery_20261004/outputs/bentheimer_seed42/global/epochs/epoch_020.pth",
+      "original_sha256": "90e75419c696bf0a326f18a8041abcfc4aafda2de27cfef38033edfccf892119",
+      "sha256": "2c4ca1ee35089741fb10822c2e71fde17c20afb27a7d0fcf5f16d5b2bcaeb4ff",
+      "bytes": 36214257,
+      "epoch": 20,
+      "retained_fields": [
+        "arm",
+        "dataset",
+        "epoch",
+        "model"
+      ],
+      "omitted_training_fields": [
+        "completed_utc",
+        "frozen_sha256",
+        "history",
+        "identity",
+        "optimizer"
+      ],
+      "state_sha256": "e7be30ad55746c7d1fb94340d237c784e12830be5b6d365380d1af1e552ee59c",
+      "tensor_count": 231,
+      "tensor_bytes": 36139712,
+      "tensor_values_shapes_dtypes_strides_and_module_metadata_exact": true,
+      "weights_only_reload": true,
+      "role": "external/original_bentheimer_seed42/global"
+    },
+    {
+      "path": "实验/external_eightclass_extension20_recovery_20261004/outputs/bentheimer_seed42/native_detail/epochs/epoch_020.pth",
+      "original_sha256": "58d9af8d22c14e8e7dc6fc7f0c30f445a2614342f81792744a6b680492ba4db4",
+      "sha256": "0bf1eff8ab0ff3d4effc281e0561d6e47bab29000c62bc0ff4735d8eb70ea39f",
+      "bytes": 36702173,
+      "epoch": 20,
+      "retained_fields": [
+        "arm",
+        "dataset",
+        "epoch",
+        "model"
+      ],
+      "omitted_training_fields": [
+        "completed_utc",
+        "frozen_sha256",
+        "history",
+        "identity",
+        "optimizer"
+      ],
+      "state_sha256": "ebde46355b01ed2de0a4172f4b536a34b9ea18b4e6ba969a85bd3ead8066c65d",
+      "tensor_count": 273,
+      "tensor_bytes": 36614688,
+      "tensor_values_shapes_dtypes_strides_and_module_metadata_exact": true,
+      "weights_only_reload": true,
+      "role": "external/original_bentheimer_seed42/native_detail"
+    },
+    {
+      "path": "实验/external_body_extension20_20261004/outputs/bentheimer/separate/epochs/epoch_009.pth",
+      "original_sha256": "42113ae08ffa37e7a15f9784af693749d962c702e85aa71fb60cb136c48187ea",
+      "sha256": "564eb6a390c22dad2b7646997d0431c2fc3e32fa6cd5e4e1cd749d701a27d869",
+      "bytes": 112390,
+      "epoch": 9,
+      "retained_fields": [
+        "arm",
+        "dataset",
+        "epoch",
+        "model"
+      ],
+      "omitted_training_fields": [
+        "cache_sha256",
+        "history",
+        "identity",
+        "optimizer",
+        "schedule"
+      ],
+      "state_sha256": "497541dbfd787bd33ab8548fb8c71e2e39842634a03664630d3d2c35fb6610ef",
+      "tensor_count": 31,
+      "tensor_bytes": 102292,
+      "tensor_values_shapes_dtypes_strides_and_module_metadata_exact": true,
+      "weights_only_reload": true,
+      "role": "external/original_bentheimer_seed42/body"
+    },
+    {
+      "path": "实验/external_eightclass_extension20_recovery_20261004/outputs/wf1_seed42/global/epochs/epoch_019.pth",
+      "original_sha256": "e686b21b4ae257d8ca8778c7b0212658232fe8c4254c2d0fd85441acf582cda8",
+      "sha256": "870c7ea2dc68c4e5d9236228deddbfc89e7850f241fb8f6e56ff502205794755",
+      "bytes": 36214257,
+      "epoch": 19,
+      "retained_fields": [
+        "arm",
+        "dataset",
+        "epoch",
+        "model"
+      ],
+      "omitted_training_fields": [
+        "completed_utc",
+        "frozen_sha256",
+        "history",
+        "identity",
+        "optimizer"
+      ],
+      "state_sha256": "015885496a628e550cdf07a635c9a07b42184a51215d859219a9e91c65191075",
+      "tensor_count": 231,
+      "tensor_bytes": 36139712,
+      "tensor_values_shapes_dtypes_strides_and_module_metadata_exact": true,
+      "weights_only_reload": true,
+      "role": "external/original_wf1_seed42/global"
+    },
+    {
+      "path": "实验/external_eightclass_extension20_recovery_20261004/outputs/wf1_seed42/native_detail/epochs/epoch_014.pth",
+      "original_sha256": "6fd1a1572c9b0a5106a15b311fd7d9841b78a0c6eda151f9d3724f14c83938d1",
+      "sha256": "f6d7afd9ac3f035559195334c165bb08f7b3604b5c517a4cbe77035bf34c4c90",
+      "bytes": 36702173,
+      "epoch": 14,
+      "retained_fields": [
+        "arm",
+        "dataset",
+        "epoch",
+        "model"
+      ],
+      "omitted_training_fields": [
+        "completed_utc",
+        "frozen_sha256",
+        "history",
+        "identity",
+        "optimizer"
+      ],
+      "state_sha256": "349c6d60dddd4cc90e18401d8256da5ae882449c7b91232356c2b2356d927ffd",
+      "tensor_count": 273,
+      "tensor_bytes": 36614688,
+      "tensor_values_shapes_dtypes_strides_and_module_metadata_exact": true,
+      "weights_only_reload": true,
+      "role": "external/original_wf1_seed42/native_detail"
+    },
+    {
+      "path": "实验/external_body_extension20_20261004/outputs/wf1/separate/epochs/epoch_007.pth",
+      "original_sha256": "5c9c6e5e8817d195fc317016400008992ecf08ee0decb5364dbc9bcba71364fb",
+      "sha256": "639739281c5a0f2aa39bd6acaceb489da44293f5c45aff1d57f8a3f22ac76533",
+      "bytes": 112326,
+      "epoch": 7,
+      "retained_fields": [
+        "arm",
+        "dataset",
+        "epoch",
+        "model"
+      ],
+      "omitted_training_fields": [
+        "cache_sha256",
+        "history",
+        "identity",
+        "optimizer",
+        "schedule"
+      ],
+      "state_sha256": "6bba6c0bb2eaa6289a868e76fb6be552751e1ca2c5c34d4a71d1491cd8276b97",
+      "tensor_count": 31,
+      "tensor_bytes": 102292,
+      "tensor_values_shapes_dtypes_strides_and_module_metadata_exact": true,
+      "weights_only_reload": true,
+      "role": "external/original_wf1_seed42/body"
+    },
+    {
+      "path": "实验/external_fine8_multiseed_20261004/cases/seed2024/outputs/bentheimer_seed2024/global/epochs/epoch_019.pth",
+      "original_sha256": "a394196dc18119f0957f53f9c0a168b77b00d5890df62ef2ed79334bfe0000f8",
+      "sha256": "4177641d732f0deda03599c9ad5d640509ea115454ff5026986d9373bea4ef27",
+      "bytes": 36214257,
+      "epoch": 19,
+      "retained_fields": [
+        "arm",
+        "dataset",
+        "epoch",
+        "model"
+      ],
+      "omitted_training_fields": [
+        "completed_utc",
+        "frozen_sha256",
+        "history",
+        "identity",
+        "optimizer"
+      ],
+      "state_sha256": "ca7ad338c7bfca9939750f6ff05e59ba594083cac7d4da5bbcff1e1805507602",
+      "tensor_count": 231,
+      "tensor_bytes": 36139712,
+      "tensor_values_shapes_dtypes_strides_and_module_metadata_exact": true,
+      "weights_only_reload": true,
+      "role": "external/original_bentheimer_seed2024/global"
+    },
+    {
+      "path": "实验/external_fine8_multiseed_20261004/cases/seed2024/outputs/bentheimer_seed2024/native_detail/epochs/epoch_008.pth",
+      "original_sha256": "d0ca047ada72f4049eade1bad6864c28131c66c7cde7249f4e2d64dec3c7ef2c",
+      "sha256": "850bb9768082ef7a3f42fbf40800a5a0c5bead0f473b33fde7a0e835268526ce",
+      "bytes": 36702173,
+      "epoch": 8,
+      "retained_fields": [
+        "arm",
+        "dataset",
+        "epoch",
+        "model"
+      ],
+      "omitted_training_fields": [
+        "completed_utc",
+        "frozen_sha256",
+        "history",
+        "identity",
+        "optimizer"
+      ],
+      "state_sha256": "0bd850782be9381752d8c08e0c1c9d47473f145494615bd952c7af33a73d13e6",
+      "tensor_count": 273,
+      "tensor_bytes": 36614688,
+      "tensor_values_shapes_dtypes_strides_and_module_metadata_exact": true,
+      "weights_only_reload": true,
+      "role": "external/original_bentheimer_seed2024/native_detail"
+    },
+    {
+      "path": "实验/external_fine8_multiseed_body_recovery_20261005/cases/seed2024/outputs/bentheimer/separate/epochs/epoch_009.pth",
+      "original_sha256": "e527b728e9243711337ada021fa43c9b723e103fb86bae9afde15b01658a0295",
+      "sha256": "1e79fbeec3e00f0f7df1bbd04e42cfe2ecc6409488e701a44e81a318217f2ab5",
+      "bytes": 112390,
+      "epoch": 9,
+      "retained_fields": [
+        "arm",
+        "dataset",
+        "epoch",
+        "model"
+      ],
+      "omitted_training_fields": [
+        "cache_sha256",
+        "history",
+        "identity",
+        "optimizer",
+        "schedule"
+      ],
+      "state_sha256": "071926e2d357cb4f858ae12d49ddea1cc9e1288bd4ba35367b11b822293c28a7",
+      "tensor_count": 31,
+      "tensor_bytes": 102292,
+      "tensor_values_shapes_dtypes_strides_and_module_metadata_exact": true,
+      "weights_only_reload": true,
+      "role": "external/original_bentheimer_seed2024/body"
+    },
+    {
+      "path": "实验/external_fine8_multiseed_20261004/cases/seed2024/outputs/wf1_seed2024/global/epochs/epoch_019.pth",
+      "original_sha256": "c211609beb68855704222b73e69da3e7db01428cfa2b6287624043b745d22090",
+      "sha256": "4d3ac17257cd5886dbd8b1d25f1cac03cedd7559fb00593f651c232a4cbb8f79",
+      "bytes": 36214257,
+      "epoch": 19,
+      "retained_fields": [
+        "arm",
+        "dataset",
+        "epoch",
+        "model"
+      ],
+      "omitted_training_fields": [
+        "completed_utc",
+        "frozen_sha256",
+        "history",
+        "identity",
+        "optimizer"
+      ],
+      "state_sha256": "6befd8b551f04d01dca5be761f8c8fd87f36bccb709563eebfb8bc618f1762a6",
+      "tensor_count": 231,
+      "tensor_bytes": 36139712,
+      "tensor_values_shapes_dtypes_strides_and_module_metadata_exact": true,
+      "weights_only_reload": true,
+      "role": "external/original_wf1_seed2024/global"
+    },
+    {
+      "path": "实验/external_fine8_multiseed_20261004/cases/seed2024/outputs/wf1_seed2024/native_detail/epochs/epoch_020.pth",
+      "original_sha256": "8435fc6338dabaa8c0c2df8c3e9e163da673908bc6a28c67f7d4860abcd38832",
+      "sha256": "15903b9ab69aea32bbf3b760850505361acea643c9f0a8e03c6e6015dab52247",
+      "bytes": 36702173,
+      "epoch": 20,
+      "retained_fields": [
+        "arm",
+        "dataset",
+        "epoch",
+        "model"
+      ],
+      "omitted_training_fields": [
+        "completed_utc",
+        "frozen_sha256",
+        "history",
+        "identity",
+        "optimizer"
+      ],
+      "state_sha256": "9607c505b4a9cd1e3faab12277cf989521bbf1a2622d42c4de6080559b751894",
+      "tensor_count": 273,
+      "tensor_bytes": 36614688,
+      "tensor_values_shapes_dtypes_strides_and_module_metadata_exact": true,
+      "weights_only_reload": true,
+      "role": "external/original_wf1_seed2024/native_detail"
+    },
+    {
+      "path": "实验/external_fine8_multiseed_body_recovery_20261005/cases/seed2024/outputs/wf1/separate/epochs/epoch_012.pth",
+      "original_sha256": "06ec47c68af3dbd03643f18fffa0985dcc77e9f38c7e5c82cddfa5e42da99e36",
+      "sha256": "8291ac241354549c8185d0c792d7cc2cafebd497a9b151e2c2616064427a8ef4",
+      "bytes": 112326,
+      "epoch": 12,
+      "retained_fields": [
+        "arm",
+        "dataset",
+        "epoch",
+        "model"
+      ],
+      "omitted_training_fields": [
+        "cache_sha256",
+        "history",
+        "identity",
+        "optimizer",
+        "schedule"
+      ],
+      "state_sha256": "905edb025d10c0631b12be1b73da470308c1f0d28e08f3064f6089a0a4eed2a1",
+      "tensor_count": 31,
+      "tensor_bytes": 102292,
+      "tensor_values_shapes_dtypes_strides_and_module_metadata_exact": true,
+      "weights_only_reload": true,
+      "role": "external/original_wf1_seed2024/body"
+    },
+    {
+      "path": "实验/external_fine8_multiseed_20261004/cases/seed2025/outputs/bentheimer_seed2025/global/epochs/epoch_019.pth",
+      "original_sha256": "2be80710ba0f0f642ede8288793f731c9a92219c47b6ecc3dc1eb663142f7a0e",
+      "sha256": "67bb50d05e23017f1678a1832c759eb4f7fc91ea0b3d121ce5666feab9f2f031",
+      "bytes": 36214257,
+      "epoch": 19,
+      "retained_fields": [
+        "arm",
+        "dataset",
+        "epoch",
+        "model"
+      ],
+      "omitted_training_fields": [
+        "completed_utc",
+        "frozen_sha256",
+        "history",
+        "identity",
+        "optimizer"
+      ],
+      "state_sha256": "12902cd1c214f71fdb8c72eac4a8d4dfb98707d82688be138e4622264170c1c7",
+      "tensor_count": 231,
+      "tensor_bytes": 36139712,
+      "tensor_values_shapes_dtypes_strides_and_module_metadata_exact": true,
+      "weights_only_reload": true,
+      "role": "external/original_bentheimer_seed2025/global"
+    },
+    {
+      "path": "实验/external_fine8_multiseed_20261004/cases/seed2025/outputs/bentheimer_seed2025/native_detail/epochs/epoch_019.pth",
+      "original_sha256": "e797578e8c7894fd838064355a4c83900054cc1b256a4d7e33f1c752669a15a2",
+      "sha256": "9132068494e7a790886dcce7d707c0c48ecc15475d90cc793baf57b07a19e419",
+      "bytes": 36702173,
+      "epoch": 19,
+      "retained_fields": [
+        "arm",
+        "dataset",
+        "epoch",
+        "model"
+      ],
+      "omitted_training_fields": [
+        "completed_utc",
+        "frozen_sha256",
+        "history",
+        "identity",
+        "optimizer"
+      ],
+      "state_sha256": "a5cb6a34621a7bd8919880b1b5ef1356b150c90466831d74ef55f23c91bb5898",
+      "tensor_count": 273,
+      "tensor_bytes": 36614688,
+      "tensor_values_shapes_dtypes_strides_and_module_metadata_exact": true,
+      "weights_only_reload": true,
+      "role": "external/original_bentheimer_seed2025/native_detail"
+    },
+    {
+      "path": "实验/external_fine8_multiseed_body_recovery_20261005/cases/seed2025/outputs/bentheimer/separate/epochs/epoch_006.pth",
+      "original_sha256": "a5765935263a805a9ff9e3595f94141abe27201c258febf34d45ee8092b7d967",
+      "sha256": "3d4897516513180c924d4c8829340a4877e46adb001fdfd5c0ae99b2cd7eee89",
+      "bytes": 112390,
+      "epoch": 6,
+      "retained_fields": [
+        "arm",
+        "dataset",
+        "epoch",
+        "model"
+      ],
+      "omitted_training_fields": [
+        "cache_sha256",
+        "history",
+        "identity",
+        "optimizer",
+        "schedule"
+      ],
+      "state_sha256": "5cff4d006d3a32fdd579efa7930b3a508930ed7d58853b5e3a6bc0f7113a2f5e",
+      "tensor_count": 31,
+      "tensor_bytes": 102292,
+      "tensor_values_shapes_dtypes_strides_and_module_metadata_exact": true,
+      "weights_only_reload": true,
+      "role": "external/original_bentheimer_seed2025/body"
+    },
+    {
+      "path": "实验/external_fine8_multiseed_20261004/cases/seed2025/outputs/wf1_seed2025/global/epochs/epoch_020.pth",
+      "original_sha256": "abc27ed0ce2d9d1e089882d836ea7827de73c59c7a271f239fc32cf058da1949",
+      "sha256": "18b5b32314ffee704338f0f53e0047b4369121519d381cb730ba83af783f87cf",
+      "bytes": 36214257,
+      "epoch": 20,
+      "retained_fields": [
+        "arm",
+        "dataset",
+        "epoch",
+        "model"
+      ],
+      "omitted_training_fields": [
+        "completed_utc",
+        "frozen_sha256",
+        "history",
+        "identity",
+        "optimizer"
+      ],
+      "state_sha256": "c65de4cd56268fc6404ddf257d9980a9574aebbcb46d0e2cc24fdd8ba2d1f924",
+      "tensor_count": 231,
+      "tensor_bytes": 36139712,
+      "tensor_values_shapes_dtypes_strides_and_module_metadata_exact": true,
+      "weights_only_reload": true,
+      "role": "external/original_wf1_seed2025/global"
+    },
+    {
+      "path": "实验/external_fine8_multiseed_20261004/cases/seed2025/outputs/wf1_seed2025/native_detail/epochs/epoch_011.pth",
+      "original_sha256": "bf2ed1811d8a920035209134d1079871f7ac965b10e9d9a1ba631ddc5c5e7493",
+      "sha256": "938165f6df9969701e00d566104049ffa74dbf1d8c3b1a0558e3f0346e23acb9",
+      "bytes": 36702173,
+      "epoch": 11,
+      "retained_fields": [
+        "arm",
+        "dataset",
+        "epoch",
+        "model"
+      ],
+      "omitted_training_fields": [
+        "completed_utc",
+        "frozen_sha256",
+        "history",
+        "identity",
+        "optimizer"
+      ],
+      "state_sha256": "99692965afd35e2d9717a39722208f27899dafd6d4da45a7412a60039931fcf5",
+      "tensor_count": 273,
+      "tensor_bytes": 36614688,
+      "tensor_values_shapes_dtypes_strides_and_module_metadata_exact": true,
+      "weights_only_reload": true,
+      "role": "external/original_wf1_seed2025/native_detail"
+    },
+    {
+      "path": "实验/external_fine8_multiseed_body_recovery_20261005/cases/seed2025/outputs/wf1/separate/epochs/epoch_011.pth",
+      "original_sha256": "1761616d4ed11cedbdeda3dac166a52ae63377628b5efbb32c82372ba2e143f6",
+      "sha256": "3804457b60d02c981d01919627b0972a7d1666433632a5ee89f8153d80c3abcd",
+      "bytes": 112326,
+      "epoch": 11,
+      "retained_fields": [
+        "arm",
+        "dataset",
+        "epoch",
+        "model"
+      ],
+      "omitted_training_fields": [
+        "cache_sha256",
+        "history",
+        "identity",
+        "optimizer",
+        "schedule"
+      ],
+      "state_sha256": "c75715b2037f585c980a43f82f1eb9029056719f79599f65c330c5fc0c961fd4",
+      "tensor_count": 31,
+      "tensor_bytes": 102292,
+      "tensor_values_shapes_dtypes_strides_and_module_metadata_exact": true,
+      "weights_only_reload": true,
+      "role": "external/original_wf1_seed2025/body"
+    },
+    {
+      "path": "实验/external_fine8_wf1_repeat_seeds42_2024_20261005/upstream/cases/seed42/outputs/wf1_seed42/global/epochs/epoch_019.pth",
+      "original_sha256": "f4a8a158036009a75d4976998bb3eb035e0eea0070ead099dd57e80d3e81cd62",
+      "sha256": "3f7a53a8cb7286680359c9bfb8fb93b8c8bcb728cd6d3cd920c0b3dd5f797853",
+      "bytes": 36214257,
+      "epoch": 19,
+      "retained_fields": [
+        "arm",
+        "dataset",
+        "epoch",
+        "model"
+      ],
+      "omitted_training_fields": [
+        "completed_utc",
+        "frozen_sha256",
+        "history",
+        "identity",
+        "optimizer"
+      ],
+      "state_sha256": "704dcf96543aa4436b96053cd0b72cd25df36dee7ef17b1a112945aa82ad2cc3",
+      "tensor_count": 231,
+      "tensor_bytes": 36139712,
+      "tensor_values_shapes_dtypes_strides_and_module_metadata_exact": true,
+      "weights_only_reload": true,
+      "role": "external/whole_repeat_wf1_seed42/global"
+    },
+    {
+      "path": "实验/external_fine8_wf1_repeat_seeds42_2024_20261005/upstream/cases/seed42/outputs/wf1_seed42/native_detail/epochs/epoch_019.pth",
+      "original_sha256": "d6bd4c67e423790b90c502173bcd2afe2a51ff461de3f16a9a79f6fc58c5e61a",
+      "sha256": "d18aa83fdc540f4de20d9c0220f7fa2f18959df6a2a94921fef77adfda341278",
+      "bytes": 36702173,
+      "epoch": 19,
+      "retained_fields": [
+        "arm",
+        "dataset",
+        "epoch",
+        "model"
+      ],
+      "omitted_training_fields": [
+        "completed_utc",
+        "frozen_sha256",
+        "history",
+        "identity",
+        "optimizer"
+      ],
+      "state_sha256": "33f5bb1674a4c6ec2ad9cfc184930821a560d9c92f2ef695ceebd49fdff844e3",
+      "tensor_count": 273,
+      "tensor_bytes": 36614688,
+      "tensor_values_shapes_dtypes_strides_and_module_metadata_exact": true,
+      "weights_only_reload": true,
+      "role": "external/whole_repeat_wf1_seed42/native_detail"
+    },
+    {
+      "path": "实验/external_fine8_wf1_repeat_seeds42_2024_20261005/body/cases/seed42/outputs/wf1/separate/epochs/epoch_004.pth",
+      "original_sha256": "97a49513967104494133ddf2a585bf219c4aa2bb5e0dd463eccc3fd2c572e1af",
+      "sha256": "c6b88ae4f4db0c0f7a2153c20513e8958d1df2d7add60488783034aadceb5b1c",
+      "bytes": 112326,
+      "epoch": 4,
+      "retained_fields": [
+        "arm",
+        "dataset",
+        "epoch",
+        "model"
+      ],
+      "omitted_training_fields": [
+        "cache_sha256",
+        "history",
+        "identity",
+        "optimizer",
+        "schedule"
+      ],
+      "state_sha256": "1f86c7a4a466312593f5a93c190a5bb1e04367e131fb2e7131d1be017a98bc08",
+      "tensor_count": 31,
+      "tensor_bytes": 102292,
+      "tensor_values_shapes_dtypes_strides_and_module_metadata_exact": true,
+      "weights_only_reload": true,
+      "role": "external/whole_repeat_wf1_seed42/body"
+    },
+    {
+      "path": "实验/external_fine8_wf1_repeat_seeds42_2024_20261005/upstream/cases/seed2024/outputs/wf1_seed2024/global/epochs/epoch_019.pth",
+      "original_sha256": "d25cb9001255e298909785428da97bce91d424f62e873865d6b133de354c5eaa",
+      "sha256": "b953415b5566015edb9486fe2e496f2601e4d4f89fbb836825592b333ce66f45",
+      "bytes": 36214257,
+      "epoch": 19,
+      "retained_fields": [
+        "arm",
+        "dataset",
+        "epoch",
+        "model"
+      ],
+      "omitted_training_fields": [
+        "completed_utc",
+        "frozen_sha256",
+        "history",
+        "identity",
+        "optimizer"
+      ],
+      "state_sha256": "1092dc9f2b6a9f2d4cc491406929345a0f12196b36dfd88343b9e1095a942c28",
+      "tensor_count": 231,
+      "tensor_bytes": 36139712,
+      "tensor_values_shapes_dtypes_strides_and_module_metadata_exact": true,
+      "weights_only_reload": true,
+      "role": "external/whole_repeat_wf1_seed2024/global"
+    },
+    {
+      "path": "实验/external_fine8_wf1_repeat_seeds42_2024_20261005/upstream/cases/seed2024/outputs/wf1_seed2024/native_detail/epochs/epoch_020.pth",
+      "original_sha256": "5d484b3afcbbf58b99b492a79196da2d1fb322ce0b35b713612f4013fde5af7b",
+      "sha256": "4fc531da81adcbeca6c902b45afd6790dee7a3cc549d47509cec8990aae52d15",
+      "bytes": 36702173,
+      "epoch": 20,
+      "retained_fields": [
+        "arm",
+        "dataset",
+        "epoch",
+        "model"
+      ],
+      "omitted_training_fields": [
+        "completed_utc",
+        "frozen_sha256",
+        "history",
+        "identity",
+        "optimizer"
+      ],
+      "state_sha256": "b3c169d69d756ee87c67487606476673958c92c44420af00189a221be10383f0",
+      "tensor_count": 273,
+      "tensor_bytes": 36614688,
+      "tensor_values_shapes_dtypes_strides_and_module_metadata_exact": true,
+      "weights_only_reload": true,
+      "role": "external/whole_repeat_wf1_seed2024/native_detail"
+    },
+    {
+      "path": "实验/external_fine8_wf1_repeat_seeds42_2024_20261005/body/cases/seed2024/outputs/wf1/separate/epochs/epoch_004.pth",
+      "original_sha256": "d9ba45ff6211f43cec1983d89525dca773b4409443f312e7097fc8235e054b70",
+      "sha256": "d0b92339580309d41d04dea672a5b5228f1fe1c65994a37fad60bfcea90da65d",
+      "bytes": 112326,
+      "epoch": 4,
+      "retained_fields": [
+        "arm",
+        "dataset",
+        "epoch",
+        "model"
+      ],
+      "omitted_training_fields": [
+        "cache_sha256",
+        "history",
+        "identity",
+        "optimizer",
+        "schedule"
+      ],
+      "state_sha256": "647e494bc604fbef57fef73ea98aaa802e6396ae1bcef955f4f3318fd4ed4559",
+      "tensor_count": 31,
+      "tensor_bytes": 102292,
+      "tensor_values_shapes_dtypes_strides_and_module_metadata_exact": true,
+      "weights_only_reload": true,
+      "role": "external/whole_repeat_wf1_seed2024/body"
+    },
+    {
+      "path": "实验/external_fine8_wf1_seed2025_repeat_20261005/upstream/cases/seed2025/outputs/wf1_seed2025/global/epochs/epoch_020.pth",
+      "original_sha256": "71b2b4a0a28d350d9abc3ab1db96e3552e4e6f12a01c25be88a1f444855aa444",
+      "sha256": "6995a54b2f5cb7d098f1f0973c4e6517967162bb9631e9afbde73414639dfc58",
+      "bytes": 36214257,
+      "epoch": 20,
+      "retained_fields": [
+        "arm",
+        "dataset",
+        "epoch",
+        "model"
+      ],
+      "omitted_training_fields": [
+        "completed_utc",
+        "frozen_sha256",
+        "history",
+        "identity",
+        "optimizer"
+      ],
+      "state_sha256": "5e669481d99599e21b65adafbd69683676e094554ea1bd058f48d7242290291e",
+      "tensor_count": 231,
+      "tensor_bytes": 36139712,
+      "tensor_values_shapes_dtypes_strides_and_module_metadata_exact": true,
+      "weights_only_reload": true,
+      "role": "external/whole_repeat_wf1_seed2025/global"
+    },
+    {
+      "path": "实验/external_fine8_wf1_seed2025_repeat_20261005/upstream/cases/seed2025/outputs/wf1_seed2025/native_detail/epochs/epoch_011.pth",
+      "original_sha256": "922dbd3bad51bcc21e028846ed88ffbb6c13e7a54851c5930b4831a65930e7e0",
+      "sha256": "e023d3651c96ffa5a4bdaddfade3b6e837efd4108e727e46809a411c1c49469d",
+      "bytes": 36702173,
+      "epoch": 11,
+      "retained_fields": [
+        "arm",
+        "dataset",
+        "epoch",
+        "model"
+      ],
+      "omitted_training_fields": [
+        "completed_utc",
+        "frozen_sha256",
+        "history",
+        "identity",
+        "optimizer"
+      ],
+      "state_sha256": "63b7d026dd4b5cf68f502ec606e0a8f7e05c0fd6a09ff078944dfcd2e96ca1a7",
+      "tensor_count": 273,
+      "tensor_bytes": 36614688,
+      "tensor_values_shapes_dtypes_strides_and_module_metadata_exact": true,
+      "weights_only_reload": true,
+      "role": "external/whole_repeat_wf1_seed2025/native_detail"
+    },
+    {
+      "path": "实验/external_fine8_wf1_seed2025_repeat_20261005/body/cases/seed2025/outputs/wf1/separate/epochs/epoch_010.pth",
+      "original_sha256": "26241f6ba800514e8e4c9a00647c8d781b8d541fb1e70031d969e82ad24b6bdf",
+      "sha256": "9650176f1ad666a97de9b7d2300066f5257e3b2416df0e014d3450f62667e8b6",
+      "bytes": 112326,
+      "epoch": 10,
+      "retained_fields": [
+        "arm",
+        "dataset",
+        "epoch",
+        "model"
+      ],
+      "omitted_training_fields": [
+        "cache_sha256",
+        "history",
+        "identity",
+        "optimizer",
+        "schedule"
+      ],
+      "state_sha256": "2451b09b05aaffd481a8bba888d205af466167f0df39a79e519333b32c99d85b",
+      "tensor_count": 31,
+      "tensor_bytes": 102292,
+      "tensor_values_shapes_dtypes_strides_and_module_metadata_exact": true,
+      "weights_only_reload": true,
+      "role": "external/whole_repeat_wf1_seed2025/body"
+    }
+  ]
+}

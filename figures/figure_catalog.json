@@ -1,0 +1,76 @@
+{
+  "figures": {
+    "F1": {
+      "script": "scripts/fig1_poremorph_v9.py",
+      "stem": "fig1_poremorph_v9",
+      "output_argument": "--out-dir",
+      "reference_pdf_sha256": "ec7251253ed660a3c4fe5d03bff998f9f7429aa6ef305fd04dbfc07ea0a06a46",
+      "reference_png_sha256": "6f58e743cf1d4ede03911fcc594479e4a60183ce48a5bcf4e3fff54e6260f42b",
+      "image_assets_required": true
+    },
+    "F2": {
+      "script": "scripts/fig2_main_compound_v1.py",
+      "stem": "fig2_main_compound_v1",
+      "output_argument": "--output-dir",
+      "reference_pdf_sha256": "1781a1cab1ae6a74d97fdb5de7e4cda93d4d36c3d1fe3f30a4b85b5634aa1f7b",
+      "reference_png_sha256": "f6ce4be6de06e370df431430e4ca859b6c2d7e9368c2fc9478288d2a3391e7ce",
+      "image_assets_required": true
+    },
+    "F3": {
+      "script": "scripts/fig3_spatial_quantification_v2.py",
+      "stem": "fig3_spatial_quantification_v2",
+      "output_argument": "--output-dir",
+      "reference_pdf_sha256": "074f649ba0cfc0f8ac9d96f928343afdef577ad99d54619e0e94b7ba41572e4d",
+      "reference_png_sha256": "543d51aeef8daf37aa5c2bf8c4c4277dbcfe4392a42cca5e0bb76d4d0c907c56",
+      "image_assets_required": true
+    },
+    "F4": {
+      "script": "scripts/fig4_external_statistics.py",
+      "stem": "fig4_external_statistics",
+      "output_argument": "--output-dir",
+      "reference_pdf_sha256": "47ba6c3392b7488caec160d4e008e1c29d2c5815c2537786acf4d1e1d99345d6",
+      "reference_png_sha256": "892b959654a86083ea57547575c9be45be59db08902eebcf3f77981f1e3e3c1e",
+      "image_assets_required": false
+    },
+    "F5": {
+      "script": "scripts/fig5_body_size.py",
+      "stem": "fig5_body_size",
+      "output_argument": "--output-dir",
+      "reference_pdf_sha256": "e1c70466371e949ce983a878e715bb9d6e58f5ce65b0656639ea666696c2b057",
+      "reference_png_sha256": "7cb0b34f77d04fe954d40884c3b12e70e5cf0cfa305a100bce265f721f28f182",
+      "image_assets_required": false
+    },
+    "S1": {
+      "script": "scripts/figS1_oil_morphologies.py",
+      "stem": "figS1_oil_morphologies",
+      "output_argument": "--output-dir",
+      "reference_pdf_sha256": "2153dcec8d3764d8305c3a2c9489ed5cfa9df4e39e73f643a5e44f8ae99e792f",
+      "reference_png_sha256": "c5eaf019017df06b342c7ee11a05d54b2fb2201ab327f0bc2b0afd66595a49a1",
+      "image_assets_required": true
+    },
+    "S2": {
+      "script": "scripts/fig5_body_size.py",
+      "stem": "figS2_refinement_response",
+      "output_argument": "--output-dir",
+      "reference_pdf_sha256": "842371954bf9c73bfb1ce5ad5d8b9f679f5e8c76ce518f045bd47a52e66eb1bd",
+      "reference_png_sha256": "f3034a6a8f0fdc8cc58a966cf39fd0048c70b2e64f3c97c9a8f544ec6295ca94",
+      "image_assets_required": false
+    },
+    "S3": {
+      "script": "scripts/figS3_composition_bias.py",
+      "stem": "figS3_composition_bias",
+      "output_argument": "--output-dir",
+      "reference_pdf_sha256": "b4b841048acf5b2d993db2c8b3e576308bce38dba10d9acf17d0ae0021edc964",
+      "reference_png_sha256": "73f1538f30b1c900d50c28c85cbc50d4570da43b53cd2c80d6429f971ee874c7",
+      "image_assets_required": false
+    },
+    "S4": {
+      "script": "scripts/figS4_external_qualitative.py",
+      "stem": "figS4_external_qualitative",
+      "output_argument": "--output-dir",
+      "reference_pdf_sha256": "e1ec65bf3dde42aa9c95d087104a012278c6f456e1ee7504797dc03bc0a8e225",
+      "reference_png_sha256": "4972763f26a9faf1d0e0ea712fe191b7873c09081dd03d0b5082539b3228f34a",
+      "image_assets_required": true
+    }
+  }
+}

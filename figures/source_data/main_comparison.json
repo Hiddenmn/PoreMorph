@@ -1,0 +1,645 @@
+{
+  "__kind__": "tuple",
+  "items": [
+    {
+      "__kind__": "array",
+      "values": [
+        [
+          73.4372683,
+          75.31966152735382,
+          80.73891383895419,
+          81.95402397141231
+        ],
+        [
+          72.7046295,
+          75.08996773017142,
+          81.02317732028713,
+          82.43415341039257
+        ],
+        [
+          72.1130538,
+          74.90059241030286,
+          80.83384568047637,
+          82.40242963737701
+        ]
+      ],
+      "dtype": "float64",
+      "shape": [
+        3,
+        4
+      ]
+    },
+    {
+      "__kind__": "array",
+      "values": [
+        [
+          1.7908572615952467,
+          3.302380994366838,
+          2.6416514426642834,
+          1.739760192408224,
+          0.2462311686304175
+        ],
+        [
+          2.021018174112388,
+          3.9214283954264517,
+          2.9536215522557474,
+          2.1268365414421564,
+          0.26490405760679625
+        ],
+        [
+          2.477075853809807,
+          3.6591968086858606,
+          2.9222869768518733,
+          3.119117442148911,
+          0.37099457370878275
+        ]
+      ],
+      "dtype": "float64",
+      "shape": [
+        3,
+        5
+      ]
+    },
+    [
+      [
+        {
+          "__kind__": "image_array",
+          "key": "array_0",
+          "array_sha256": "24b55887243734f310364e5d2a419109469a08b63caf9e5ab8e887a358727568",
+          "dtype": "uint8",
+          "shape": [
+            256,
+            256
+          ]
+        },
+        {
+          "__kind__": "image_array",
+          "key": "array_1",
+          "array_sha256": "fae03b44f6efd4f96935984e1214ee2781f3d916d5a2fe297d1ac85df3941187",
+          "dtype": "uint8",
+          "shape": [
+            256,
+            256
+          ]
+        },
+        {
+          "__kind__": "image_array",
+          "key": "array_2",
+          "array_sha256": "b9a10efdfb249437fa85592109c4db9cd501940b01aa9275c4e6ae49e3bcebf0",
+          "dtype": "uint8",
+          "shape": [
+            256,
+            256
+          ]
+        },
+        {
+          "__kind__": "image_array",
+          "key": "array_3",
+          "array_sha256": "9a54bd718508c4aedb3c893d7db8b6fca9d8ba8958ff682fa5455d7b3ad3f1bf",
+          "dtype": "uint8",
+          "shape": [
+            256,
+            256
+          ]
+        },
+        {
+          "__kind__": "image_array",
+          "key": "array_4",
+          "array_sha256": "38986723e1ea3f96c72a61679bdf3da88e5f025e324034283d0d5224f0919633",
+          "dtype": "float32",
+          "shape": [
+            256,
+            256,
+            3
+          ]
+        }
+      ],
+      [
+        {
+          "__kind__": "image_array",
+          "key": "array_5",
+          "array_sha256": "640f257ef006f011f67cbee036abee94bb4ebb5c14cff963ffa9344c3eda6dc6",
+          "dtype": "uint8",
+          "shape": [
+            256,
+            256
+          ]
+        },
+        {
+          "__kind__": "image_array",
+          "key": "array_6",
+          "array_sha256": "b5bf0f86c54c03fb4e33480d2550a8b3cc0fbc950922075456593d1b3a88c1e6",
+          "dtype": "uint8",
+          "shape": [
+            256,
+            256
+          ]
+        },
+        {
+          "__kind__": "image_array",
+          "key": "array_7",
+          "array_sha256": "6d0a06feba84d9f22aa5c6fa611de99186a0387cdd43070b560d977e8ff00db1",
+          "dtype": "uint8",
+          "shape": [
+            256,
+            256
+          ]
+        },
+        {
+          "__kind__": "image_array",
+          "key": "array_8",
+          "array_sha256": "6ecaa2459689b6511aa0615a09a6295ac74921215e5db36ad5a36bd777da481a",
+          "dtype": "uint8",
+          "shape": [
+            256,
+            256
+          ]
+        },
+        {
+          "__kind__": "image_array",
+          "key": "array_9",
+          "array_sha256": "8db5040dd1e5e638b4f90901db78b410d3a18f544f86c810bb6323a6de4d4ea8",
+          "dtype": "float32",
+          "shape": [
+            256,
+            256,
+            3
+          ]
+        }
+      ],
+      [
+        {
+          "__kind__": "image_array",
+          "key": "array_10",
+          "array_sha256": "151f05c6a1fa71de50c3d4945124b0e51d425e3a9db2fd0eb058675397fda28c",
+          "dtype": "uint8",
+          "shape": [
+            256,
+            256
+          ]
+        },
+        {
+          "__kind__": "image_array",
+          "key": "array_11",
+          "array_sha256": "265b6326b52cdc2fac0c04a3ec88d5f803c1b3d33106c754d65856b9f13f8178",
+          "dtype": "uint8",
+          "shape": [
+            256,
+            256
+          ]
+        },
+        {
+          "__kind__": "image_array",
+          "key": "array_12",
+          "array_sha256": "65a577a850e73a9733a871a79080f550c4d8f4a3bc9c73e5348f14b2e175ddf1",
+          "dtype": "uint8",
+          "shape": [
+            256,
+            256
+          ]
+        },
+        {
+          "__kind__": "image_array",
+          "key": "array_13",
+          "array_sha256": "52bc5677c95345e85efae95cd254de0a5d17606683485699272e78fed1e61c17",
+          "dtype": "uint8",
+          "shape": [
+            256,
+            256
+          ]
+        },
+        {
+          "__kind__": "image_array",
+          "key": "array_14",
+          "array_sha256": "3c7fd7258f2e9fae522f050f1f44aa3c2d7c50a21a3689d5237ba4f839e5c492",
+          "dtype": "float32",
+          "shape": [
+            256,
+            256,
+            3
+          ]
+        }
+      ],
+      [
+        {
+          "__kind__": "image_array",
+          "key": "array_15",
+          "array_sha256": "a3f0e4cf3f61281bbd3a23a1c0a7afc847312967091f0ca0b8ddec0c1bafd178",
+          "dtype": "uint8",
+          "shape": [
+            256,
+            256
+          ]
+        },
+        {
+          "__kind__": "image_array",
+          "key": "array_16",
+          "array_sha256": "f2be48de5d4a1160a8cc07eb1da00570cac05490bcc96bd78de5ecc1d7847ff3",
+          "dtype": "uint8",
+          "shape": [
+            256,
+            256
+          ]
+        },
+        {
+          "__kind__": "image_array",
+          "key": "array_17",
+          "array_sha256": "03c2e56152011e1d1c610f89abd33313c449e02a0158160703100f9c9190e81b",
+          "dtype": "uint8",
+          "shape": [
+            256,
+            256
+          ]
+        },
+        {
+          "__kind__": "image_array",
+          "key": "array_18",
+          "array_sha256": "0d7aff2dd87f83026026514cbe1b932799e7693b9980e15e72f30bd75b1b7774",
+          "dtype": "uint8",
+          "shape": [
+            256,
+            256
+          ]
+        },
+        {
+          "__kind__": "image_array",
+          "key": "array_19",
+          "array_sha256": "e1813e2572f4242d01d975a72fea333347a7f574b67673a2d21b1c2f83585c3e",
+          "dtype": "float32",
+          "shape": [
+            256,
+            256,
+            3
+          ]
+        }
+      ]
+    ],
+    {
+      "aggregate_source": "recorded_inputs/d065000c583a/test_summary.json",
+      "aggregate_sha256": "037368473ef7087e76bd746693a05bd06b52e195e6feb61de6b7386e26db9b45",
+      "transunet_source": "recorded_inputs/055eb121dbc1/three_seed_results.csv",
+      "transunet_sha256": "e189971662b86187824dc98f7f2334d851b7f399e5546f237b8067c2eebce0da",
+      "primary_grid": "canonical512",
+      "test_images": 340,
+      "seeds": {
+        "__kind__": "tuple",
+        "items": [
+          42,
+          2024,
+          2025
+        ]
+      },
+      "miou_percent": [
+        [
+          73.4372683,
+          75.31966152735382,
+          80.73891383895419,
+          81.95402397141231
+        ],
+        [
+          72.7046295,
+          75.08996773017142,
+          81.02317732028713,
+          82.43415341039257
+        ],
+        [
+          72.1130538,
+          74.90059241030286,
+          80.83384568047637,
+          82.40242963737701
+        ]
+      ],
+      "model_order": [
+        "TransUNet",
+        "Global",
+        "Pointwise",
+        "Complete"
+      ],
+      "paired_class_difference_pp": [
+        [
+          1.7908572615952467,
+          3.302380994366838,
+          2.6416514426642834,
+          1.739760192408224,
+          0.2462311686304175
+        ],
+        [
+          2.021018174112388,
+          3.9214283954264517,
+          2.9536215522557474,
+          2.1268365414421564,
+          0.26490405760679625
+        ],
+        [
+          2.477075853809807,
+          3.6591968086858606,
+          2.9222869768518733,
+          3.119117442148911,
+          0.37099457370878275
+        ]
+      ],
+      "classes": [
+        "Film oil",
+        "Pore-corner",
+        "Droplet",
+        "Columnar",
+        "Clustered"
+      ],
+      "center": "arithmetic mean",
+      "spread": "sample SD across three training seeds; ddof=1",
+      "case_selection": "Selected successful qualitative examples: characteristic reference morphologies and visible end-to-end improvements over Global; not representative sampling.",
+      "selection_sha256": "c1503635abe66dad3178bf10af31eaa6423887772307d389cd90479ba57a4187",
+      "error_comparison": "Complete versus Global, all eight classes",
+      "error_names": [
+        "Both correct",
+        "Corrected by complete",
+        "Introduced by complete",
+        "Both incorrect"
+      ],
+      "error_colors": {
+        "__kind__": "tuple",
+        "items": [
+          "#008D94",
+          "#E679A8",
+          "#6B4C9A"
+        ]
+      },
+      "error_background": "0.62 + 0.32 * raw / 255; identical across examples",
+      "cases": [
+        {
+          "stage": "Oil",
+          "slice_id": 799,
+          "split": "test",
+          "seed": 42,
+          "roi_y0y1x0x1": [
+            275,
+            531,
+            211,
+            467
+          ],
+          "selection": {
+            "index": 209,
+            "stage": "Oil",
+            "slice_id": 799,
+            "class_id": 3,
+            "class_name": "Film oil",
+            "component_label": 20,
+            "geometry_score": 32.56892175673837,
+            "bbox_y0x0y1x1": [
+              389,
+              330,
+              418,
+              349
+            ],
+            "roi_y0y1x0x1": [
+              275,
+              531,
+              211,
+              467
+            ],
+            "focal_class_share": 1.0,
+            "area": 282,
+            "span": 29,
+            "elongation": 2.4386981695426084,
+            "circularity": 0.5380972850036082,
+            "bbox_fill": 0.5117967332123412,
+            "global_class_iou": 0.377292576419214,
+            "complete_class_iou": 0.9049128367670365,
+            "global_miou": 0.6188635830613968,
+            "complete_miou": 0.9606019539687285,
+            "complete_focal_body_recall": 0.9893617021276596,
+            "global_error_outcomes": [
+              62865,
+              2491,
+              53,
+              127
+            ],
+            "showcase_rank_score": 8.86025085618461,
+            "showcase_id": "Oil-01",
+            "visual_choice": "An intact narrow curved film, adjacent branched clusters and compact corner pockets; varied interior context.",
+            "prediction_sha256": "cf2e8aafdced74da426876848247938ed77d2bcfebdf0957e3533e2a079c93bf",
+            "image_sha256": "822d6c70423547edab0e2bcf5379954c832feaf1ad857cd78db30b573970c783",
+            "scale_bar_mm": 1.0
+          },
+          "image": "recorded_inputs/efb476ed423a/Oil-Reconstructed.filtered799.tif",
+          "image_sha256": "822d6c70423547edab0e2bcf5379954c832feaf1ad857cd78db30b573970c783",
+          "reference_sha256": "ef73af763aa0de6cf0f11eb8935997118427661d08ad62ecc3ebc6e672e32d03",
+          "predictions": "recorded_inputs/acd0455935b3/0209.npz",
+          "prediction_sha256": "cf2e8aafdced74da426876848247938ed77d2bcfebdf0957e3533e2a079c93bf"
+        },
+        {
+          "stage": "WI",
+          "slice_id": 834,
+          "split": "test",
+          "seed": 42,
+          "roi_y0y1x0x1": [
+            360,
+            616,
+            606,
+            862
+          ],
+          "selection": {
+            "index": 329,
+            "stage": "WI",
+            "slice_id": 834,
+            "class_id": 5,
+            "class_name": "Droplet",
+            "component_label": 58,
+            "geometry_score": 10.03474436830637,
+            "bbox_y0x0y1x1": [
+              475,
+              724,
+              501,
+              744
+            ],
+            "roi_y0y1x0x1": [
+              360,
+              616,
+              606,
+              862
+            ],
+            "focal_class_share": 0.9523809523809523,
+            "area": 380,
+            "span": 26,
+            "elongation": 1.4112533826833102,
+            "circularity": 0.7627967080664223,
+            "bbox_fill": 0.7307692307692307,
+            "global_class_iou": 0.4801670146137787,
+            "complete_class_iou": 1.0,
+            "global_miou": 0.7399799329906196,
+            "complete_miou": 0.9967835889967664,
+            "complete_focal_body_recall": 1.0,
+            "global_error_outcomes": [
+              63936,
+              1506,
+              32,
+              62
+            ],
+            "showcase_rank_score": 10.133410404415166,
+            "showcase_id": "WI-06",
+            "visual_choice": "A compact isolated droplet among several distinct oil morphologies; strong whole-field agreement avoids a distracting major subtype failure.",
+            "prediction_sha256": "b09a15e7ae1622ed80db21d8a91a60b59156d7603ca11dc47288ee187cc6f232",
+            "image_sha256": "d8c7fc312c9951cb1c6dace1ef28831c10627f739dec400e7651ba4859c7a0d8",
+            "scale_bar_mm": 1.0
+          },
+          "image": "recorded_inputs/9df07b850a3b/WI-Reconstructed0000.filtered834.tif",
+          "image_sha256": "d8c7fc312c9951cb1c6dace1ef28831c10627f739dec400e7651ba4859c7a0d8",
+          "reference_sha256": "4124db4d07b9bde40907b3cf3e04ec3ad640c4fe2e5e9b9cde7f3512df23f95e",
+          "predictions": "recorded_inputs/41244ed3f521/0329.npz",
+          "prediction_sha256": "b09a15e7ae1622ed80db21d8a91a60b59156d7603ca11dc47288ee187cc6f232"
+        },
+        {
+          "stage": "NPI-006",
+          "slice_id": 768,
+          "split": "test",
+          "seed": 42,
+          "roi_y0y1x0x1": [
+            506,
+            762,
+            188,
+            444
+          ],
+          "selection": {
+            "index": 8,
+            "stage": "NPI-006",
+            "slice_id": 768,
+            "class_id": 7,
+            "class_name": "Clustered",
+            "component_label": 32,
+            "geometry_score": 19.0898480042695,
+            "bbox_y0x0y1x1": [
+              597,
+              294,
+              672,
+              338
+            ],
+            "roi_y0y1x0x1": [
+              506,
+              762,
+              188,
+              444
+            ],
+            "focal_class_share": 0.9254624591947769,
+            "area": 1701,
+            "span": 75,
+            "elongation": 2.001515209418167,
+            "circularity": 0.44969454134436365,
+            "bbox_fill": 0.5154545454545455,
+            "global_class_iou": 0.7584332833583208,
+            "complete_class_iou": 0.9996145692811718,
+            "global_miou": 0.7140409208093592,
+            "complete_miou": 0.9985220352594808,
+            "complete_focal_body_recall": 1.0,
+            "global_error_outcomes": [
+              63666,
+              1852,
+              5,
+              13
+            ],
+            "showcase_rank_score": 9.947083490534267,
+            "showcase_id": "NPI-006-10",
+            "visual_choice": "An irregular connected accumulation surrounding a recess; complete central structure with strong whole-field agreement.",
+            "prediction_sha256": "2db0d572bc8c3e750a6cce2ff351aad8979e21276ac3daca77432b8b58e7575d",
+            "image_sha256": "7323a77bfd9f3e6cf6817fec0edf1da5f6e7c10e0ad6f349802c5c8daa5e0367",
+            "scale_bar_mm": 1.0
+          },
+          "image": "recorded_inputs/2a6960a71c19/NPI-006-Reconstructed0000.filtered768.tif",
+          "image_sha256": "7323a77bfd9f3e6cf6817fec0edf1da5f6e7c10e0ad6f349802c5c8daa5e0367",
+          "reference_sha256": "804f94dcfe2495bb3a928b50f0304bc3812c962319e6e3a176e3c93f2901afad",
+          "predictions": "recorded_inputs/f98dbbcc48d2/0008.npz",
+          "prediction_sha256": "2db0d572bc8c3e750a6cce2ff351aad8979e21276ac3daca77432b8b58e7575d"
+        },
+        {
+          "stage": "NPI-012",
+          "slice_id": 838,
+          "split": "test",
+          "seed": 42,
+          "roi_y0y1x0x1": [
+            145,
+            401,
+            466,
+            722
+          ],
+          "selection": {
+            "index": 163,
+            "stage": "NPI-012",
+            "slice_id": 838,
+            "class_id": 4,
+            "class_name": "Pore-corner",
+            "component_label": 20,
+            "geometry_score": 12.355265926634486,
+            "bbox_y0x0y1x1": [
+              266,
+              582,
+              280,
+              606
+            ],
+            "roi_y0y1x0x1": [
+              145,
+              401,
+              466,
+              722
+            ],
+            "focal_class_share": 1.0,
+            "area": 242,
+            "span": 24,
+            "elongation": 1.6552579435804102,
+            "circularity": 0.7566424314005492,
+            "bbox_fill": 0.7202380952380952,
+            "global_class_iou": 0.36627282491944146,
+            "complete_class_iou": 0.9946996466431095,
+            "global_miou": 0.5771797073636667,
+            "complete_miou": 0.9959157884601691,
+            "complete_focal_body_recall": 1.0,
+            "global_error_outcomes": [
+              63260,
+              2245,
+              7,
+              24
+            ],
+            "showcase_rank_score": 9.776027076646935,
+            "showcase_id": "NPI-012-04",
+            "visual_choice": "A short corner pocket beside a rounded droplet and an elongated oil body; useful local morphology contrast.",
+            "prediction_sha256": "71cc8128b4d94b8c1aabe783ed5433393ab842dec05b935ccfa03bc63966dc3e",
+            "image_sha256": "799b9076af1e69c497457c8d281bc4f339bb076727c1fab847d335013e370d6e",
+            "scale_bar_mm": 1.0
+          },
+          "image": "recorded_inputs/7c73aed79853/NPI-012-Reconstructed0000.filtered838.tif",
+          "image_sha256": "799b9076af1e69c497457c8d281bc4f339bb076727c1fab847d335013e370d6e",
+          "reference_sha256": "33e5ccc8791a4c03aaac1bc87df6887668583320f3b25f05afeb5351032c1ce7",
+          "predictions": "recorded_inputs/fd54d11e6d82/0163.npz",
+          "prediction_sha256": "71cc8128b4d94b8c1aabe783ed5433393ab842dec05b935ccfa03bc63966dc3e"
+        }
+      ],
+      "display_size_mm": [
+        114.0,
+        172.0
+      ],
+      "input_display_limits": [
+        0,
+        255
+      ],
+      "image_grid": "native1024",
+      "pixel_pitch_um": 13.25,
+      "label_colors": [
+        "#000000",
+        "#969696",
+        "#2D6494",
+        "#E6C64A",
+        "#D88A3C",
+        "#83C8DF",
+        "#CC5C54",
+        "#8964AE"
+      ],
+      "model_colors": [
+        "#969696",
+        "#E679A8",
+        "#A391C9",
+        "#4EB1A5"
+      ],
+      "visual_case_role": "Performance-selected morphology-success illustrations, not representative-sampling evidence",
+      "display_interpolation": "nearest",
+      "masks_modified": false
+    }
+  ]
+}

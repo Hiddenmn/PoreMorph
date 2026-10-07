@@ -1,0 +1,1333 @@
+{
+  "version": "external-body-training-v1",
+  "cases": {
+    "original_bentheimer_seed42": {
+      "dataset": "bentheimer",
+      "seed": 42,
+      "attempt": "original",
+      "descriptor_support": "probability_argmax",
+      "config": {
+        "protocol": "external_fine8_body_extension20_seed42_v1",
+        "seed": 42,
+        "epochs": 12,
+        "batch_size": 512,
+        "lr": 0.001,
+        "weight_decay": 0.0001,
+        "grad_clip": 1.0,
+        "gpu_memory_fraction": 0.35,
+        "precision": "FP32",
+        "primary_grid": "canonical512",
+        "selection": "first maximum eight-class validation mIoU, including epoch0",
+        "initialization": "each original main-domain seed42 head; no external head reruns",
+        "upstream": "validated first-best native_detail within epochs0..20, frozen",
+        "model_test_pixels_read": false
+      },
+      "cache_folder": "实验/external_body_extension20_20261004/cache/bentheimer",
+      "n": 72582,
+      "images_by_split": {
+        "train": 630,
+        "val": 90
+      },
+      "bodies_by_split": {
+        "train": 64470,
+        "val": 8112
+      },
+      "resources": {
+        "manifest": {
+          "path": "实验/external_body_extension20_20261004/cache/bentheimer/manifest.json",
+          "sha256": "40117c10eebf9c8af691be57bf2102a24a9506c78ad11f762170e852cdcc6b32"
+        },
+        "records": {
+          "path": "实验/external_body_extension20_20261004/cache/bentheimer/records.json",
+          "sha256": "4bc3c0cbedbaf51065bf7fcb9bf6a7cfb8d1e203b0376c8cb6b57344150dddef"
+        },
+        "matrices": {
+          "path": "实验/external_body_extension20_20261004/cache/bentheimer/matrices.json",
+          "sha256": "1f678877fcdb98242e286b5f527c3bee24edee13a97139d9d73d8dc4026cfde6"
+        },
+        "points": {
+          "path": "实验/external_body_extension20_20261004/cache/bentheimer/points.npy",
+          "sha256": "f95e4f3c7b6e9630976626af0902622fb626be3fb67cd86ca4f0f1f46679dc6f",
+          "bytes": 216004160,
+          "dtype": "float16",
+          "shape": [
+            72582,
+            48,
+            31
+          ]
+        },
+        "valid": {
+          "path": "实验/external_body_extension20_20261004/cache/bentheimer/valid.npy",
+          "sha256": "82ab0d099e2bf929f3abdf6743b2fdd81fdc7c744adcc1da8ebc6b9dd4cfb005",
+          "bytes": 3484064,
+          "dtype": "uint8",
+          "shape": [
+            72582,
+            48
+          ]
+        },
+        "summary": {
+          "path": "实验/external_body_extension20_20261004/cache/bentheimer/summary.npy",
+          "sha256": "8187d92fb21b8ce5bad6b1a956d2b524c376c7c3f61a3a3793afd018b7fd80fe",
+          "bytes": 3774392,
+          "dtype": "float32",
+          "shape": [
+            72582,
+            13
+          ]
+        },
+        "native_counts": {
+          "path": "实验/external_body_extension20_20261004/cache/bentheimer/native_counts.npy",
+          "sha256": "53c1435d03d9d64a8094e650b6554503bc5029d91504a41e5e78638a7cd188d9",
+          "bytes": 2322752,
+          "dtype": "uint32",
+          "shape": [
+            72582,
+            8
+          ]
+        },
+        "canonical512_counts": {
+          "path": "实验/external_body_extension20_20261004/cache/bentheimer/canonical512_counts.npy",
+          "sha256": "a78032cc491f88eebf85d07534f5cdce7edd1a092fb278bcc863e5dbdc81ae73",
+          "bytes": 2322752,
+          "dtype": "uint32",
+          "shape": [
+            72582,
+            8
+          ]
+        }
+      },
+      "initial_head": {
+        "path": "实验/body_interface_decoder_20260930/outputs/pair12_seed42/separate_best.pth",
+        "sha256": "2df29666d0329d3d3838394ca3e0e80dac4f9546bae9b38f84b6d425eeade5e6"
+      },
+      "selected_upstream": {
+        "path": "实验/external_eightclass_extension20_recovery_20261004/outputs/bentheimer_seed42/native_detail/epochs/epoch_020.pth",
+        "sha256": "58d9af8d22c14e8e7dc6fc7f0c30f445a2614342f81792744a6b680492ba4db4",
+        "epoch": 20,
+        "arm": "native_detail"
+      },
+      "training_class_counts": [
+        146743733,
+        349618559,
+        75078428,
+        163556,
+        279524,
+        813778,
+        4583951,
+        27770471
+      ],
+      "training_weights": [
+        0.30000001192092896,
+        0.30000001192092896,
+        0.30000001192092896,
+        3.1000685691833496,
+        2.3713645935058594,
+        1.3898181915283203,
+        0.5855881571769714,
+        0.30000001192092896
+      ],
+      "validation_mask": {
+        "path": "实验/external_eightclass_adaptation_20261003/cache/bentheimer_val_labels8.npy",
+        "sha256": "21d4863788d379f78b367c248f38f20a4a608d3b8cb42ac8ea58077ad55ac574",
+        "bytes": 86436128
+      },
+      "archived_head": {
+        "path": "实验/external_body_extension20_20261004/outputs/bentheimer/separate/epochs/epoch_009.pth",
+        "sha256": "42113ae08ffa37e7a15f9784af693749d962c702e85aa71fb60cb136c48187ea",
+        "epoch": 9,
+        "arm": "separate"
+      },
+      "archived_selection": {
+        "path": "实验/external_body_extension20_20261004/outputs/bentheimer/separate/selected_validation.json",
+        "sha256": "cfcf8acbdbe8c975ba94fb5eb964ee67a89dd99a3299f1b7e46033cc1361e4b7"
+      },
+      "archived_run": {
+        "path": "实验/external_body_extension20_20261004/outputs/bentheimer/separate/run_manifest.json",
+        "sha256": "995101feddc5e41b809dceb75e7a95f218899252068a4e5935781e0c480a5e9f"
+      }
+    },
+    "original_wf1_seed42": {
+      "dataset": "wf1",
+      "seed": 42,
+      "attempt": "original",
+      "descriptor_support": "probability_argmax",
+      "config": {
+        "protocol": "external_fine8_body_extension20_seed42_v1",
+        "seed": 42,
+        "epochs": 12,
+        "batch_size": 512,
+        "lr": 0.001,
+        "weight_decay": 0.0001,
+        "grad_clip": 1.0,
+        "gpu_memory_fraction": 0.35,
+        "precision": "FP32",
+        "primary_grid": "canonical512",
+        "selection": "first maximum eight-class validation mIoU, including epoch0",
+        "initialization": "each original main-domain seed42 head; no external head reruns",
+        "upstream": "validated first-best native_detail within epochs0..20, frozen",
+        "model_test_pixels_read": false
+      },
+      "cache_folder": "实验/external_body_extension20_20261004/cache/wf1",
+      "n": 87531,
+      "images_by_split": {
+        "train": 1600,
+        "val": 300
+      },
+      "bodies_by_split": {
+        "train": 73943,
+        "val": 13588
+      },
+      "resources": {
+        "manifest": {
+          "path": "实验/external_body_extension20_20261004/cache/wf1/manifest.json",
+          "sha256": "b68dce36dab47be6e37a8346c1b8e99e1046a7511935bc990d08484316671c8a"
+        },
+        "records": {
+          "path": "实验/external_body_extension20_20261004/cache/wf1/records.json",
+          "sha256": "577284b3718568d005dec6b91fcdc3781e0755b69f52c453ad19dcd2d1b8e87f"
+        },
+        "matrices": {
+          "path": "实验/external_body_extension20_20261004/cache/wf1/matrices.json",
+          "sha256": "d357daefb655cbc2a75c7011a28d3d242867008e525798fca56011a358f78455"
+        },
+        "points": {
+          "path": "实验/external_body_extension20_20261004/cache/wf1/points.npy",
+          "sha256": "3f72851eef068459bf18e68e6dee951412e6ef501d9b6113f746973878b7abd0",
+          "bytes": 260492384,
+          "dtype": "float16",
+          "shape": [
+            87531,
+            48,
+            31
+          ]
+        },
+        "valid": {
+          "path": "实验/external_body_extension20_20261004/cache/wf1/valid.npy",
+          "sha256": "7e988cbec3ed5be2123b927b2f88a0f5c941010ce82841c8511c2c02ee62eb6a",
+          "bytes": 4201616,
+          "dtype": "uint8",
+          "shape": [
+            87531,
+            48
+          ]
+        },
+        "summary": {
+          "path": "实验/external_body_extension20_20261004/cache/wf1/summary.npy",
+          "sha256": "d53005fd9ff0ebabdc386807bbd8df4861455976edb497f13bb2e8f54371f2cb",
+          "bytes": 4551740,
+          "dtype": "float32",
+          "shape": [
+            87531,
+            13
+          ]
+        },
+        "native_counts": {
+          "path": "实验/external_body_extension20_20261004/cache/wf1/native_counts.npy",
+          "sha256": "1cdbef660a11cfdadbcca8cd20edb00dbb2f2030e87fa1c0e5481629a616303b",
+          "bytes": 2801120,
+          "dtype": "uint32",
+          "shape": [
+            87531,
+            8
+          ]
+        },
+        "canonical512_counts": {
+          "path": "实验/external_body_extension20_20261004/cache/wf1/canonical512_counts.npy",
+          "sha256": "001afc7645698af2161daa2d7a18488b2a1f84498a3009fdb73c26ba74aaea1b",
+          "bytes": 2801120,
+          "dtype": "uint32",
+          "shape": [
+            87531,
+            8
+          ]
+        }
+      },
+      "initial_head": {
+        "path": "实验/body_interface_decoder_20260930/outputs/pair12_seed42/separate_best.pth",
+        "sha256": "2df29666d0329d3d3838394ca3e0e80dac4f9546bae9b38f84b6d425eeade5e6"
+      },
+      "selected_upstream": {
+        "path": "实验/external_eightclass_extension20_recovery_20261004/outputs/wf1_seed42/native_detail/epochs/epoch_014.pth",
+        "sha256": "6fd1a1572c9b0a5106a15b311fd7d9841b78a0c6eda151f9d3724f14c83938d1",
+        "epoch": 14,
+        "arm": "native_detail"
+      },
+      "training_class_counts": [
+        514301995,
+        1003349040,
+        119145017,
+        1101083,
+        5494890,
+        9862660,
+        9919839,
+        39209476
+      ],
+      "training_weights": [
+        0.30000001192092896,
+        0.30000001192092896,
+        0.3128776550292969,
+        3.2546114921569824,
+        1.4569088220596313,
+        1.0874645709991455,
+        1.084325909614563,
+        0.5454022288322449
+      ],
+      "validation_mask": {
+        "path": "实验/external_eightclass_adaptation_20261003/cache/wf1_val_labels8.npy",
+        "sha256": "c1eba9b91d3ed5e1369bb0b6abaa360c5ed61c285201f1fcf4014d6d2b78a8cb",
+        "bytes": 319197128
+      },
+      "archived_head": {
+        "path": "实验/external_body_extension20_20261004/outputs/wf1/separate/epochs/epoch_007.pth",
+        "sha256": "5c9c6e5e8817d195fc317016400008992ecf08ee0decb5364dbc9bcba71364fb",
+        "epoch": 7,
+        "arm": "separate"
+      },
+      "archived_selection": {
+        "path": "实验/external_body_extension20_20261004/outputs/wf1/separate/selected_validation.json",
+        "sha256": "c0ce2f1618948dd6658b927dc9c769997815d279a4c03df39f286a20a07d8afa"
+      },
+      "archived_run": {
+        "path": "实验/external_body_extension20_20261004/outputs/wf1/separate/run_manifest.json",
+        "sha256": "c4a262d034cdd13c24ba32f6a9e316a268042d4162cd379789cee63da20bab6f"
+      }
+    },
+    "original_bentheimer_seed2024": {
+      "dataset": "bentheimer",
+      "seed": 2024,
+      "attempt": "original",
+      "descriptor_support": "logit_argmax",
+      "config": {
+        "protocol": "external_fine8_multiseed_body_logit_support_recovery_v1",
+        "seed": 2024,
+        "epochs": 12,
+        "batch_size": 512,
+        "lr": 0.001,
+        "weight_decay": 0.0001,
+        "grad_clip": 1.0,
+        "gpu_memory_fraction": 0.35,
+        "precision": "FP32",
+        "primary_grid": "canonical512",
+        "selection": "first maximum eight-class validation mIoU, including epoch0",
+        "initialization": "matching main-domain seed2024 separate head",
+        "upstream": "matching seed first-best native within epochs0..20, frozen",
+        "model_test_pixels_read": false
+      },
+      "cache_folder": "实验/external_fine8_multiseed_body_recovery_20261005/cases/seed2024/cache/bentheimer",
+      "n": 69189,
+      "images_by_split": {
+        "train": 630,
+        "val": 90
+      },
+      "bodies_by_split": {
+        "train": 61418,
+        "val": 7771
+      },
+      "resources": {
+        "manifest": {
+          "path": "实验/external_fine8_multiseed_body_recovery_20261005/cases/seed2024/cache/bentheimer/manifest.json",
+          "sha256": "1eff5f210197d98df611c8db33f213bdaece9705678e8ea03f3670c1b5be584f"
+        },
+        "records": {
+          "path": "实验/external_fine8_multiseed_body_recovery_20261005/cases/seed2024/cache/bentheimer/records.json",
+          "sha256": "2947676f06fb30ba5585bf922f8176653381f44a3adca16a2d95f9945c93aa89"
+        },
+        "matrices": {
+          "path": "实验/external_fine8_multiseed_body_recovery_20261005/cases/seed2024/cache/bentheimer/matrices.json",
+          "sha256": "60f17611a1645dea38e40caf650d149a545dcff2b3c34cafb546d1cc8f5f15fc"
+        },
+        "points": {
+          "path": "实验/external_fine8_multiseed_body_recovery_20261005/cases/seed2024/cache/bentheimer/points.npy",
+          "sha256": "25ce0a4ad7fffcfc09a757a274fc1c50b4798d4ac0fb606fc7165fd41315b088",
+          "bytes": 205906592,
+          "dtype": "float16",
+          "shape": [
+            69189,
+            48,
+            31
+          ]
+        },
+        "valid": {
+          "path": "实验/external_fine8_multiseed_body_recovery_20261005/cases/seed2024/cache/bentheimer/valid.npy",
+          "sha256": "aa0632d2ac08199e55eff03f0d7783a675e9ca7000b07a24a4317b0731be3433",
+          "bytes": 3321200,
+          "dtype": "uint8",
+          "shape": [
+            69189,
+            48
+          ]
+        },
+        "summary": {
+          "path": "实验/external_fine8_multiseed_body_recovery_20261005/cases/seed2024/cache/bentheimer/summary.npy",
+          "sha256": "eb87711d237599fd1ffe03c45864cbc5611babce41b4b45e79dfbfa5ee4f74c7",
+          "bytes": 3597956,
+          "dtype": "float32",
+          "shape": [
+            69189,
+            13
+          ]
+        },
+        "native_counts": {
+          "path": "实验/external_fine8_multiseed_body_recovery_20261005/cases/seed2024/cache/bentheimer/native_counts.npy",
+          "sha256": "ce43352234419a98e1e6bc015348d2f9c224884c47490096b50314ccc74a9e41",
+          "bytes": 2214176,
+          "dtype": "uint32",
+          "shape": [
+            69189,
+            8
+          ]
+        },
+        "canonical512_counts": {
+          "path": "实验/external_fine8_multiseed_body_recovery_20261005/cases/seed2024/cache/bentheimer/canonical512_counts.npy",
+          "sha256": "c723be1ac62839c95b6e745eec89ddac58509f3fb3891bf19ced10f1ca9c442f",
+          "bytes": 2214176,
+          "dtype": "uint32",
+          "shape": [
+            69189,
+            8
+          ]
+        }
+      },
+      "initial_head": {
+        "path": "实验/body_decoder_replication_20260930/outputs/pair12_seed2024/separate_best.pth",
+        "sha256": "2e0b5ecf157919d4489a2fe4b3b89124b3a68a9e33007721937b9a325551b78f"
+      },
+      "selected_upstream": {
+        "path": "实验/external_fine8_multiseed_20261004/cases/seed2024/outputs/bentheimer_seed2024/native_detail/epochs/epoch_008.pth",
+        "sha256": "d0ca047ada72f4049eade1bad6864c28131c66c7cde7249f4e2d64dec3c7ef2c",
+        "epoch": 8,
+        "arm": "native_detail"
+      },
+      "training_class_counts": [
+        146743733,
+        349618559,
+        75078428,
+        163556,
+        279524,
+        813778,
+        4583951,
+        27770471
+      ],
+      "training_weights": [
+        0.30000001192092896,
+        0.30000001192092896,
+        0.30000001192092896,
+        3.1000685691833496,
+        2.3713645935058594,
+        1.3898181915283203,
+        0.5855881571769714,
+        0.30000001192092896
+      ],
+      "validation_mask": {
+        "path": "实验/external_eightclass_adaptation_20261003/cache/bentheimer_val_labels8.npy",
+        "sha256": "21d4863788d379f78b367c248f38f20a4a608d3b8cb42ac8ea58077ad55ac574",
+        "bytes": 86436128
+      },
+      "archived_head": {
+        "path": "实验/external_fine8_multiseed_body_recovery_20261005/cases/seed2024/outputs/bentheimer/separate/epochs/epoch_009.pth",
+        "sha256": "e527b728e9243711337ada021fa43c9b723e103fb86bae9afde15b01658a0295",
+        "epoch": 9,
+        "arm": "separate"
+      },
+      "archived_selection": {
+        "path": "实验/external_fine8_multiseed_body_recovery_20261005/cases/seed2024/outputs/bentheimer/separate/selected_validation.json",
+        "sha256": "c600485e0725b4289ac8ec91d3fdc934d0ab99f00c8af554a3dc9f22940e17b1"
+      },
+      "archived_run": {
+        "path": "实验/external_fine8_multiseed_body_recovery_20261005/cases/seed2024/outputs/bentheimer/separate/run_manifest.json",
+        "sha256": "d3c7d89f75831b0189e00694dc7860b245516626c1d32ce592c04ef4dc2ff02b"
+      }
+    },
+    "original_wf1_seed2024": {
+      "dataset": "wf1",
+      "seed": 2024,
+      "attempt": "original",
+      "descriptor_support": "logit_argmax",
+      "config": {
+        "protocol": "external_fine8_multiseed_body_logit_support_recovery_v1",
+        "seed": 2024,
+        "epochs": 12,
+        "batch_size": 512,
+        "lr": 0.001,
+        "weight_decay": 0.0001,
+        "grad_clip": 1.0,
+        "gpu_memory_fraction": 0.35,
+        "precision": "FP32",
+        "primary_grid": "canonical512",
+        "selection": "first maximum eight-class validation mIoU, including epoch0",
+        "initialization": "matching main-domain seed2024 separate head",
+        "upstream": "matching seed first-best native within epochs0..20, frozen",
+        "model_test_pixels_read": false
+      },
+      "cache_folder": "实验/external_fine8_multiseed_body_recovery_20261005/cases/seed2024/cache/wf1",
+      "n": 87648,
+      "images_by_split": {
+        "train": 1600,
+        "val": 300
+      },
+      "bodies_by_split": {
+        "train": 74044,
+        "val": 13604
+      },
+      "resources": {
+        "manifest": {
+          "path": "实验/external_fine8_multiseed_body_recovery_20261005/cases/seed2024/cache/wf1/manifest.json",
+          "sha256": "c2153722285a1adc1ceec9c892a42240804468eabb8a22bc7bc1b82850e8c741"
+        },
+        "records": {
+          "path": "实验/external_fine8_multiseed_body_recovery_20261005/cases/seed2024/cache/wf1/records.json",
+          "sha256": "4e433d9fa7585823f2c7b3d71087205d838e082bca6a0998a043a0c434812ec3"
+        },
+        "matrices": {
+          "path": "实验/external_fine8_multiseed_body_recovery_20261005/cases/seed2024/cache/wf1/matrices.json",
+          "sha256": "6aeb74b30bea00ce47500b1c02077dc69ad5cac1d1bfda89a073afdc362b7641"
+        },
+        "points": {
+          "path": "实验/external_fine8_multiseed_body_recovery_20261005/cases/seed2024/cache/wf1/points.npy",
+          "sha256": "bb95b40f68f5483ef513e04be14d98e6f0ad91724f5c86acc925776bd90d899c",
+          "bytes": 260840576,
+          "dtype": "float16",
+          "shape": [
+            87648,
+            48,
+            31
+          ]
+        },
+        "valid": {
+          "path": "实验/external_fine8_multiseed_body_recovery_20261005/cases/seed2024/cache/wf1/valid.npy",
+          "sha256": "c1e9e7dfff5dd6662ced84f8b943bd6098231c650cf8e00e8faf8cf867019ab1",
+          "bytes": 4207232,
+          "dtype": "uint8",
+          "shape": [
+            87648,
+            48
+          ]
+        },
+        "summary": {
+          "path": "实验/external_fine8_multiseed_body_recovery_20261005/cases/seed2024/cache/wf1/summary.npy",
+          "sha256": "f64826cb3b9f5ba89d72a4765373b6110c7dedf884f4de8f097294a1df65cb7c",
+          "bytes": 4557824,
+          "dtype": "float32",
+          "shape": [
+            87648,
+            13
+          ]
+        },
+        "native_counts": {
+          "path": "实验/external_fine8_multiseed_body_recovery_20261005/cases/seed2024/cache/wf1/native_counts.npy",
+          "sha256": "b2ac9320b3fafd43d61bac876a73adaba9dbfe17dec82e5d7224d51cdaa88c26",
+          "bytes": 2804864,
+          "dtype": "uint32",
+          "shape": [
+            87648,
+            8
+          ]
+        },
+        "canonical512_counts": {
+          "path": "实验/external_fine8_multiseed_body_recovery_20261005/cases/seed2024/cache/wf1/canonical512_counts.npy",
+          "sha256": "077273de95d9d98ebe24de7923f72c45b989fec6002d2ffc2c7c474db2df2115",
+          "bytes": 2804864,
+          "dtype": "uint32",
+          "shape": [
+            87648,
+            8
+          ]
+        }
+      },
+      "initial_head": {
+        "path": "实验/body_decoder_replication_20260930/outputs/pair12_seed2024/separate_best.pth",
+        "sha256": "2e0b5ecf157919d4489a2fe4b3b89124b3a68a9e33007721937b9a325551b78f"
+      },
+      "selected_upstream": {
+        "path": "实验/external_fine8_multiseed_20261004/cases/seed2024/outputs/wf1_seed2024/native_detail/epochs/epoch_020.pth",
+        "sha256": "8435fc6338dabaa8c0c2df8c3e9e163da673908bc6a28c67f7d4860abcd38832",
+        "epoch": 20,
+        "arm": "native_detail"
+      },
+      "training_class_counts": [
+        514301995,
+        1003349040,
+        119145017,
+        1101083,
+        5494890,
+        9862660,
+        9919839,
+        39209476
+      ],
+      "training_weights": [
+        0.30000001192092896,
+        0.30000001192092896,
+        0.3128776550292969,
+        3.2546114921569824,
+        1.4569088220596313,
+        1.0874645709991455,
+        1.084325909614563,
+        0.5454022288322449
+      ],
+      "validation_mask": {
+        "path": "实验/external_eightclass_adaptation_20261003/cache/wf1_val_labels8.npy",
+        "sha256": "c1eba9b91d3ed5e1369bb0b6abaa360c5ed61c285201f1fcf4014d6d2b78a8cb",
+        "bytes": 319197128
+      },
+      "archived_head": {
+        "path": "实验/external_fine8_multiseed_body_recovery_20261005/cases/seed2024/outputs/wf1/separate/epochs/epoch_012.pth",
+        "sha256": "06ec47c68af3dbd03643f18fffa0985dcc77e9f38c7e5c82cddfa5e42da99e36",
+        "epoch": 12,
+        "arm": "separate"
+      },
+      "archived_selection": {
+        "path": "实验/external_fine8_multiseed_body_recovery_20261005/cases/seed2024/outputs/wf1/separate/selected_validation.json",
+        "sha256": "dc4b8047ec4154532ecbfc753e5030989757f23807e0b0ae287a31fa5af0e29d"
+      },
+      "archived_run": {
+        "path": "实验/external_fine8_multiseed_body_recovery_20261005/cases/seed2024/outputs/wf1/separate/run_manifest.json",
+        "sha256": "18754b07f62692cb3e206b42404d9213075a18d692ee6a8443ed9229a2087075"
+      }
+    },
+    "original_bentheimer_seed2025": {
+      "dataset": "bentheimer",
+      "seed": 2025,
+      "attempt": "original",
+      "descriptor_support": "logit_argmax",
+      "config": {
+        "protocol": "external_fine8_multiseed_body_logit_support_recovery_v1",
+        "seed": 2025,
+        "epochs": 12,
+        "batch_size": 512,
+        "lr": 0.001,
+        "weight_decay": 0.0001,
+        "grad_clip": 1.0,
+        "gpu_memory_fraction": 0.35,
+        "precision": "FP32",
+        "primary_grid": "canonical512",
+        "selection": "first maximum eight-class validation mIoU, including epoch0",
+        "initialization": "matching main-domain seed2025 separate head",
+        "upstream": "matching seed first-best native within epochs0..20, frozen",
+        "model_test_pixels_read": false
+      },
+      "cache_folder": "实验/external_fine8_multiseed_body_recovery_20261005/cases/seed2025/cache/bentheimer",
+      "n": 73843,
+      "images_by_split": {
+        "train": 630,
+        "val": 90
+      },
+      "bodies_by_split": {
+        "train": 65363,
+        "val": 8480
+      },
+      "resources": {
+        "manifest": {
+          "path": "实验/external_fine8_multiseed_body_recovery_20261005/cases/seed2025/cache/bentheimer/manifest.json",
+          "sha256": "95116d3161fe69067e395ad365e4ba99891712f6b17ab8d7290fa7de0cbcdf3f"
+        },
+        "records": {
+          "path": "实验/external_fine8_multiseed_body_recovery_20261005/cases/seed2025/cache/bentheimer/records.json",
+          "sha256": "0a6773f6204ef277e8c2934937839dee933847d775f3d79f78483311a1a9e846"
+        },
+        "matrices": {
+          "path": "实验/external_fine8_multiseed_body_recovery_20261005/cases/seed2025/cache/bentheimer/matrices.json",
+          "sha256": "f4f019c8ffacd173bae459137a79f10bf0d76584c87faff390f1f55944371e0d"
+        },
+        "points": {
+          "path": "实验/external_fine8_multiseed_body_recovery_20261005/cases/seed2025/cache/bentheimer/points.npy",
+          "sha256": "caf94cdcc756c6d3211871d5bf3fe6c3546c4e556541c42d069c50e9b8bc824f",
+          "bytes": 219756896,
+          "dtype": "float16",
+          "shape": [
+            73843,
+            48,
+            31
+          ]
+        },
+        "valid": {
+          "path": "实验/external_fine8_multiseed_body_recovery_20261005/cases/seed2025/cache/bentheimer/valid.npy",
+          "sha256": "568d22798b5acdd38538437f5db428402ee346a3407f512c17dc1e90eb57ce25",
+          "bytes": 3544592,
+          "dtype": "uint8",
+          "shape": [
+            73843,
+            48
+          ]
+        },
+        "summary": {
+          "path": "实验/external_fine8_multiseed_body_recovery_20261005/cases/seed2025/cache/bentheimer/summary.npy",
+          "sha256": "e5ced360d92da265e7e5c62db7e78afd2ef1429dbdaba9b727bc230a272bb511",
+          "bytes": 3839964,
+          "dtype": "float32",
+          "shape": [
+            73843,
+            13
+          ]
+        },
+        "native_counts": {
+          "path": "实验/external_fine8_multiseed_body_recovery_20261005/cases/seed2025/cache/bentheimer/native_counts.npy",
+          "sha256": "e6cdeccdaa1ff5d5ed3c43419f0721182bf7ce3ab8d4fa4b3360d29a7b8600d5",
+          "bytes": 2363104,
+          "dtype": "uint32",
+          "shape": [
+            73843,
+            8
+          ]
+        },
+        "canonical512_counts": {
+          "path": "实验/external_fine8_multiseed_body_recovery_20261005/cases/seed2025/cache/bentheimer/canonical512_counts.npy",
+          "sha256": "9542521a2361c4eba9d4d6ea2ca5cd927360676aa9a13c09d45286bfd4428a4e",
+          "bytes": 2363104,
+          "dtype": "uint32",
+          "shape": [
+            73843,
+            8
+          ]
+        }
+      },
+      "initial_head": {
+        "path": "实验/body_decoder_replication_20260930/outputs/pair12_seed2025/separate_best.pth",
+        "sha256": "360e365e174b622cb017f3618a0e7d8d43a7286e61dbf1102d438922d52bc6cd"
+      },
+      "selected_upstream": {
+        "path": "实验/external_fine8_multiseed_20261004/cases/seed2025/outputs/bentheimer_seed2025/native_detail/epochs/epoch_019.pth",
+        "sha256": "e797578e8c7894fd838064355a4c83900054cc1b256a4d7e33f1c752669a15a2",
+        "epoch": 19,
+        "arm": "native_detail"
+      },
+      "training_class_counts": [
+        146743733,
+        349618559,
+        75078428,
+        163556,
+        279524,
+        813778,
+        4583951,
+        27770471
+      ],
+      "training_weights": [
+        0.30000001192092896,
+        0.30000001192092896,
+        0.30000001192092896,
+        3.1000685691833496,
+        2.3713645935058594,
+        1.3898181915283203,
+        0.5855881571769714,
+        0.30000001192092896
+      ],
+      "validation_mask": {
+        "path": "实验/external_eightclass_adaptation_20261003/cache/bentheimer_val_labels8.npy",
+        "sha256": "21d4863788d379f78b367c248f38f20a4a608d3b8cb42ac8ea58077ad55ac574",
+        "bytes": 86436128
+      },
+      "archived_head": {
+        "path": "实验/external_fine8_multiseed_body_recovery_20261005/cases/seed2025/outputs/bentheimer/separate/epochs/epoch_006.pth",
+        "sha256": "a5765935263a805a9ff9e3595f94141abe27201c258febf34d45ee8092b7d967",
+        "epoch": 6,
+        "arm": "separate"
+      },
+      "archived_selection": {
+        "path": "实验/external_fine8_multiseed_body_recovery_20261005/cases/seed2025/outputs/bentheimer/separate/selected_validation.json",
+        "sha256": "3075f000f9678fa658f1b6f4c4f8ad8b051d6acb2c1940c55337658e9671fb43"
+      },
+      "archived_run": {
+        "path": "实验/external_fine8_multiseed_body_recovery_20261005/cases/seed2025/outputs/bentheimer/separate/run_manifest.json",
+        "sha256": "c63c650bf6ed249722ff510399462b669145606031158e5608307d9d71a843a8"
+      }
+    },
+    "original_wf1_seed2025": {
+      "dataset": "wf1",
+      "seed": 2025,
+      "attempt": "original",
+      "descriptor_support": "logit_argmax",
+      "config": {
+        "protocol": "external_fine8_multiseed_body_logit_support_recovery_v1",
+        "seed": 2025,
+        "epochs": 12,
+        "batch_size": 512,
+        "lr": 0.001,
+        "weight_decay": 0.0001,
+        "grad_clip": 1.0,
+        "gpu_memory_fraction": 0.35,
+        "precision": "FP32",
+        "primary_grid": "canonical512",
+        "selection": "first maximum eight-class validation mIoU, including epoch0",
+        "initialization": "matching main-domain seed2025 separate head",
+        "upstream": "matching seed first-best native within epochs0..20, frozen",
+        "model_test_pixels_read": false
+      },
+      "cache_folder": "实验/external_fine8_multiseed_body_recovery_20261005/cases/seed2025/cache/wf1",
+      "n": 87226,
+      "images_by_split": {
+        "train": 1600,
+        "val": 300
+      },
+      "bodies_by_split": {
+        "train": 73665,
+        "val": 13561
+      },
+      "resources": {
+        "manifest": {
+          "path": "实验/external_fine8_multiseed_body_recovery_20261005/cases/seed2025/cache/wf1/manifest.json",
+          "sha256": "aa971698e75d2370407432eddecd749138ac06aa0bc5757fc48cd749e2b464c4"
+        },
+        "records": {
+          "path": "实验/external_fine8_multiseed_body_recovery_20261005/cases/seed2025/cache/wf1/records.json",
+          "sha256": "393ba91633fa5c43de1a59deaaf143b4aca0d46648ca5783890811fea50780cd"
+        },
+        "matrices": {
+          "path": "实验/external_fine8_multiseed_body_recovery_20261005/cases/seed2025/cache/wf1/matrices.json",
+          "sha256": "1a63ddd9edb79b65bfc25e2782e3258067e179ac4c08e088842a9db6998047f1"
+        },
+        "points": {
+          "path": "实验/external_fine8_multiseed_body_recovery_20261005/cases/seed2025/cache/wf1/points.npy",
+          "sha256": "7eba3cba30cff150fc65cc4b59099c54da87b64f2931d212f43762aab2f545ca",
+          "bytes": 259584704,
+          "dtype": "float16",
+          "shape": [
+            87226,
+            48,
+            31
+          ]
+        },
+        "valid": {
+          "path": "实验/external_fine8_multiseed_body_recovery_20261005/cases/seed2025/cache/wf1/valid.npy",
+          "sha256": "9de4f89cdd38babe280d55272d9f4260dbef9b2f9597cc294c7633e5b29205b5",
+          "bytes": 4186976,
+          "dtype": "uint8",
+          "shape": [
+            87226,
+            48
+          ]
+        },
+        "summary": {
+          "path": "实验/external_fine8_multiseed_body_recovery_20261005/cases/seed2025/cache/wf1/summary.npy",
+          "sha256": "8e9a3d0740299f08c5c5bd4826df540c64d5380637aab1b068ee5cad3e8be5fe",
+          "bytes": 4535880,
+          "dtype": "float32",
+          "shape": [
+            87226,
+            13
+          ]
+        },
+        "native_counts": {
+          "path": "实验/external_fine8_multiseed_body_recovery_20261005/cases/seed2025/cache/wf1/native_counts.npy",
+          "sha256": "0d671191546621f9690e83e856d367adf1e94470b82b8bdd78aa980ca68fe6f3",
+          "bytes": 2791360,
+          "dtype": "uint32",
+          "shape": [
+            87226,
+            8
+          ]
+        },
+        "canonical512_counts": {
+          "path": "实验/external_fine8_multiseed_body_recovery_20261005/cases/seed2025/cache/wf1/canonical512_counts.npy",
+          "sha256": "6cacc936d159e13c34fea13f0c8febc3985628012f20c52c774de06850f3daf6",
+          "bytes": 2791360,
+          "dtype": "uint32",
+          "shape": [
+            87226,
+            8
+          ]
+        }
+      },
+      "initial_head": {
+        "path": "实验/body_decoder_replication_20260930/outputs/pair12_seed2025/separate_best.pth",
+        "sha256": "360e365e174b622cb017f3618a0e7d8d43a7286e61dbf1102d438922d52bc6cd"
+      },
+      "selected_upstream": {
+        "path": "实验/external_fine8_multiseed_20261004/cases/seed2025/outputs/wf1_seed2025/native_detail/epochs/epoch_011.pth",
+        "sha256": "bf2ed1811d8a920035209134d1079871f7ac965b10e9d9a1ba631ddc5c5e7493",
+        "epoch": 11,
+        "arm": "native_detail"
+      },
+      "training_class_counts": [
+        514301995,
+        1003349040,
+        119145017,
+        1101083,
+        5494890,
+        9862660,
+        9919839,
+        39209476
+      ],
+      "training_weights": [
+        0.30000001192092896,
+        0.30000001192092896,
+        0.3128776550292969,
+        3.2546114921569824,
+        1.4569088220596313,
+        1.0874645709991455,
+        1.084325909614563,
+        0.5454022288322449
+      ],
+      "validation_mask": {
+        "path": "实验/external_eightclass_adaptation_20261003/cache/wf1_val_labels8.npy",
+        "sha256": "c1eba9b91d3ed5e1369bb0b6abaa360c5ed61c285201f1fcf4014d6d2b78a8cb",
+        "bytes": 319197128
+      },
+      "archived_head": {
+        "path": "实验/external_fine8_multiseed_body_recovery_20261005/cases/seed2025/outputs/wf1/separate/epochs/epoch_011.pth",
+        "sha256": "1761616d4ed11cedbdeda3dac166a52ae63377628b5efbb32c82372ba2e143f6",
+        "epoch": 11,
+        "arm": "separate"
+      },
+      "archived_selection": {
+        "path": "实验/external_fine8_multiseed_body_recovery_20261005/cases/seed2025/outputs/wf1/separate/selected_validation.json",
+        "sha256": "50d7f2b27230539a39951f01f76cf769b81d8a67569284def4f45b122908d9ed"
+      },
+      "archived_run": {
+        "path": "实验/external_fine8_multiseed_body_recovery_20261005/cases/seed2025/outputs/wf1/separate/run_manifest.json",
+        "sha256": "93e0205164d22389e06153fdddb5db2c613f958fd9e61119b29c1a6f8f029658"
+      }
+    },
+    "whole_repeat_wf1_seed42": {
+      "dataset": "wf1",
+      "seed": 42,
+      "attempt": "whole_repeat",
+      "descriptor_support": "logit_argmax",
+      "config": {
+        "protocol": "external_fine8_multiseed_body_logit_support_recovery_v1",
+        "seed": 42,
+        "epochs": 12,
+        "batch_size": 512,
+        "lr": 0.001,
+        "weight_decay": 0.0001,
+        "grad_clip": 1.0,
+        "gpu_memory_fraction": 0.35,
+        "precision": "FP32",
+        "primary_grid": "canonical512",
+        "selection": "first maximum eight-class validation mIoU, including epoch0",
+        "initialization": "matching main-domain seed42 separate head",
+        "upstream": "matching seed first-best native within epochs0..20, frozen",
+        "model_test_pixels_read": false
+      },
+      "cache_folder": "实验/external_fine8_wf1_repeat_seeds42_2024_20261005/body/cases/seed42/cache/wf1",
+      "n": 87579,
+      "images_by_split": {
+        "train": 1600,
+        "val": 300
+      },
+      "bodies_by_split": {
+        "train": 74014,
+        "val": 13565
+      },
+      "resources": {
+        "manifest": {
+          "path": "实验/external_fine8_wf1_repeat_seeds42_2024_20261005/body/cases/seed42/cache/wf1/manifest.json",
+          "sha256": "ed3ef00c9072767eafc84582c1c11aa0505841d671a847d528f2289db691fd1d"
+        },
+        "records": {
+          "path": "实验/external_fine8_wf1_repeat_seeds42_2024_20261005/body/cases/seed42/cache/wf1/records.json",
+          "sha256": "5c039e60db347a03e0a367f6762d755eecf4787a478d779944f3facf152bf711"
+        },
+        "matrices": {
+          "path": "实验/external_fine8_wf1_repeat_seeds42_2024_20261005/body/cases/seed42/cache/wf1/matrices.json",
+          "sha256": "a05151e0c9b100762810c68600d6882b2defb3c8bce7855040023543c0db63fb"
+        },
+        "points": {
+          "path": "实验/external_fine8_wf1_repeat_seeds42_2024_20261005/body/cases/seed42/cache/wf1/points.npy",
+          "sha256": "4dbec5ed2b0da1f281d797c616b835acaad5fcfbefcc5d0123e29f253a832005",
+          "bytes": 260635232,
+          "dtype": "float16",
+          "shape": [
+            87579,
+            48,
+            31
+          ]
+        },
+        "valid": {
+          "path": "实验/external_fine8_wf1_repeat_seeds42_2024_20261005/body/cases/seed42/cache/wf1/valid.npy",
+          "sha256": "e188ff90cec50b7fd50cade5ac3b8c4ad547bf0b78f92fdd3886cfdad2274f3d",
+          "bytes": 4203920,
+          "dtype": "uint8",
+          "shape": [
+            87579,
+            48
+          ]
+        },
+        "summary": {
+          "path": "实验/external_fine8_wf1_repeat_seeds42_2024_20261005/body/cases/seed42/cache/wf1/summary.npy",
+          "sha256": "dcc30761529edf06e5fc0e0d1e609ec802a866ea3cac9e45ee77b18c31d82762",
+          "bytes": 4554236,
+          "dtype": "float32",
+          "shape": [
+            87579,
+            13
+          ]
+        },
+        "native_counts": {
+          "path": "实验/external_fine8_wf1_repeat_seeds42_2024_20261005/body/cases/seed42/cache/wf1/native_counts.npy",
+          "sha256": "58c16290578a0c4df17367de8337bb66f7f871ff9660418c97e9f6bfe224c23c",
+          "bytes": 2802656,
+          "dtype": "uint32",
+          "shape": [
+            87579,
+            8
+          ]
+        },
+        "canonical512_counts": {
+          "path": "实验/external_fine8_wf1_repeat_seeds42_2024_20261005/body/cases/seed42/cache/wf1/canonical512_counts.npy",
+          "sha256": "4f1850cd7ab8cd61f8f1561f886948610a3c55c35b5f80d1f4430c13d22bc100",
+          "bytes": 2802656,
+          "dtype": "uint32",
+          "shape": [
+            87579,
+            8
+          ]
+        }
+      },
+      "initial_head": {
+        "path": "实验/body_interface_decoder_20260930/outputs/pair12_seed42/separate_best.pth",
+        "sha256": "2df29666d0329d3d3838394ca3e0e80dac4f9546bae9b38f84b6d425eeade5e6"
+      },
+      "selected_upstream": {
+        "path": "实验/external_fine8_wf1_repeat_seeds42_2024_20261005/upstream/cases/seed42/outputs/wf1_seed42/native_detail/epochs/epoch_019.pth",
+        "sha256": "d6bd4c67e423790b90c502173bcd2afe2a51ff461de3f16a9a79f6fc58c5e61a",
+        "epoch": 19,
+        "arm": "native_detail"
+      },
+      "training_class_counts": [
+        514301995,
+        1003349040,
+        119145017,
+        1101083,
+        5494890,
+        9862660,
+        9919839,
+        39209476
+      ],
+      "training_weights": [
+        0.30000001192092896,
+        0.30000001192092896,
+        0.3128776550292969,
+        3.2546114921569824,
+        1.4569088220596313,
+        1.0874645709991455,
+        1.084325909614563,
+        0.5454022288322449
+      ],
+      "validation_mask": {
+        "path": "实验/external_eightclass_adaptation_20261003/cache/wf1_val_labels8.npy",
+        "sha256": "c1eba9b91d3ed5e1369bb0b6abaa360c5ed61c285201f1fcf4014d6d2b78a8cb",
+        "bytes": 319197128
+      },
+      "archived_head": {
+        "path": "实验/external_fine8_wf1_repeat_seeds42_2024_20261005/body/cases/seed42/outputs/wf1/separate/epochs/epoch_004.pth",
+        "sha256": "97a49513967104494133ddf2a585bf219c4aa2bb5e0dd463eccc3fd2c572e1af",
+        "epoch": 4,
+        "arm": "separate"
+      },
+      "archived_selection": {
+        "path": "实验/external_fine8_wf1_repeat_seeds42_2024_20261005/body/cases/seed42/outputs/wf1/separate/selected_validation.json",
+        "sha256": "a975d79c9826ec1a30cbc4c50cd94665d7fa7c2d96bc0263ef67c92a3abef6ba"
+      },
+      "archived_run": {
+        "path": "实验/external_fine8_wf1_repeat_seeds42_2024_20261005/body/cases/seed42/outputs/wf1/separate/run_manifest.json",
+        "sha256": "89c953fdf7559067f1a2a11396f4f1371e3d5093b52fd2beb5ce6376aa26f454"
+      }
+    },
+    "whole_repeat_wf1_seed2024": {
+      "dataset": "wf1",
+      "seed": 2024,
+      "attempt": "whole_repeat",
+      "descriptor_support": "logit_argmax",
+      "config": {
+        "protocol": "external_fine8_multiseed_body_logit_support_recovery_v1",
+        "seed": 2024,
+        "epochs": 12,
+        "batch_size": 512,
+        "lr": 0.001,
+        "weight_decay": 0.0001,
+        "grad_clip": 1.0,
+        "gpu_memory_fraction": 0.35,
+        "precision": "FP32",
+        "primary_grid": "canonical512",
+        "selection": "first maximum eight-class validation mIoU, including epoch0",
+        "initialization": "matching main-domain seed2024 separate head",
+        "upstream": "matching seed first-best native within epochs0..20, frozen",
+        "model_test_pixels_read": false
+      },
+      "cache_folder": "实验/external_fine8_wf1_repeat_seeds42_2024_20261005/body/cases/seed2024/cache/wf1",
+      "n": 87425,
+      "images_by_split": {
+        "train": 1600,
+        "val": 300
+      },
+      "bodies_by_split": {
+        "train": 73866,
+        "val": 13559
+      },
+      "resources": {
+        "manifest": {
+          "path": "实验/external_fine8_wf1_repeat_seeds42_2024_20261005/body/cases/seed2024/cache/wf1/manifest.json",
+          "sha256": "52bb1c1a58b90ac316a0a79d6e427b118925bb6d3f9b1a1a039216a8e1307313"
+        },
+        "records": {
+          "path": "实验/external_fine8_wf1_repeat_seeds42_2024_20261005/body/cases/seed2024/cache/wf1/records.json",
+          "sha256": "974ad34f92ca2e6b4e7096d195d67af0c09e3f489062251444403280510483b6"
+        },
+        "matrices": {
+          "path": "实验/external_fine8_wf1_repeat_seeds42_2024_20261005/body/cases/seed2024/cache/wf1/matrices.json",
+          "sha256": "09c6b22a92fefb600277bebbba9b47f5d83fdaabd9b03251be8782cffa30ab74"
+        },
+        "points": {
+          "path": "实验/external_fine8_wf1_repeat_seeds42_2024_20261005/body/cases/seed2024/cache/wf1/points.npy",
+          "sha256": "1454b8818cc725c9087fde3adb50fc4c8bdc69bcd8fd13dc99466bebb85c29ab",
+          "bytes": 260176928,
+          "dtype": "float16",
+          "shape": [
+            87425,
+            48,
+            31
+          ]
+        },
+        "valid": {
+          "path": "实验/external_fine8_wf1_repeat_seeds42_2024_20261005/body/cases/seed2024/cache/wf1/valid.npy",
+          "sha256": "e95fc2030ddba232e0a5e364dfa7b955697da882088b05cf255b127c3ca50ef0",
+          "bytes": 4196528,
+          "dtype": "uint8",
+          "shape": [
+            87425,
+            48
+          ]
+        },
+        "summary": {
+          "path": "实验/external_fine8_wf1_repeat_seeds42_2024_20261005/body/cases/seed2024/cache/wf1/summary.npy",
+          "sha256": "eb4aa2531b139333f291b21b642a5d968d072d24050db517c8ef8fa26117f783",
+          "bytes": 4546228,
+          "dtype": "float32",
+          "shape": [
+            87425,
+            13
+          ]
+        },
+        "native_counts": {
+          "path": "实验/external_fine8_wf1_repeat_seeds42_2024_20261005/body/cases/seed2024/cache/wf1/native_counts.npy",
+          "sha256": "5865c088e69fdfbb644f6b91e8524b5ed744d5abd7f552fa9f7d0a4b6843f493",
+          "bytes": 2797728,
+          "dtype": "uint32",
+          "shape": [
+            87425,
+            8
+          ]
+        },
+        "canonical512_counts": {
+          "path": "实验/external_fine8_wf1_repeat_seeds42_2024_20261005/body/cases/seed2024/cache/wf1/canonical512_counts.npy",
+          "sha256": "8e5b0c5c2ff33d0c1c168a1ad84d6d7ad3db4608dc2ad43c52079cbe34f72233",
+          "bytes": 2797728,
+          "dtype": "uint32",
+          "shape": [
+            87425,
+            8
+          ]
+        }
+      },
+      "initial_head": {
+        "path": "实验/body_decoder_replication_20260930/outputs/pair12_seed2024/separate_best.pth",
+        "sha256": "2e0b5ecf157919d4489a2fe4b3b89124b3a68a9e33007721937b9a325551b78f"
+      },
+      "selected_upstream": {
+        "path": "实验/external_fine8_wf1_repeat_seeds42_2024_20261005/upstream/cases/seed2024/outputs/wf1_seed2024/native_detail/epochs/epoch_020.pth",
+        "sha256": "5d484b3afcbbf58b99b492a79196da2d1fb322ce0b35b713612f4013fde5af7b",
+        "epoch": 20,
+        "arm": "native_detail"
+      },
+      "training_class_counts": [
+        514301995,
+        1003349040,
+        119145017,
+        1101083,
+        5494890,
+        9862660,
+        9919839,
+        39209476
+      ],
+      "training_weights": [
+        0.30000001192092896,
+        0.30000001192092896,
+        0.3128776550292969,
+        3.2546114921569824,
+        1.4569088220596313,
+        1.0874645709991455,
+        1.084325909614563,
+        0.5454022288322449
+      ],
+      "validation_mask": {
+        "path": "实验/external_eightclass_adaptation_20261003/cache/wf1_val_labels8.npy",
+        "sha256": "c1eba9b91d3ed5e1369bb0b6abaa360c5ed61c285201f1fcf4014d6d2b78a8cb",
+        "bytes": 319197128
+      },
+      "archived_head": {
+        "path": "实验/external_fine8_wf1_repeat_seeds42_2024_20261005/body/cases/seed2024/outputs/wf1/separate/epochs/epoch_004.pth",
+        "sha256": "d9ba45ff6211f43cec1983d89525dca773b4409443f312e7097fc8235e054b70",
+        "epoch": 4,
+        "arm": "separate"
+      },
+      "archived_selection": {
+        "path": "实验/external_fine8_wf1_repeat_seeds42_2024_20261005/body/cases/seed2024/outputs/wf1/separate/selected_validation.json",
+        "sha256": "8dcbbd028618291353d7e6d200b2e2edfa2b0ff08d78a5c84355ee273cd0adfc"
+      },
+      "archived_run": {
+        "path": "实验/external_fine8_wf1_repeat_seeds42_2024_20261005/body/cases/seed2024/outputs/wf1/separate/run_manifest.json",
+        "sha256": "fe9b47f63df86a55ab65f91a25fa212e186c6f9951a8ec44de2e06a7f30da8a6"
+      }
+    },
+    "whole_repeat_wf1_seed2025": {
+      "dataset": "wf1",
+      "seed": 2025,
+      "attempt": "whole_repeat",
+      "descriptor_support": "logit_argmax",
+      "config": {
+        "protocol": "external_fine8_multiseed_body_logit_support_recovery_v1",
+        "seed": 2025,
+        "epochs": 12,
+        "batch_size": 512,
+        "lr": 0.001,
+        "weight_decay": 0.0001,
+        "grad_clip": 1.0,
+        "gpu_memory_fraction": 0.35,
+        "precision": "FP32",
+        "primary_grid": "canonical512",
+        "selection": "first maximum eight-class validation mIoU, including epoch0",
+        "initialization": "matching main-domain seed2025 separate head",
+        "upstream": "matching seed first-best native within epochs0..20, frozen",
+        "model_test_pixels_read": false
+      },
+      "cache_folder": "实验/external_fine8_wf1_seed2025_repeat_20261005/body/cases/seed2025/cache/wf1",
+      "n": 87357,
+      "images_by_split": {
+        "train": 1600,
+        "val": 300
+      },
+      "bodies_by_split": {
+        "train": 73790,
+        "val": 13567
+      },
+      "resources": {
+        "manifest": {
+          "path": "实验/external_fine8_wf1_seed2025_repeat_20261005/body/cases/seed2025/cache/wf1/manifest.json",
+          "sha256": "34878f7c3cc11ef01fbfef852ab218fc06a3ac38ff35b9e7517e3c3935db5afb"
+        },
+        "records": {
+          "path": "实验/external_fine8_wf1_seed2025_repeat_20261005/body/cases/seed2025/cache/wf1/records.json",
+          "sha256": "4215fc9ffba81c4ba79eed86ff0a05951c37c9fdafecf48e00cc3d1d3c812a92"
+        },
+        "matrices": {
+          "path": "实验/external_fine8_wf1_seed2025_repeat_20261005/body/cases/seed2025/cache/wf1/matrices.json",
+          "sha256": "b3e9ba0b6e2fba50814d980f555f9d6ba238cf94c61445ab15c8099860ab6f17"
+        },
+        "points": {
+          "path": "实验/external_fine8_wf1_seed2025_repeat_20261005/body/cases/seed2025/cache/wf1/points.npy",
+          "sha256": "9a1ebc1304cebe7d411a010830df3d38c0ef56e749c32d9ed5e01e69f0de5a88",
+          "bytes": 259974560,
+          "dtype": "float16",
+          "shape": [
+            87357,
+            48,
+            31
+          ]
+        },
+        "valid": {
+          "path": "实验/external_fine8_wf1_seed2025_repeat_20261005/body/cases/seed2025/cache/wf1/valid.npy",
+          "sha256": "add5fae7063c4a8553297b8ea3d5734d3cce626fd17a633bb1fd1205ab9d6a9c",
+          "bytes": 4193264,
+          "dtype": "uint8",
+          "shape": [
+            87357,
+            48
+          ]
+        },
+        "summary": {
+          "path": "实验/external_fine8_wf1_seed2025_repeat_20261005/body/cases/seed2025/cache/wf1/summary.npy",
+          "sha256": "7481582ad0586c32e282a8b907940a2eb6386f41b494561e14db4d143f9ced65",
+          "bytes": 4542692,
+          "dtype": "float32",
+          "shape": [
+            87357,
+            13
+          ]
+        },
+        "native_counts": {
+          "path": "实验/external_fine8_wf1_seed2025_repeat_20261005/body/cases/seed2025/cache/wf1/native_counts.npy",
+          "sha256": "8bf85cc6815b9bc2f6d4c390506eaeca4c2dafab8f05ca2291d47be581e8247e",
+          "bytes": 2795552,
+          "dtype": "uint32",
+          "shape": [
+            87357,
+            8
+          ]
+        },
+        "canonical512_counts": {
+          "path": "实验/external_fine8_wf1_seed2025_repeat_20261005/body/cases/seed2025/cache/wf1/canonical512_counts.npy",
+          "sha256": "57ba5528533ebc90560ed94ed9fc2dea352d44f9fc5fc8d45b76ffbe7bfd0cec",
+          "bytes": 2795552,
+          "dtype": "uint32",
+          "shape": [
+            87357,
+            8
+          ]
+        }
+      },
+      "initial_head": {
+        "path": "实验/body_decoder_replication_20260930/outputs/pair12_seed2025/separate_best.pth",
+        "sha256": "360e365e174b622cb017f3618a0e7d8d43a7286e61dbf1102d438922d52bc6cd"
+      },
+      "selected_upstream": {
+        "path": "实验/external_fine8_wf1_seed2025_repeat_20261005/upstream/cases/seed2025/outputs/wf1_seed2025/native_detail/epochs/epoch_011.pth",
+        "sha256": "922dbd3bad51bcc21e028846ed88ffbb6c13e7a54851c5930b4831a65930e7e0",
+        "epoch": 11,
+        "arm": "native_detail"
+      },
+      "training_class_counts": [
+        514301995,
+        1003349040,
+        119145017,
+        1101083,
+        5494890,
+        9862660,
+        9919839,
+        39209476
+      ],
+      "training_weights": [
+        0.30000001192092896,
+        0.30000001192092896,
+        0.3128776550292969,
+        3.2546114921569824,
+        1.4569088220596313,
+        1.0874645709991455,
+        1.084325909614563,
+        0.5454022288322449
+      ],
+      "validation_mask": {
+        "path": "实验/external_eightclass_adaptation_20261003/cache/wf1_val_labels8.npy",
+        "sha256": "c1eba9b91d3ed5e1369bb0b6abaa360c5ed61c285201f1fcf4014d6d2b78a8cb",
+        "bytes": 319197128
+      },
+      "archived_head": {
+        "path": "实验/external_fine8_wf1_seed2025_repeat_20261005/body/cases/seed2025/outputs/wf1/separate/epochs/epoch_010.pth",
+        "sha256": "26241f6ba800514e8e4c9a00647c8d781b8d541fb1e70031d969e82ad24b6bdf",
+        "epoch": 10,
+        "arm": "separate"
+      },
+      "archived_selection": {
+        "path": "实验/external_fine8_wf1_seed2025_repeat_20261005/body/cases/seed2025/outputs/wf1/separate/selected_validation.json",
+        "sha256": "a50b802629a2ceeb8af9e6242ca26a751e08133f4d0d45ac0cc9f1e74b4eaf1a"
+      },
+      "archived_run": {
+        "path": "实验/external_fine8_wf1_seed2025_repeat_20261005/body/cases/seed2025/outputs/wf1/separate/run_manifest.json",
+        "sha256": "5a2ef9558a1932662b48c6bc6f951aa3d546d205b8e49502b4950706b1909c24"
+      }
+    }
+  },
+  "sources": {
+    "external_body_adaptation_20261003/body_common.py": "096ecade157d034852984f250762711e1dfb281313eafa463f5ba381433306e7",
+    "external_body_adaptation_20261003/prepare_bodies.py": "a0b54b3e683388916dd95a70a7d962bb38747a4237e23c94a7672686ee27dc2a",
+    "external_body_adaptation_20261003/run_body.py": "5bcdcf4541f44b169b75682c7058c43908f70ccacd7a7fe8139c281998dd4f6e",
+    "external_body_adaptation_20261003/spatial.py": "12f39d9132fc6926b36642eb8ccfbdf92f7f4142d1f13df47af0b0a1ef8b76f2",
+    "external_fine8_multiseed_body_recovery_20261005/run_heads.py": "f26e77d91eeb57516c9463553af159a13615186b9ad616bb496c3c4dabe8f6b7",
+    "external_eightclass_adaptation_20261003/bridge.py": "8d1d90bfb3725bbc742327937dac29cbeea95ec5f6c613b48a840524d3334e45",
+    "body_interface_decoder_20260930/model.py": "b6f920b3053404c586626448624afb2013db5ca7c7a9b2279a01e37a8ab9976d",
+    "body_interface_decoder_20260930/representation.py": "45b8bf4d67d259d518eebe4efa4b3b29a31cd7a3c6ffcc37033da9dd0e7240fb"
+  },
+  "test_loader": false,
+  "upstream_frozen": true,
+  "weights_and_caches_embedded": false,
+  "scope": "Separate oil-body head from existing verified TRAIN/VAL descriptors; cache construction is separate"
+}

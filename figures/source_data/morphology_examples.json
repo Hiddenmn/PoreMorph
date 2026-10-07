@@ -1,0 +1,97 @@
+{
+  "__kind__": "tuple",
+  "items": [
+    [
+      {
+        "__kind__": "image_array",
+        "key": "array_0",
+        "array_sha256": "5bcb9820e011aef4b49b025213923c859d156a4c04cfb7356ff15a8d41151e3d",
+        "dtype": "uint8",
+        "shape": [
+          136,
+          136,
+          3
+        ]
+      },
+      {
+        "__kind__": "image_array",
+        "key": "array_1",
+        "array_sha256": "2e781077cc99e621750a541b208477997b021f68ac91ef4b5e2acefbbbc481a7",
+        "dtype": "uint8",
+        "shape": [
+          136,
+          136,
+          3
+        ]
+      },
+      {
+        "__kind__": "image_array",
+        "key": "array_2",
+        "array_sha256": "6bb7665cbc00048135e7f348e42762a0332df3b6335848fcb7d41910351e7b73",
+        "dtype": "uint8",
+        "shape": [
+          136,
+          136,
+          3
+        ]
+      },
+      {
+        "__kind__": "image_array",
+        "key": "array_3",
+        "array_sha256": "5915cdc335cf9175c41636b0557f298029dc89e8b80219ca598738ebf5e78db1",
+        "dtype": "uint8",
+        "shape": [
+          136,
+          136,
+          3
+        ]
+      },
+      {
+        "__kind__": "image_array",
+        "key": "array_4",
+        "array_sha256": "46bee74ff5a166e8b0fc373f6fa6be68bf5bffb185a2c26fadeb62d2b705dc60",
+        "dtype": "uint8",
+        "shape": [
+          136,
+          136,
+          3
+        ]
+      }
+    ],
+    0.26205449718263835,
+    {
+      "source": "recorded_inputs/9e53ff4b55f1/fig_typical_oil_morphologies.pdf",
+      "source_sha256": "0518f640813377d9f09572fb904c0987716d767f72204f171776b8d77d21fea1",
+      "source_category": "author-confirmed previous manuscript; reviewed annotation examples",
+      "reuse_level": "unchanged image panels; rebuilt text and page layout",
+      "image_pixels_modified": false,
+      "source_display_raster_shape": [
+        136,
+        136,
+        3
+      ],
+      "image_rgb_sha256": [
+        "5bcb9820e011aef4b49b025213923c859d156a4c04cfb7356ff15a8d41151e3d",
+        "2e781077cc99e621750a541b208477997b021f68ac91ef4b5e2acefbbbc481a7",
+        "6bb7665cbc00048135e7f348e42762a0332df3b6335848fcb7d41910351e7b73",
+        "5915cdc335cf9175c41636b0557f298029dc89e8b80219ca598738ebf5e78db1",
+        "46bee74ff5a166e8b0fc373f6fa6be68bf5bffb185a2c26fadeb62d2b705dc60"
+      ],
+      "class_order": [
+        "Film",
+        "Pore-corner",
+        "Droplet",
+        "Columnar",
+        "Clustered"
+      ],
+      "scale_bar_mm": 0.5,
+      "scale_bar_fraction_of_field": 0.26205449718263835,
+      "scale_calibration": "retained source PDF vector bar and image-frame geometry",
+      "display_size_mm": [
+        114.0,
+        28.0
+      ],
+      "display_interpolation": "nearest"
+    }
+  ]
+}

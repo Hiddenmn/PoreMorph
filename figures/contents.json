@@ -1,0 +1,181 @@
+{
+  "version": "0.1.0",
+  "files": [
+    {
+      "path": "asset_catalog.json",
+      "bytes": 6026,
+      "sha256": "2105179f5b2b9ab6c78f57aa380063b052fdc1f95c82c58ddae877da187eb09f"
+    },
+    {
+      "path": "derivation.json",
+      "bytes": 5353,
+      "sha256": "bb25cfce15cb9dda8dfee2722d615ebc29bfc799c518788e859d7fbe00af48f0"
+    },
+    {
+      "path": "figure_catalog.json",
+      "bytes": 3483,
+      "sha256": "984c7d356047d176f06ad3fda2be52765620ecb50e57c6c69452199514a52aa3"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2831,
+      "sha256": "91ac28f8bce3fa581c6b6d65f4c5590b5265fd1d54fb9522c4d701ac1a24cd41"
+    },
+    {
+      "path": "reproduce_figures.py",
+      "bytes": 3664,
+      "sha256": "e7aa49669aec79509ddff57258273d0b9c5594ecb01b654914e8fd8a4e3981e8"
+    },
+    {
+      "path": "requirements-figures.txt",
+      "bytes": 82,
+      "sha256": "bbd7f98e32868163a4712b577bd84ccc9439b3c3d2f762c3a308c4b492e09d06"
+    },
+    {
+      "path": "scripts/audit_panel_alignment.py",
+      "bytes": 39364,
+      "sha256": "43958e6b49d897f326ff64e73cbed0bf057e17c06533b5b57d3dededf8111e76"
+    },
+    {
+      "path": "scripts/fig1_poremorph_v9.py",
+      "bytes": 15094,
+      "sha256": "67bd015436683aeaac4e50dda1b0131be876bbdfe433c4e9ebe1a37fa66f6079"
+    },
+    {
+      "path": "scripts/fig2_main_compound_v1.py",
+      "bytes": 10739,
+      "sha256": "1b8f98d4690add12f993c1a7ab40253a8738935ed5a70ee15c687e8d620a2c7d"
+    },
+    {
+      "path": "scripts/fig3_spatial_context_v1.py",
+      "bytes": 7276,
+      "sha256": "40aabd43a3498f87b33188b45b04c7091143a058e9bd08cdabf9ef6fa84c2795"
+    },
+    {
+      "path": "scripts/fig3_spatial_quantification_v2.py",
+      "bytes": 11937,
+      "sha256": "bd074a849a6078b15e181a57c8b31954cf039582fba49de800f1e2f70ff42425"
+    },
+    {
+      "path": "scripts/fig4_external_statistics.py",
+      "bytes": 8913,
+      "sha256": "16eb63e9a498ef9804b660e9e2a83907552f7fbb3e01819bc8b0f5c98d7cce35"
+    },
+    {
+      "path": "scripts/fig5_body_size.py",
+      "bytes": 10240,
+      "sha256": "348dd0367f4d0fc5f8abb4560d81c8509c92ccfa52ede32ecffb3e6138ce02ca"
+    },
+    {
+      "path": "scripts/figS1_oil_morphologies.py",
+      "bytes": 3888,
+      "sha256": "ad62c6c33809f14d69d95029a36bd8762743495fd1c592b1b5f9ab0aea7a249a"
+    },
+    {
+      "path": "scripts/figS2_stage_contributions.py",
+      "bytes": 3625,
+      "sha256": "1d8d31e29d52b7250a6b741e671456622108a08c4181b9cbb4c43375e5b95730"
+    },
+    {
+      "path": "scripts/figS3_composition_bias.py",
+      "bytes": 7476,
+      "sha256": "06f33c1b07faf857c392f82a0b8ccfde134a3a94a659945d99824bf6d52323b7"
+    },
+    {
+      "path": "scripts/figS4_external_qualitative.py",
+      "bytes": 9175,
+      "sha256": "43f0ce0cd094af4e01b3c709fff00fc5e3072fad764cc7fcce48e618885199c4"
+    },
+    {
+      "path": "scripts/figure_io.py",
+      "bytes": 3545,
+      "sha256": "2cbabe30c5dd6ba8baa870263530a765c0110963442530a74b88cd4181c2e1e8"
+    },
+    {
+      "path": "scripts/spatial_error_comparison.py",
+      "bytes": 1518,
+      "sha256": "f10d209e1873f07a14d1047ac9fd3b36423cbc051e6e763406f4404ed49eeef6"
+    },
+    {
+      "path": "scripts/visual_style.json",
+      "bytes": 1042,
+      "sha256": "58207d9025722e69dcbb2620c90806bc60d9e75d1b33473a4f82fe53e105d07a"
+    },
+    {
+      "path": "source_data/body_size.json",
+      "bytes": 194348,
+      "sha256": "3e3b886ec21e7a8d19337e7393896ad234c4122d50f78e71708cd40fce4b57fe"
+    },
+    {
+      "path": "source_data/composition.json",
+      "bytes": 45327,
+      "sha256": "bd9e116858ff40b6cb96f6e3addb8ec682353789e9a1ce0254c0618b16cee7e8"
+    },
+    {
+      "path": "source_data/composition_classes.csv",
+      "bytes": 12587,
+      "sha256": "d0f6d8f8fd36aaba8c3cc8e3cd4fb208aa5e05378d36bc5212fa1ed738484273"
+    },
+    {
+      "path": "source_data/external.json",
+      "bytes": 98880,
+      "sha256": "2b569cf73b22379e88128c060e85b9053c0cf2f0d1c2895d92192c81960a3f9b"
+    },
+    {
+      "path": "source_data/external_bentheimer.json",
+      "bytes": 2533,
+      "sha256": "c589087a36701c18e9863613d7a6e370f096d83cbd6e721abf510198ff4cd305"
+    },
+    {
+      "path": "source_data/external_classes.csv",
+      "bytes": 23912,
+      "sha256": "350837517777ce4b98f15159ec50df4da951616e5eea540458b3ed57bce909a7"
+    },
+    {
+      "path": "source_data/external_selection.json",
+      "bytes": 1350,
+      "sha256": "6db7054d876dccb8902328fe39dbef2ce4e3f511a0e6f9e734826f3202230e2a"
+    },
+    {
+      "path": "source_data/external_wf1.json",
+      "bytes": 2543,
+      "sha256": "78344f537fdc83f2be0126211161ccdebde3d60e3e892f2024356e3af1f8549f"
+    },
+    {
+      "path": "source_data/main_comparison.json",
+      "bytes": 19252,
+      "sha256": "00836e4f62241efa6e9ae310f51d2b207d2ac83a5362a2a24a301178b41d221f"
+    },
+    {
+      "path": "source_data/main_test_summary.json",
+      "bytes": 541536,
+      "sha256": "524b3f9b8d94ffbd021a78ea15b8036c69122f49306100a43f948dadf3efcfda"
+    },
+    {
+      "path": "source_data/morphology_examples.json",
+      "bytes": 2716,
+      "sha256": "8f62e02529fb4b6a0a47c1f34d457e41d846a00375145bc7129a31ae361fa39b"
+    },
+    {
+      "path": "source_data/spatial.json",
+      "bytes": 68302,
+      "sha256": "dd4a40183d92ac9f5f8e1879a699b66a2d94f63353617dd22292b0f861101051"
+    },
+    {
+      "path": "source_data/stage_classes.csv",
+      "bytes": 11389,
+      "sha256": "3d98b05ffd6e26affe23b31270cf0e8d08fe5223e07820a89fadb7a74b42e7a4"
+    },
+    {
+      "path": "SOURCE_DATA.md",
+      "bytes": 4002,
+      "sha256": "b4b6241295f2f289eec339090386c98044e16086f1c8833c35ab3e0b2460be78"
+    },
+    {
+      "path": "THIRD_PARTY.md",
+      "bytes": 376,
+      "sha256": "69280440aec01707aade6d516d16cd1cf281de30956683870dee6f511a1f452c"
+    }
+  ],
+  "public_release": true
+}

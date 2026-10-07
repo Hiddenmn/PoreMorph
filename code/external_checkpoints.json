@@ -1,0 +1,407 @@
+{
+  "version": "external-frozen-inference-v1",
+  "cases": {
+    "original_bentheimer_seed42": {
+      "dataset": "bentheimer",
+      "seed": 42,
+      "attempt": "original",
+      "weights": {
+        "global": {
+          "path": "实验/external_eightclass_extension20_recovery_20261004/outputs/bentheimer_seed42/global/epochs/epoch_020.pth",
+          "sha256": "90e75419c696bf0a326f18a8041abcfc4aafda2de27cfef38033edfccf892119",
+          "epoch": 20,
+          "arm": "global"
+        },
+        "native_detail": {
+          "path": "实验/external_eightclass_extension20_recovery_20261004/outputs/bentheimer_seed42/native_detail/epochs/epoch_020.pth",
+          "sha256": "58d9af8d22c14e8e7dc6fc7f0c30f445a2614342f81792744a6b680492ba4db4",
+          "epoch": 20,
+          "arm": "native_detail"
+        },
+        "body": {
+          "path": "实验/external_body_extension20_20261004/outputs/bentheimer/separate/epochs/epoch_009.pth",
+          "sha256": "42113ae08ffa37e7a15f9784af693749d962c702e85aa71fb60cb136c48187ea",
+          "epoch": 9,
+          "arm": "separate"
+        }
+      },
+      "description": "岩心：Bentheimer砂岩；润湿性：强水湿；前序：排驱；当前：稳态渗吸阶段，注入油相分流比为0；水相：3.5 wt%碘化钾盐水；油相：癸烷。",
+      "descriptor_support": "probability_argmax",
+      "source_record": {
+        "path": "实验/external_full_vs_global_fine8_test_20261004/run_manifest.json",
+        "sha256": "2aaea0241532a7d9b6507554ae9513734ce92a74f4e505ec03c5280279f3d6b8"
+      },
+      "native_grid_yx": [
+        980,
+        980
+      ],
+      "raw_grid_yx": [
+        1014,
+        992
+      ],
+      "crop_yx": [
+        [
+          20,
+          1000
+        ],
+        [
+          10,
+          990
+        ]
+      ]
+    },
+    "original_wf1_seed42": {
+      "dataset": "wf1",
+      "seed": 42,
+      "attempt": "original",
+      "weights": {
+        "global": {
+          "path": "实验/external_eightclass_extension20_recovery_20261004/outputs/wf1_seed42/global/epochs/epoch_019.pth",
+          "sha256": "e686b21b4ae257d8ca8778c7b0212658232fe8c4254c2d0fd85441acf582cda8",
+          "epoch": 19,
+          "arm": "global"
+        },
+        "native_detail": {
+          "path": "实验/external_eightclass_extension20_recovery_20261004/outputs/wf1_seed42/native_detail/epochs/epoch_014.pth",
+          "sha256": "6fd1a1572c9b0a5106a15b311fd7d9841b78a0c6eda151f9d3724f14c83938d1",
+          "epoch": 14,
+          "arm": "native_detail"
+        },
+        "body": {
+          "path": "实验/external_body_extension20_20261004/outputs/wf1/separate/epochs/epoch_007.pth",
+          "sha256": "5c9c6e5e8817d195fc317016400008992ecf08ee0decb5364dbc9bcba71364fb",
+          "epoch": 7,
+          "arm": "separate"
+        }
+      },
+      "description": "岩心：Ketton石灰岩；润湿性：水湿；前序：盐水饱和后注油；当前：第一次水驱后；水相：碘化钾盐水；油相：碘代癸烷标记的癸烷。",
+      "descriptor_support": "probability_argmax",
+      "source_record": {
+        "path": "实验/external_full_vs_global_fine8_test_20261004/run_manifest.json",
+        "sha256": "2aaea0241532a7d9b6507554ae9513734ce92a74f4e505ec03c5280279f3d6b8"
+      },
+      "native_grid_yx": [
+        1033,
+        1030
+      ],
+      "raw_grid_yx": [
+        1033,
+        1030
+      ],
+      "crop_yx": null
+    },
+    "original_bentheimer_seed2024": {
+      "dataset": "bentheimer",
+      "seed": 2024,
+      "attempt": "original",
+      "weights": {
+        "global": {
+          "path": "实验/external_fine8_multiseed_20261004/cases/seed2024/outputs/bentheimer_seed2024/global/epochs/epoch_019.pth",
+          "sha256": "a394196dc18119f0957f53f9c0a168b77b00d5890df62ef2ed79334bfe0000f8",
+          "epoch": 19,
+          "arm": "global"
+        },
+        "native_detail": {
+          "path": "实验/external_fine8_multiseed_20261004/cases/seed2024/outputs/bentheimer_seed2024/native_detail/epochs/epoch_008.pth",
+          "sha256": "d0ca047ada72f4049eade1bad6864c28131c66c7cde7249f4e2d64dec3c7ef2c",
+          "epoch": 8,
+          "arm": "native_detail"
+        },
+        "body": {
+          "path": "实验/external_fine8_multiseed_body_recovery_20261005/cases/seed2024/outputs/bentheimer/separate/epochs/epoch_009.pth",
+          "sha256": "e527b728e9243711337ada021fa43c9b723e103fb86bae9afde15b01658a0295",
+          "epoch": 9,
+          "arm": "separate"
+        }
+      },
+      "description": "岩心：Bentheimer砂岩；润湿性：强水湿；前序：排驱；当前：稳态渗吸阶段，注入油相分流比为0；水相：3.5 wt%碘化钾盐水；油相：癸烷。",
+      "descriptor_support": "logit_argmax",
+      "source_record": {
+        "path": "实验/external_fine8_multiseed_test_recovery_20261005/cases/seed2024/run_manifest.json",
+        "sha256": "56eb7ab7d62a7659ee713b9c33d8281dc3f88c04475251f063d6c2273e8ecf1e"
+      },
+      "native_grid_yx": [
+        980,
+        980
+      ],
+      "raw_grid_yx": [
+        1014,
+        992
+      ],
+      "crop_yx": [
+        [
+          20,
+          1000
+        ],
+        [
+          10,
+          990
+        ]
+      ]
+    },
+    "original_wf1_seed2024": {
+      "dataset": "wf1",
+      "seed": 2024,
+      "attempt": "original",
+      "weights": {
+        "global": {
+          "path": "实验/external_fine8_multiseed_20261004/cases/seed2024/outputs/wf1_seed2024/global/epochs/epoch_019.pth",
+          "sha256": "c211609beb68855704222b73e69da3e7db01428cfa2b6287624043b745d22090",
+          "epoch": 19,
+          "arm": "global"
+        },
+        "native_detail": {
+          "path": "实验/external_fine8_multiseed_20261004/cases/seed2024/outputs/wf1_seed2024/native_detail/epochs/epoch_020.pth",
+          "sha256": "8435fc6338dabaa8c0c2df8c3e9e163da673908bc6a28c67f7d4860abcd38832",
+          "epoch": 20,
+          "arm": "native_detail"
+        },
+        "body": {
+          "path": "实验/external_fine8_multiseed_body_recovery_20261005/cases/seed2024/outputs/wf1/separate/epochs/epoch_012.pth",
+          "sha256": "06ec47c68af3dbd03643f18fffa0985dcc77e9f38c7e5c82cddfa5e42da99e36",
+          "epoch": 12,
+          "arm": "separate"
+        }
+      },
+      "description": "岩心：Ketton石灰岩；润湿性：水湿；前序：盐水饱和后注油；当前：第一次水驱后；水相：碘化钾盐水；油相：碘代癸烷标记的癸烷。",
+      "descriptor_support": "logit_argmax",
+      "source_record": {
+        "path": "实验/external_fine8_multiseed_test_recovery_20261005/cases/seed2024/run_manifest.json",
+        "sha256": "56eb7ab7d62a7659ee713b9c33d8281dc3f88c04475251f063d6c2273e8ecf1e"
+      },
+      "native_grid_yx": [
+        1033,
+        1030
+      ],
+      "raw_grid_yx": [
+        1033,
+        1030
+      ],
+      "crop_yx": null
+    },
+    "original_bentheimer_seed2025": {
+      "dataset": "bentheimer",
+      "seed": 2025,
+      "attempt": "original",
+      "weights": {
+        "global": {
+          "path": "实验/external_fine8_multiseed_20261004/cases/seed2025/outputs/bentheimer_seed2025/global/epochs/epoch_019.pth",
+          "sha256": "2be80710ba0f0f642ede8288793f731c9a92219c47b6ecc3dc1eb663142f7a0e",
+          "epoch": 19,
+          "arm": "global"
+        },
+        "native_detail": {
+          "path": "实验/external_fine8_multiseed_20261004/cases/seed2025/outputs/bentheimer_seed2025/native_detail/epochs/epoch_019.pth",
+          "sha256": "e797578e8c7894fd838064355a4c83900054cc1b256a4d7e33f1c752669a15a2",
+          "epoch": 19,
+          "arm": "native_detail"
+        },
+        "body": {
+          "path": "实验/external_fine8_multiseed_body_recovery_20261005/cases/seed2025/outputs/bentheimer/separate/epochs/epoch_006.pth",
+          "sha256": "a5765935263a805a9ff9e3595f94141abe27201c258febf34d45ee8092b7d967",
+          "epoch": 6,
+          "arm": "separate"
+        }
+      },
+      "description": "岩心：Bentheimer砂岩；润湿性：强水湿；前序：排驱；当前：稳态渗吸阶段，注入油相分流比为0；水相：3.5 wt%碘化钾盐水；油相：癸烷。",
+      "descriptor_support": "logit_argmax",
+      "source_record": {
+        "path": "实验/external_fine8_multiseed_test_recovery_20261005/cases/seed2025/run_manifest.json",
+        "sha256": "dfb5d166af7a580094c606b45b074b44a0b95f690251ad23b5dbd0667e51b390"
+      },
+      "native_grid_yx": [
+        980,
+        980
+      ],
+      "raw_grid_yx": [
+        1014,
+        992
+      ],
+      "crop_yx": [
+        [
+          20,
+          1000
+        ],
+        [
+          10,
+          990
+        ]
+      ]
+    },
+    "original_wf1_seed2025": {
+      "dataset": "wf1",
+      "seed": 2025,
+      "attempt": "original",
+      "weights": {
+        "global": {
+          "path": "实验/external_fine8_multiseed_20261004/cases/seed2025/outputs/wf1_seed2025/global/epochs/epoch_020.pth",
+          "sha256": "abc27ed0ce2d9d1e089882d836ea7827de73c59c7a271f239fc32cf058da1949",
+          "epoch": 20,
+          "arm": "global"
+        },
+        "native_detail": {
+          "path": "实验/external_fine8_multiseed_20261004/cases/seed2025/outputs/wf1_seed2025/native_detail/epochs/epoch_011.pth",
+          "sha256": "bf2ed1811d8a920035209134d1079871f7ac965b10e9d9a1ba631ddc5c5e7493",
+          "epoch": 11,
+          "arm": "native_detail"
+        },
+        "body": {
+          "path": "实验/external_fine8_multiseed_body_recovery_20261005/cases/seed2025/outputs/wf1/separate/epochs/epoch_011.pth",
+          "sha256": "1761616d4ed11cedbdeda3dac166a52ae63377628b5efbb32c82372ba2e143f6",
+          "epoch": 11,
+          "arm": "separate"
+        }
+      },
+      "description": "岩心：Ketton石灰岩；润湿性：水湿；前序：盐水饱和后注油；当前：第一次水驱后；水相：碘化钾盐水；油相：碘代癸烷标记的癸烷。",
+      "descriptor_support": "logit_argmax",
+      "source_record": {
+        "path": "实验/external_fine8_multiseed_test_recovery_20261005/cases/seed2025/run_manifest.json",
+        "sha256": "dfb5d166af7a580094c606b45b074b44a0b95f690251ad23b5dbd0667e51b390"
+      },
+      "native_grid_yx": [
+        1033,
+        1030
+      ],
+      "raw_grid_yx": [
+        1033,
+        1030
+      ],
+      "crop_yx": null
+    },
+    "whole_repeat_wf1_seed42": {
+      "dataset": "wf1",
+      "seed": 42,
+      "attempt": "whole_repeat",
+      "weights": {
+        "global": {
+          "path": "实验/external_fine8_wf1_repeat_seeds42_2024_20261005/upstream/cases/seed42/outputs/wf1_seed42/global/epochs/epoch_019.pth",
+          "sha256": "f4a8a158036009a75d4976998bb3eb035e0eea0070ead099dd57e80d3e81cd62",
+          "epoch": 19,
+          "arm": "global"
+        },
+        "native_detail": {
+          "path": "实验/external_fine8_wf1_repeat_seeds42_2024_20261005/upstream/cases/seed42/outputs/wf1_seed42/native_detail/epochs/epoch_019.pth",
+          "sha256": "d6bd4c67e423790b90c502173bcd2afe2a51ff461de3f16a9a79f6fc58c5e61a",
+          "epoch": 19,
+          "arm": "native_detail"
+        },
+        "body": {
+          "path": "实验/external_fine8_wf1_repeat_seeds42_2024_20261005/body/cases/seed42/outputs/wf1/separate/epochs/epoch_004.pth",
+          "sha256": "97a49513967104494133ddf2a585bf219c4aa2bb5e0dd463eccc3fd2c572e1af",
+          "epoch": 4,
+          "arm": "separate"
+        }
+      },
+      "description": "岩心：Ketton石灰岩；润湿性：水湿；前序：盐水饱和后注油；当前：第一次水驱后；水相：碘化钾盐水；油相：碘代癸烷标记的癸烷。",
+      "descriptor_support": "logit_argmax",
+      "source_record": {
+        "path": "实验/external_fine8_wf1_repeat_seeds42_2024_20261005/evaluation/cases/seed42/run_manifest.json",
+        "sha256": "d3acbf8d0bb332635cd39e27533a775dffb98a4b9fc4cc255797cb736d247962"
+      },
+      "native_grid_yx": [
+        1033,
+        1030
+      ],
+      "raw_grid_yx": [
+        1033,
+        1030
+      ],
+      "crop_yx": null
+    },
+    "whole_repeat_wf1_seed2024": {
+      "dataset": "wf1",
+      "seed": 2024,
+      "attempt": "whole_repeat",
+      "weights": {
+        "global": {
+          "path": "实验/external_fine8_wf1_repeat_seeds42_2024_20261005/upstream/cases/seed2024/outputs/wf1_seed2024/global/epochs/epoch_019.pth",
+          "sha256": "d25cb9001255e298909785428da97bce91d424f62e873865d6b133de354c5eaa",
+          "epoch": 19,
+          "arm": "global"
+        },
+        "native_detail": {
+          "path": "实验/external_fine8_wf1_repeat_seeds42_2024_20261005/upstream/cases/seed2024/outputs/wf1_seed2024/native_detail/epochs/epoch_020.pth",
+          "sha256": "5d484b3afcbbf58b99b492a79196da2d1fb322ce0b35b713612f4013fde5af7b",
+          "epoch": 20,
+          "arm": "native_detail"
+        },
+        "body": {
+          "path": "实验/external_fine8_wf1_repeat_seeds42_2024_20261005/body/cases/seed2024/outputs/wf1/separate/epochs/epoch_004.pth",
+          "sha256": "d9ba45ff6211f43cec1983d89525dca773b4409443f312e7097fc8235e054b70",
+          "epoch": 4,
+          "arm": "separate"
+        }
+      },
+      "description": "岩心：Ketton石灰岩；润湿性：水湿；前序：盐水饱和后注油；当前：第一次水驱后；水相：碘化钾盐水；油相：碘代癸烷标记的癸烷。",
+      "descriptor_support": "logit_argmax",
+      "source_record": {
+        "path": "实验/external_fine8_wf1_repeat_seeds42_2024_20261005/evaluation/cases/seed2024/run_manifest.json",
+        "sha256": "64372d00849bca5600b2b83a23b001b3b6b0abc9dd6795fa97ab1e43eb59370c"
+      },
+      "native_grid_yx": [
+        1033,
+        1030
+      ],
+      "raw_grid_yx": [
+        1033,
+        1030
+      ],
+      "crop_yx": null
+    },
+    "whole_repeat_wf1_seed2025": {
+      "dataset": "wf1",
+      "seed": 2025,
+      "attempt": "whole_repeat",
+      "weights": {
+        "global": {
+          "path": "实验/external_fine8_wf1_seed2025_repeat_20261005/upstream/cases/seed2025/outputs/wf1_seed2025/global/epochs/epoch_020.pth",
+          "sha256": "71b2b4a0a28d350d9abc3ab1db96e3552e4e6f12a01c25be88a1f444855aa444",
+          "epoch": 20,
+          "arm": "global"
+        },
+        "native_detail": {
+          "path": "实验/external_fine8_wf1_seed2025_repeat_20261005/upstream/cases/seed2025/outputs/wf1_seed2025/native_detail/epochs/epoch_011.pth",
+          "sha256": "922dbd3bad51bcc21e028846ed88ffbb6c13e7a54851c5930b4831a65930e7e0",
+          "epoch": 11,
+          "arm": "native_detail"
+        },
+        "body": {
+          "path": "实验/external_fine8_wf1_seed2025_repeat_20261005/body/cases/seed2025/outputs/wf1/separate/epochs/epoch_010.pth",
+          "sha256": "26241f6ba800514e8e4c9a00647c8d781b8d541fb1e70031d969e82ad24b6bdf",
+          "epoch": 10,
+          "arm": "separate"
+        }
+      },
+      "description": "岩心：Ketton石灰岩；润湿性：水湿；前序：盐水饱和后注油；当前：第一次水驱后；水相：碘化钾盐水；油相：碘代癸烷标记的癸烷。",
+      "descriptor_support": "logit_argmax",
+      "source_record": {
+        "path": "实验/external_fine8_wf1_seed2025_repeat_20261005/evaluation/cases/seed2025/run_manifest.json",
+        "sha256": "32a920ee7abb27304522333e3b527d4a172a6572deeeb6876f4f13cb34a8288f"
+      },
+      "native_grid_yx": [
+        1033,
+        1030
+      ],
+      "raw_grid_yx": [
+        1033,
+        1030
+      ],
+      "crop_yx": null
+    }
+  },
+  "sources": {
+    "external_clean_prior_adaptation_20261001/model_adapter.py": "f5a7572a6fae0e8b3f833f4b7552d20aa4eb8385bb82773375309945826664f9",
+    "external_clean_prior_adaptation_20261001/prior_schema.py": "3d896ea0e438a8bc4c22712216e2041ff219d49139c17f6c143c4698f4915ecf",
+    "external_frozen_phase_20261001/external_inputs.py": "9dd98939f5236d4a1c166ef29aad758e3be482e598660b84ff647991d612bea6",
+    "external_frozen_phase_20261001/phase_predictor.py": "8b00bdda88e1cc6e862b0b3bf8200b5b831533301c23e80d70efbc2d3717500b",
+    "external_body_adaptation_20261003/spatial.py": "12f39d9132fc6926b36642eb8ccfbdf92f7f4142d1f13df47af0b0a1ef8b76f2",
+    "external_full_vs_global_fine8_test_20261004/evaluate_locked.py": "c5df49002dc47cad3c09c81b78283a96fd981c371b78bf8cffbc9b80d9284ead",
+    "external_fine8_multiseed_test_recovery_20261005/evaluate_multiseed.py": "e732babc07d1440ecba9fe0c497e48e5a9a48c8f3f5b6a95b2704ed8cbd34923",
+    "external_fine8_multiseed_body_recovery_20261005/representation_authoritative.py": "bf470ad77861643381d053c551ad99f84270e97e54374d6ebef3d3473959ad04"
+  },
+  "preprocessing": "crop, float32, per-image 0.5/99.5 percentiles, clip [0,1], float-mode PIL bilinear 512",
+  "precision": "Global/native BF16, oil-body head FP32",
+  "batch_size": 1,
+  "weights_embedded": false,
+  "public_release": false
+}

@@ -1,0 +1,25 @@
+{
+  "version": "2026-10-05-pink-teal",
+  "background": "#FFFFFF",
+  "text": "#26313A",
+  "model_colors": {
+    "TransUNet": "#969696",
+    "Global": "#E679A8",
+    "Pointwise": "#A391C9",
+    "Complete": "#4EB1A5"
+  },
+  "model_roles": {
+    "Global": "Project-developed system comparator; soft pink",
+    "Complete": "Primary complete predictor; teal green",
+    "Pointwise": "Matched body-head control; subordinate lavender",
+    "TransUNet": "External-method comparator; neutral gray"
+  },
+  "reference": "Author-supplied third JPG palette: #E679A8 and #4EB1A5",
+  "scope": "Model identity in new result charts; does not recolor semantic masks",
+  "semantic_colors": ["#000000", "#969696", "#2D6494", "#E6C64A", "#D88A3C", "#83C8DF", "#CC5C54", "#8964AE"],
+  "quantitative_summary": "mean and sample SD, with individual seed markers",
+  "panel_labels": "lowercase, bold",
+  "font_floor_pt": 7.0,
+  "font_family": "Times New Roman",
+  "font_policy": "PR figures near the 8-pt caption size; 7-pt minimum at actual 114-mm manuscript width"
+}

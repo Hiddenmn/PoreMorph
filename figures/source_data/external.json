@@ -1,0 +1,3793 @@
+{
+  "__kind__": "tuple",
+  "items": [
+    {
+      "__kind__": "array",
+      "values": [
+        [
+          [
+            [
+              [
+                99.73136609349476,
+                96.94678040386702,
+                85.24765300614442,
+                18.909560021714483,
+                31.213729750534615,
+                31.3691684952209,
+                42.71752850459609,
+                81.47793393685662
+              ],
+              [
+                99.90727132973551,
+                97.54045549985231,
+                87.97217579953531,
+                23.174963299063673,
+                34.440810663486836,
+                30.334743218363013,
+                51.49715568927821,
+                83.93133188322885
+              ]
+            ],
+            [
+              [
+                99.63934221641452,
+                96.96575945563957,
+                85.37870634142422,
+                18.726378093119354,
+                31.507883034622964,
+                30.641511176794246,
+                41.422976450328555,
+                80.24838677704885
+              ],
+              [
+                99.92600209466951,
+                97.8087196375952,
+                89.16823031091468,
+                21.566744409369207,
+                31.106914720000212,
+                30.75314232338817,
+                48.66068228676855,
+                82.82232196192568
+              ]
+            ],
+            [
+              [
+                99.74452140095008,
+                97.04994597354751,
+                85.46561071143289,
+                19.920494699634073,
+                31.836550287384398,
+                32.63615212952593,
+                45.06389909955744,
+                81.63795592759905
+              ],
+              [
+                99.95494975376631,
+                97.79545004718571,
+                89.42305220300257,
+                22.19539375927303,
+                33.11269315935306,
+                31.633288894038973,
+                49.27273712834949,
+                84.28122106400255
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                99.9036709087885,
+                97.57056624166282,
+                88.06675183479614,
+                20.4400268975329,
+                31.989672818918415,
+                31.843561700760624,
+                43.46367003323828,
+                82.39757269077877
+              ],
+              [
+                99.88980541217562,
+                97.36859866581469,
+                87.17711819659058,
+                22.8445072097475,
+                34.70473488206892,
+                30.3705993809477,
+                51.5157364203537,
+                83.91884721583166
+              ]
+            ],
+            [
+              [
+                99.87974973636753,
+                97.70424663920824,
+                88.56099100871805,
+                20.69402561076424,
+                32.076991466498065,
+                30.974463677807023,
+                41.97484254213003,
+                81.0520609561975
+              ],
+              [
+                99.92432866017525,
+                97.7175221809594,
+                88.77903281125705,
+                21.06046897383302,
+                31.363897699595515,
+                30.76891637576878,
+                48.75576388756291,
+                82.84638199233973
+              ]
+            ],
+            [
+              [
+                99.90449521248186,
+                97.55210899356817,
+                87.84014584286551,
+                21.106470201488744,
+                32.66212740631344,
+                33.07124020999635,
+                45.78942241371563,
+                82.58327474062231
+              ],
+              [
+                99.95379532159919,
+                97.7064120607487,
+                89.00420944933916,
+                21.794435173513982,
+                33.20493872372489,
+                31.653079440642035,
+                49.32296417693502,
+                84.25993245847985
+              ]
+            ]
+          ]
+        ],
+        [
+          [
+            [
+              [
+                99.68675253553386,
+                98.08101362873474,
+                82.63990368114793,
+                9.116200382216915,
+                33.35533709912053,
+                52.23892024936756,
+                50.18000116897922,
+                65.79977064214934
+              ],
+              [
+                99.77309749134308,
+                98.45628954035274,
+                84.90370814100959,
+                14.917727326460955,
+                33.53594074396491,
+                58.8372221821298,
+                53.27149986878934,
+                67.32257315557516
+              ]
+            ],
+            [
+              [
+                99.66511934757916,
+                97.84429217448786,
+                79.49890472495133,
+                9.650767641916556,
+                31.488916841804965,
+                55.18931051732293,
+                48.255317919234116,
+                63.96326022495813
+              ],
+              [
+                99.74241084515731,
+                98.31765260212835,
+                83.7176372165702,
+                10.426562768713762,
+                34.198721504717845,
+                60.90984606556433,
+                54.41233315791979,
+                67.44861325155681
+              ]
+            ],
+            [
+              [
+                99.68776913789608,
+                98.35161512224396,
+                84.27179489256027,
+                10.769913699684645,
+                35.34667186073078,
+                61.21323387424925,
+                53.64828397660347,
+                67.50866184169995
+              ],
+              [
+                99.76917932146517,
+                98.46559937868969,
+                85.16024407128897,
+                15.750044912868088,
+                35.47234865113875,
+                59.05916931683751,
+                54.08918851614186,
+                66.65655613766201
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                99.71123563219241,
+                98.24136856834077,
+                83.20120801290145,
+                9.146423245942623,
+                33.82463589230878,
+                53.04284292701372,
+                50.69281661080242,
+                66.22354696961256
+              ],
+              [
+                99.76001713314601,
+                98.46238914235799,
+                84.61144625943828,
+                14.90153949289417,
+                33.63687197512197,
+                59.04578449296455,
+                53.411074848572206,
+                67.38784567356983
+              ]
+            ],
+            [
+              [
+                99.71134454535142,
+                97.97648846263776,
+                79.96630732122641,
+                9.677269040514878,
+                31.89792710239126,
+                56.25871842168638,
+                48.8647243980887,
+                64.28808344431434
+              ],
+              [
+                99.73441749479002,
+                98.3038338831447,
+                83.3404098531399,
+                10.38332839296417,
+                34.26358150917927,
+                61.095021387442415,
+                54.473338549572404,
+                67.43260040097643
+              ]
+            ],
+            [
+              [
+                99.71862637708097,
+                98.57036712415929,
+                85.2699715553849,
+                10.71088447082371,
+                35.814521094473086,
+                62.423081793309244,
+                54.3117376798053,
+                68.16544526410098
+              ],
+              [
+                99.76032431358777,
+                98.48108025744065,
+                85.07120785563271,
+                15.871388157717995,
+                35.56730974790484,
+                59.30332891069953,
+                54.19365206246781,
+                66.66300245446848
+              ]
+            ]
+          ]
+        ],
+        [
+          [
+            [
+              [
+                99.69325039875913,
+                98.09403378828145,
+                82.89439757374241,
+                9.30881270047244,
+                32.69813029851657,
+                54.086098351216606,
+                49.440605227532245,
+                66.05451759103791
+              ],
+              [
+                99.7666046287941,
+                98.33941081804306,
+                84.98657336817566,
+                16.932387784718706,
+                33.025115632358606,
+                59.56452226073337,
+                52.493539408388344,
+                67.18641533362434
+              ]
+            ],
+            [
+              [
+                99.67990672299089,
+                98.06337041203231,
+                81.6920627769631,
+                8.152832363109356,
+                31.11358471476026,
+                53.77230153655438,
+                47.656843104300805,
+                65.00977805063931
+              ],
+              [
+                99.75583479049308,
+                98.47666235230297,
+                85.64708692471694,
+                11.2848756827808,
+                32.730351826587835,
+                59.418700142960645,
+                52.67460272465675,
+                67.45108492489628
+              ]
+            ],
+            [
+              [
+                99.67453609537998,
+                98.32115436087724,
+                83.84032649575211,
+                9.938803857846082,
+                35.648312247791296,
+                60.135444229427236,
+                53.10375525481648,
+                67.32900487137975
+              ],
+              [
+                99.75008558427459,
+                98.49317244913952,
+                84.88021643961166,
+                18.212684404167906,
+                35.45378881281363,
+                58.88300754072331,
+                55.59985523357719,
+                67.35033258060963
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                99.72384713985669,
+                98.2642300465005,
+                83.6115766981892,
+                9.329570356806169,
+                33.130825007271966,
+                54.94769084089944,
+                49.960524174200614,
+                66.47822673969527
+              ],
+              [
+                99.75399565573179,
+                98.35359006424046,
+                84.72731351693177,
+                16.96147188922345,
+                33.14480483000338,
+                59.84682470991459,
+                52.634257337648464,
+                67.2621030244064
+              ]
+            ],
+            [
+              [
+                99.70684713159295,
+                98.21409442760994,
+                82.22836346240395,
+                8.10874538673786,
+                31.502704473023414,
+                54.78246858148521,
+                48.20979601803101,
+                65.36690935775955
+              ],
+              [
+                99.74698521494005,
+                98.46765671511305,
+                85.33026042232497,
+                11.40058995054603,
+                32.785984522994525,
+                59.57581815323101,
+                52.758302089982045,
+                67.45633888270393
+              ]
+            ],
+            [
+              [
+                99.70122785796408,
+                98.51477707625523,
+                84.46611889960228,
+                9.8054323843444,
+                36.17465411221194,
+                61.370827800754036,
+                53.800626187734636,
+                68.0149983685988
+              ],
+              [
+                99.7419912261499,
+                98.50451333673948,
+                84.8209117410852,
+                18.32125641241,
+                35.51619540103418,
+                59.09997882329962,
+                55.68341305071608,
+                67.33259758116317
+              ]
+            ]
+          ]
+        ]
+      ],
+      "dtype": "float64",
+      "shape": [
+        3,
+        2,
+        3,
+        2,
+        8
+      ]
+    },
+    [
+      {
+        "group": "Bentheimer",
+        "grid": "canonical512",
+        "seed": 42,
+        "model": "global",
+        "class_id": 0,
+        "class_name": "Background",
+        "IoU": 0.9973136609349476,
+        "mIoU": 0.6095171502655361
+      },
+      {
+        "group": "Bentheimer",
+        "grid": "canonical512",
+        "seed": 42,
+        "model": "global",
+        "class_id": 1,
+        "class_name": "Rock",
+        "IoU": 0.9694678040386703,
+        "mIoU": 0.6095171502655361
+      },
+      {
+        "group": "Bentheimer",
+        "grid": "canonical512",
+        "seed": 42,
+        "model": "global",
+        "class_id": 2,
+        "class_name": "Water",
+        "IoU": 0.8524765300614442,
+        "mIoU": 0.6095171502655361
+      },
+      {
+        "group": "Bentheimer",
+        "grid": "canonical512",
+        "seed": 42,
+        "model": "global",
+        "class_id": 3,
+        "class_name": "Film",
+        "IoU": 0.18909560021714483,
+        "mIoU": 0.6095171502655361
+      },
+      {
+        "group": "Bentheimer",
+        "grid": "canonical512",
+        "seed": 42,
+        "model": "global",
+        "class_id": 4,
+        "class_name": "Pore-corner",
+        "IoU": 0.31213729750534613,
+        "mIoU": 0.6095171502655361
+      },
+      {
+        "group": "Bentheimer",
+        "grid": "canonical512",
+        "seed": 42,
+        "model": "global",
+        "class_id": 5,
+        "class_name": "Droplet",
+        "IoU": 0.313691684952209,
+        "mIoU": 0.6095171502655361
+      },
+      {
+        "group": "Bentheimer",
+        "grid": "canonical512",
+        "seed": 42,
+        "model": "global",
+        "class_id": 6,
+        "class_name": "Columnar",
+        "IoU": 0.42717528504596086,
+        "mIoU": 0.6095171502655361
+      },
+      {
+        "group": "Bentheimer",
+        "grid": "canonical512",
+        "seed": 42,
+        "model": "global",
+        "class_id": 7,
+        "class_name": "Clustered",
+        "IoU": 0.8147793393685662,
+        "mIoU": 0.6095171502655361
+      },
+      {
+        "group": "Bentheimer",
+        "grid": "canonical512",
+        "seed": 42,
+        "model": "complete",
+        "class_id": 0,
+        "class_name": "Background",
+        "IoU": 0.9990727132973551,
+        "mIoU": 0.6359986342281796
+      },
+      {
+        "group": "Bentheimer",
+        "grid": "canonical512",
+        "seed": 42,
+        "model": "complete",
+        "class_id": 1,
+        "class_name": "Rock",
+        "IoU": 0.9754045549985231,
+        "mIoU": 0.6359986342281796
+      },
+      {
+        "group": "Bentheimer",
+        "grid": "canonical512",
+        "seed": 42,
+        "model": "complete",
+        "class_id": 2,
+        "class_name": "Water",
+        "IoU": 0.879721757995353,
+        "mIoU": 0.6359986342281796
+      },
+      {
+        "group": "Bentheimer",
+        "grid": "canonical512",
+        "seed": 42,
+        "model": "complete",
+        "class_id": 3,
+        "class_name": "Film",
+        "IoU": 0.23174963299063675,
+        "mIoU": 0.6359986342281796
+      },
+      {
+        "group": "Bentheimer",
+        "grid": "canonical512",
+        "seed": 42,
+        "model": "complete",
+        "class_id": 4,
+        "class_name": "Pore-corner",
+        "IoU": 0.34440810663486837,
+        "mIoU": 0.6359986342281796
+      },
+      {
+        "group": "Bentheimer",
+        "grid": "canonical512",
+        "seed": 42,
+        "model": "complete",
+        "class_id": 5,
+        "class_name": "Droplet",
+        "IoU": 0.30334743218363014,
+        "mIoU": 0.6359986342281796
+      },
+      {
+        "group": "Bentheimer",
+        "grid": "canonical512",
+        "seed": 42,
+        "model": "complete",
+        "class_id": 6,
+        "class_name": "Columnar",
+        "IoU": 0.5149715568927821,
+        "mIoU": 0.6359986342281796
+      },
+      {
+        "group": "Bentheimer",
+        "grid": "canonical512",
+        "seed": 42,
+        "model": "complete",
+        "class_id": 7,
+        "class_name": "Clustered",
+        "IoU": 0.8393133188322884,
+        "mIoU": 0.6359986342281796
+      },
+      {
+        "group": "Bentheimer",
+        "grid": "canonical512",
+        "seed": 2024,
+        "model": "global",
+        "class_id": 0,
+        "class_name": "Background",
+        "IoU": 0.9963934221641452,
+        "mIoU": 0.6056636794317403
+      },
+      {
+        "group": "Bentheimer",
+        "grid": "canonical512",
+        "seed": 2024,
+        "model": "global",
+        "class_id": 1,
+        "class_name": "Rock",
+        "IoU": 0.9696575945563957,
+        "mIoU": 0.6056636794317403
+      },
+      {
+        "group": "Bentheimer",
+        "grid": "canonical512",
+        "seed": 2024,
+        "model": "global",
+        "class_id": 2,
+        "class_name": "Water",
+        "IoU": 0.8537870634142422,
+        "mIoU": 0.6056636794317403
+      },
+      {
+        "group": "Bentheimer",
+        "grid": "canonical512",
+        "seed": 2024,
+        "model": "global",
+        "class_id": 3,
+        "class_name": "Film",
+        "IoU": 0.18726378093119356,
+        "mIoU": 0.6056636794317403
+      },
+      {
+        "group": "Bentheimer",
+        "grid": "canonical512",
+        "seed": 2024,
+        "model": "global",
+        "class_id": 4,
+        "class_name": "Pore-corner",
+        "IoU": 0.31507883034622963,
+        "mIoU": 0.6056636794317403
+      },
+      {
+        "group": "Bentheimer",
+        "grid": "canonical512",
+        "seed": 2024,
+        "model": "global",
+        "class_id": 5,
+        "class_name": "Droplet",
+        "IoU": 0.30641511176794245,
+        "mIoU": 0.6056636794317403
+      },
+      {
+        "group": "Bentheimer",
+        "grid": "canonical512",
+        "seed": 2024,
+        "model": "global",
+        "class_id": 6,
+        "class_name": "Columnar",
+        "IoU": 0.4142297645032856,
+        "mIoU": 0.6056636794317403
+      },
+      {
+        "group": "Bentheimer",
+        "grid": "canonical512",
+        "seed": 2024,
+        "model": "global",
+        "class_id": 7,
+        "class_name": "Clustered",
+        "IoU": 0.8024838677704885,
+        "mIoU": 0.6056636794317403
+      },
+      {
+        "group": "Bentheimer",
+        "grid": "canonical512",
+        "seed": 2024,
+        "model": "complete",
+        "class_id": 0,
+        "class_name": "Background",
+        "IoU": 0.9992600209466951,
+        "mIoU": 0.6272659471807891
+      },
+      {
+        "group": "Bentheimer",
+        "grid": "canonical512",
+        "seed": 2024,
+        "model": "complete",
+        "class_id": 1,
+        "class_name": "Rock",
+        "IoU": 0.9780871963759521,
+        "mIoU": 0.6272659471807891
+      },
+      {
+        "group": "Bentheimer",
+        "grid": "canonical512",
+        "seed": 2024,
+        "model": "complete",
+        "class_id": 2,
+        "class_name": "Water",
+        "IoU": 0.8916823031091468,
+        "mIoU": 0.6272659471807891
+      },
+      {
+        "group": "Bentheimer",
+        "grid": "canonical512",
+        "seed": 2024,
+        "model": "complete",
+        "class_id": 3,
+        "class_name": "Film",
+        "IoU": 0.21566744409369207,
+        "mIoU": 0.6272659471807891
+      },
+      {
+        "group": "Bentheimer",
+        "grid": "canonical512",
+        "seed": 2024,
+        "model": "complete",
+        "class_id": 4,
+        "class_name": "Pore-corner",
+        "IoU": 0.3110691472000021,
+        "mIoU": 0.6272659471807891
+      },
+      {
+        "group": "Bentheimer",
+        "grid": "canonical512",
+        "seed": 2024,
+        "model": "complete",
+        "class_id": 5,
+        "class_name": "Droplet",
+        "IoU": 0.3075314232338817,
+        "mIoU": 0.6272659471807891
+      },
+      {
+        "group": "Bentheimer",
+        "grid": "canonical512",
+        "seed": 2024,
+        "model": "complete",
+        "class_id": 6,
+        "class_name": "Columnar",
+        "IoU": 0.4866068228676855,
+        "mIoU": 0.6272659471807891
+      },
+      {
+        "group": "Bentheimer",
+        "grid": "canonical512",
+        "seed": 2024,
+        "model": "complete",
+        "class_id": 7,
+        "class_name": "Clustered",
+        "IoU": 0.8282232196192568,
+        "mIoU": 0.6272659471807891
+      },
+      {
+        "group": "Bentheimer",
+        "grid": "canonical512",
+        "seed": 2025,
+        "model": "global",
+        "class_id": 0,
+        "class_name": "Background",
+        "IoU": 0.9974452140095007,
+        "mIoU": 0.6166939127870392
+      },
+      {
+        "group": "Bentheimer",
+        "grid": "canonical512",
+        "seed": 2025,
+        "model": "global",
+        "class_id": 1,
+        "class_name": "Rock",
+        "IoU": 0.9704994597354751,
+        "mIoU": 0.6166939127870392
+      },
+      {
+        "group": "Bentheimer",
+        "grid": "canonical512",
+        "seed": 2025,
+        "model": "global",
+        "class_id": 2,
+        "class_name": "Water",
+        "IoU": 0.8546561071143288,
+        "mIoU": 0.6166939127870392
+      },
+      {
+        "group": "Bentheimer",
+        "grid": "canonical512",
+        "seed": 2025,
+        "model": "global",
+        "class_id": 3,
+        "class_name": "Film",
+        "IoU": 0.19920494699634073,
+        "mIoU": 0.6166939127870392
+      },
+      {
+        "group": "Bentheimer",
+        "grid": "canonical512",
+        "seed": 2025,
+        "model": "global",
+        "class_id": 4,
+        "class_name": "Pore-corner",
+        "IoU": 0.31836550287384396,
+        "mIoU": 0.6166939127870392
+      },
+      {
+        "group": "Bentheimer",
+        "grid": "canonical512",
+        "seed": 2025,
+        "model": "global",
+        "class_id": 5,
+        "class_name": "Droplet",
+        "IoU": 0.3263615212952593,
+        "mIoU": 0.6166939127870392
+      },
+      {
+        "group": "Bentheimer",
+        "grid": "canonical512",
+        "seed": 2025,
+        "model": "global",
+        "class_id": 6,
+        "class_name": "Columnar",
+        "IoU": 0.4506389909955744,
+        "mIoU": 0.6166939127870392
+      },
+      {
+        "group": "Bentheimer",
+        "grid": "canonical512",
+        "seed": 2025,
+        "model": "global",
+        "class_id": 7,
+        "class_name": "Clustered",
+        "IoU": 0.8163795592759905,
+        "mIoU": 0.6166939127870392
+      },
+      {
+        "group": "Bentheimer",
+        "grid": "canonical512",
+        "seed": 2025,
+        "model": "complete",
+        "class_id": 0,
+        "class_name": "Background",
+        "IoU": 0.9995494975376632,
+        "mIoU": 0.6345859825112147
+      },
+      {
+        "group": "Bentheimer",
+        "grid": "canonical512",
+        "seed": 2025,
+        "model": "complete",
+        "class_id": 1,
+        "class_name": "Rock",
+        "IoU": 0.9779545004718572,
+        "mIoU": 0.6345859825112147
+      },
+      {
+        "group": "Bentheimer",
+        "grid": "canonical512",
+        "seed": 2025,
+        "model": "complete",
+        "class_id": 2,
+        "class_name": "Water",
+        "IoU": 0.8942305220300257,
+        "mIoU": 0.6345859825112147
+      },
+      {
+        "group": "Bentheimer",
+        "grid": "canonical512",
+        "seed": 2025,
+        "model": "complete",
+        "class_id": 3,
+        "class_name": "Film",
+        "IoU": 0.22195393759273033,
+        "mIoU": 0.6345859825112147
+      },
+      {
+        "group": "Bentheimer",
+        "grid": "canonical512",
+        "seed": 2025,
+        "model": "complete",
+        "class_id": 4,
+        "class_name": "Pore-corner",
+        "IoU": 0.33112693159353057,
+        "mIoU": 0.6345859825112147
+      },
+      {
+        "group": "Bentheimer",
+        "grid": "canonical512",
+        "seed": 2025,
+        "model": "complete",
+        "class_id": 5,
+        "class_name": "Droplet",
+        "IoU": 0.31633288894038974,
+        "mIoU": 0.6345859825112147
+      },
+      {
+        "group": "Bentheimer",
+        "grid": "canonical512",
+        "seed": 2025,
+        "model": "complete",
+        "class_id": 6,
+        "class_name": "Columnar",
+        "IoU": 0.4927273712834949,
+        "mIoU": 0.6345859825112147
+      },
+      {
+        "group": "Bentheimer",
+        "grid": "canonical512",
+        "seed": 2025,
+        "model": "complete",
+        "class_id": 7,
+        "class_name": "Clustered",
+        "IoU": 0.8428122106400255,
+        "mIoU": 0.6345859825112147
+      },
+      {
+        "group": "Bentheimer",
+        "grid": "native",
+        "seed": 42,
+        "model": "global",
+        "class_id": 0,
+        "class_name": "Background",
+        "IoU": 0.999036709087885,
+        "mIoU": 0.6195943664080956
+      },
+      {
+        "group": "Bentheimer",
+        "grid": "native",
+        "seed": 42,
+        "model": "global",
+        "class_id": 1,
+        "class_name": "Rock",
+        "IoU": 0.9757056624166281,
+        "mIoU": 0.6195943664080956
+      },
+      {
+        "group": "Bentheimer",
+        "grid": "native",
+        "seed": 42,
+        "model": "global",
+        "class_id": 2,
+        "class_name": "Water",
+        "IoU": 0.8806675183479613,
+        "mIoU": 0.6195943664080956
+      },
+      {
+        "group": "Bentheimer",
+        "grid": "native",
+        "seed": 42,
+        "model": "global",
+        "class_id": 3,
+        "class_name": "Film",
+        "IoU": 0.204400268975329,
+        "mIoU": 0.6195943664080956
+      },
+      {
+        "group": "Bentheimer",
+        "grid": "native",
+        "seed": 42,
+        "model": "global",
+        "class_id": 4,
+        "class_name": "Pore-corner",
+        "IoU": 0.31989672818918413,
+        "mIoU": 0.6195943664080956
+      },
+      {
+        "group": "Bentheimer",
+        "grid": "native",
+        "seed": 42,
+        "model": "global",
+        "class_id": 5,
+        "class_name": "Droplet",
+        "IoU": 0.31843561700760625,
+        "mIoU": 0.6195943664080956
+      },
+      {
+        "group": "Bentheimer",
+        "grid": "native",
+        "seed": 42,
+        "model": "global",
+        "class_id": 6,
+        "class_name": "Columnar",
+        "IoU": 0.43463670033238283,
+        "mIoU": 0.6195943664080956
+      },
+      {
+        "group": "Bentheimer",
+        "grid": "native",
+        "seed": 42,
+        "model": "global",
+        "class_id": 7,
+        "class_name": "Clustered",
+        "IoU": 0.8239757269077878,
+        "mIoU": 0.6195943664080956
+      },
+      {
+        "group": "Bentheimer",
+        "grid": "native",
+        "seed": 42,
+        "model": "complete",
+        "class_id": 0,
+        "class_name": "Background",
+        "IoU": 0.9988980541217561,
+        "mIoU": 0.634737434229413
+      },
+      {
+        "group": "Bentheimer",
+        "grid": "native",
+        "seed": 42,
+        "model": "complete",
+        "class_id": 1,
+        "class_name": "Rock",
+        "IoU": 0.9736859866581469,
+        "mIoU": 0.634737434229413
+      },
+      {
+        "group": "Bentheimer",
+        "grid": "native",
+        "seed": 42,
+        "model": "complete",
+        "class_id": 2,
+        "class_name": "Water",
+        "IoU": 0.8717711819659059,
+        "mIoU": 0.634737434229413
+      },
+      {
+        "group": "Bentheimer",
+        "grid": "native",
+        "seed": 42,
+        "model": "complete",
+        "class_id": 3,
+        "class_name": "Film",
+        "IoU": 0.22844507209747503,
+        "mIoU": 0.634737434229413
+      },
+      {
+        "group": "Bentheimer",
+        "grid": "native",
+        "seed": 42,
+        "model": "complete",
+        "class_id": 4,
+        "class_name": "Pore-corner",
+        "IoU": 0.3470473488206892,
+        "mIoU": 0.634737434229413
+      },
+      {
+        "group": "Bentheimer",
+        "grid": "native",
+        "seed": 42,
+        "model": "complete",
+        "class_id": 5,
+        "class_name": "Droplet",
+        "IoU": 0.303705993809477,
+        "mIoU": 0.634737434229413
+      },
+      {
+        "group": "Bentheimer",
+        "grid": "native",
+        "seed": 42,
+        "model": "complete",
+        "class_id": 6,
+        "class_name": "Columnar",
+        "IoU": 0.515157364203537,
+        "mIoU": 0.634737434229413
+      },
+      {
+        "group": "Bentheimer",
+        "grid": "native",
+        "seed": 42,
+        "model": "complete",
+        "class_id": 7,
+        "class_name": "Clustered",
+        "IoU": 0.8391884721583166,
+        "mIoU": 0.634737434229413
+      },
+      {
+        "group": "Bentheimer",
+        "grid": "native",
+        "seed": 2024,
+        "model": "global",
+        "class_id": 0,
+        "class_name": "Background",
+        "IoU": 0.9987974973636753,
+        "mIoU": 0.6161467145471133
+      },
+      {
+        "group": "Bentheimer",
+        "grid": "native",
+        "seed": 2024,
+        "model": "global",
+        "class_id": 1,
+        "class_name": "Rock",
+        "IoU": 0.9770424663920824,
+        "mIoU": 0.6161467145471133
+      },
+      {
+        "group": "Bentheimer",
+        "grid": "native",
+        "seed": 2024,
+        "model": "global",
+        "class_id": 2,
+        "class_name": "Water",
+        "IoU": 0.8856099100871805,
+        "mIoU": 0.6161467145471133
+      },
+      {
+        "group": "Bentheimer",
+        "grid": "native",
+        "seed": 2024,
+        "model": "global",
+        "class_id": 3,
+        "class_name": "Film",
+        "IoU": 0.20694025610764238,
+        "mIoU": 0.6161467145471133
+      },
+      {
+        "group": "Bentheimer",
+        "grid": "native",
+        "seed": 2024,
+        "model": "global",
+        "class_id": 4,
+        "class_name": "Pore-corner",
+        "IoU": 0.32076991466498067,
+        "mIoU": 0.6161467145471133
+      },
+      {
+        "group": "Bentheimer",
+        "grid": "native",
+        "seed": 2024,
+        "model": "global",
+        "class_id": 5,
+        "class_name": "Droplet",
+        "IoU": 0.30974463677807024,
+        "mIoU": 0.6161467145471133
+      },
+      {
+        "group": "Bentheimer",
+        "grid": "native",
+        "seed": 2024,
+        "model": "global",
+        "class_id": 6,
+        "class_name": "Columnar",
+        "IoU": 0.41974842542130025,
+        "mIoU": 0.6161467145471133
+      },
+      {
+        "group": "Bentheimer",
+        "grid": "native",
+        "seed": 2024,
+        "model": "global",
+        "class_id": 7,
+        "class_name": "Clustered",
+        "IoU": 0.8105206095619749,
+        "mIoU": 0.6161467145471133
+      },
+      {
+        "group": "Bentheimer",
+        "grid": "native",
+        "seed": 2024,
+        "model": "complete",
+        "class_id": 0,
+        "class_name": "Background",
+        "IoU": 0.9992432866017524,
+        "mIoU": 0.6265203907268646
+      },
+      {
+        "group": "Bentheimer",
+        "grid": "native",
+        "seed": 2024,
+        "model": "complete",
+        "class_id": 1,
+        "class_name": "Rock",
+        "IoU": 0.977175221809594,
+        "mIoU": 0.6265203907268646
+      },
+      {
+        "group": "Bentheimer",
+        "grid": "native",
+        "seed": 2024,
+        "model": "complete",
+        "class_id": 2,
+        "class_name": "Water",
+        "IoU": 0.8877903281125705,
+        "mIoU": 0.6265203907268646
+      },
+      {
+        "group": "Bentheimer",
+        "grid": "native",
+        "seed": 2024,
+        "model": "complete",
+        "class_id": 3,
+        "class_name": "Film",
+        "IoU": 0.21060468973833021,
+        "mIoU": 0.6265203907268646
+      },
+      {
+        "group": "Bentheimer",
+        "grid": "native",
+        "seed": 2024,
+        "model": "complete",
+        "class_id": 4,
+        "class_name": "Pore-corner",
+        "IoU": 0.31363897699595517,
+        "mIoU": 0.6265203907268646
+      },
+      {
+        "group": "Bentheimer",
+        "grid": "native",
+        "seed": 2024,
+        "model": "complete",
+        "class_id": 5,
+        "class_name": "Droplet",
+        "IoU": 0.3076891637576878,
+        "mIoU": 0.6265203907268646
+      },
+      {
+        "group": "Bentheimer",
+        "grid": "native",
+        "seed": 2024,
+        "model": "complete",
+        "class_id": 6,
+        "class_name": "Columnar",
+        "IoU": 0.4875576388756291,
+        "mIoU": 0.6265203907268646
+      },
+      {
+        "group": "Bentheimer",
+        "grid": "native",
+        "seed": 2024,
+        "model": "complete",
+        "class_id": 7,
+        "class_name": "Clustered",
+        "IoU": 0.8284638199233972,
+        "mIoU": 0.6265203907268646
+      },
+      {
+        "group": "Bentheimer",
+        "grid": "native",
+        "seed": 2025,
+        "model": "global",
+        "class_id": 0,
+        "class_name": "Background",
+        "IoU": 0.9990449521248186,
+        "mIoU": 0.625636606276315
+      },
+      {
+        "group": "Bentheimer",
+        "grid": "native",
+        "seed": 2025,
+        "model": "global",
+        "class_id": 1,
+        "class_name": "Rock",
+        "IoU": 0.9755210899356817,
+        "mIoU": 0.625636606276315
+      },
+      {
+        "group": "Bentheimer",
+        "grid": "native",
+        "seed": 2025,
+        "model": "global",
+        "class_id": 2,
+        "class_name": "Water",
+        "IoU": 0.8784014584286551,
+        "mIoU": 0.625636606276315
+      },
+      {
+        "group": "Bentheimer",
+        "grid": "native",
+        "seed": 2025,
+        "model": "global",
+        "class_id": 3,
+        "class_name": "Film",
+        "IoU": 0.21106470201488745,
+        "mIoU": 0.625636606276315
+      },
+      {
+        "group": "Bentheimer",
+        "grid": "native",
+        "seed": 2025,
+        "model": "global",
+        "class_id": 4,
+        "class_name": "Pore-corner",
+        "IoU": 0.3266212740631344,
+        "mIoU": 0.625636606276315
+      },
+      {
+        "group": "Bentheimer",
+        "grid": "native",
+        "seed": 2025,
+        "model": "global",
+        "class_id": 5,
+        "class_name": "Droplet",
+        "IoU": 0.33071240209996344,
+        "mIoU": 0.625636606276315
+      },
+      {
+        "group": "Bentheimer",
+        "grid": "native",
+        "seed": 2025,
+        "model": "global",
+        "class_id": 6,
+        "class_name": "Columnar",
+        "IoU": 0.45789422413715625,
+        "mIoU": 0.625636606276315
+      },
+      {
+        "group": "Bentheimer",
+        "grid": "native",
+        "seed": 2025,
+        "model": "global",
+        "class_id": 7,
+        "class_name": "Clustered",
+        "IoU": 0.8258327474062231,
+        "mIoU": 0.625636606276315
+      },
+      {
+        "group": "Bentheimer",
+        "grid": "native",
+        "seed": 2025,
+        "model": "complete",
+        "class_id": 0,
+        "class_name": "Background",
+        "IoU": 0.9995379532159919,
+        "mIoU": 0.6336247085062285
+      },
+      {
+        "group": "Bentheimer",
+        "grid": "native",
+        "seed": 2025,
+        "model": "complete",
+        "class_id": 1,
+        "class_name": "Rock",
+        "IoU": 0.977064120607487,
+        "mIoU": 0.6336247085062285
+      },
+      {
+        "group": "Bentheimer",
+        "grid": "native",
+        "seed": 2025,
+        "model": "complete",
+        "class_id": 2,
+        "class_name": "Water",
+        "IoU": 0.8900420944933916,
+        "mIoU": 0.6336247085062285
+      },
+      {
+        "group": "Bentheimer",
+        "grid": "native",
+        "seed": 2025,
+        "model": "complete",
+        "class_id": 3,
+        "class_name": "Film",
+        "IoU": 0.21794435173513982,
+        "mIoU": 0.6336247085062285
+      },
+      {
+        "group": "Bentheimer",
+        "grid": "native",
+        "seed": 2025,
+        "model": "complete",
+        "class_id": 4,
+        "class_name": "Pore-corner",
+        "IoU": 0.33204938723724886,
+        "mIoU": 0.6336247085062285
+      },
+      {
+        "group": "Bentheimer",
+        "grid": "native",
+        "seed": 2025,
+        "model": "complete",
+        "class_id": 5,
+        "class_name": "Droplet",
+        "IoU": 0.31653079440642035,
+        "mIoU": 0.6336247085062285
+      },
+      {
+        "group": "Bentheimer",
+        "grid": "native",
+        "seed": 2025,
+        "model": "complete",
+        "class_id": 6,
+        "class_name": "Columnar",
+        "IoU": 0.4932296417693502,
+        "mIoU": 0.6336247085062285
+      },
+      {
+        "group": "Bentheimer",
+        "grid": "native",
+        "seed": 2025,
+        "model": "complete",
+        "class_id": 7,
+        "class_name": "Clustered",
+        "IoU": 0.8425993245847985,
+        "mIoU": 0.6336247085062285
+      },
+      {
+        "group": "WF1 initial",
+        "grid": "canonical512",
+        "seed": 42,
+        "model": "global",
+        "class_id": 0,
+        "class_name": "Background",
+        "IoU": 0.9968675253553385,
+        "mIoU": 0.6138723742340626
+      },
+      {
+        "group": "WF1 initial",
+        "grid": "canonical512",
+        "seed": 42,
+        "model": "global",
+        "class_id": 1,
+        "class_name": "Rock",
+        "IoU": 0.9808101362873474,
+        "mIoU": 0.6138723742340626
+      },
+      {
+        "group": "WF1 initial",
+        "grid": "canonical512",
+        "seed": 42,
+        "model": "global",
+        "class_id": 2,
+        "class_name": "Water",
+        "IoU": 0.8263990368114793,
+        "mIoU": 0.6138723742340626
+      },
+      {
+        "group": "WF1 initial",
+        "grid": "canonical512",
+        "seed": 42,
+        "model": "global",
+        "class_id": 3,
+        "class_name": "Film",
+        "IoU": 0.09116200382216916,
+        "mIoU": 0.6138723742340626
+      },
+      {
+        "group": "WF1 initial",
+        "grid": "canonical512",
+        "seed": 42,
+        "model": "global",
+        "class_id": 4,
+        "class_name": "Pore-corner",
+        "IoU": 0.33355337099120536,
+        "mIoU": 0.6138723742340626
+      },
+      {
+        "group": "WF1 initial",
+        "grid": "canonical512",
+        "seed": 42,
+        "model": "global",
+        "class_id": 5,
+        "class_name": "Droplet",
+        "IoU": 0.5223892024936756,
+        "mIoU": 0.6138723742340626
+      },
+      {
+        "group": "WF1 initial",
+        "grid": "canonical512",
+        "seed": 42,
+        "model": "global",
+        "class_id": 6,
+        "class_name": "Columnar",
+        "IoU": 0.5018000116897922,
+        "mIoU": 0.6138723742340626
+      },
+      {
+        "group": "WF1 initial",
+        "grid": "canonical512",
+        "seed": 42,
+        "model": "global",
+        "class_id": 7,
+        "class_name": "Clustered",
+        "IoU": 0.6579977064214934,
+        "mIoU": 0.6138723742340626
+      },
+      {
+        "group": "WF1 initial",
+        "grid": "canonical512",
+        "seed": 42,
+        "model": "complete",
+        "class_id": 0,
+        "class_name": "Background",
+        "IoU": 0.9977309749134308,
+        "mIoU": 0.638772573062032
+      },
+      {
+        "group": "WF1 initial",
+        "grid": "canonical512",
+        "seed": 42,
+        "model": "complete",
+        "class_id": 1,
+        "class_name": "Rock",
+        "IoU": 0.9845628954035274,
+        "mIoU": 0.638772573062032
+      },
+      {
+        "group": "WF1 initial",
+        "grid": "canonical512",
+        "seed": 42,
+        "model": "complete",
+        "class_id": 2,
+        "class_name": "Water",
+        "IoU": 0.8490370814100959,
+        "mIoU": 0.638772573062032
+      },
+      {
+        "group": "WF1 initial",
+        "grid": "canonical512",
+        "seed": 42,
+        "model": "complete",
+        "class_id": 3,
+        "class_name": "Film",
+        "IoU": 0.14917727326460956,
+        "mIoU": 0.638772573062032
+      },
+      {
+        "group": "WF1 initial",
+        "grid": "canonical512",
+        "seed": 42,
+        "model": "complete",
+        "class_id": 4,
+        "class_name": "Pore-corner",
+        "IoU": 0.3353594074396491,
+        "mIoU": 0.638772573062032
+      },
+      {
+        "group": "WF1 initial",
+        "grid": "canonical512",
+        "seed": 42,
+        "model": "complete",
+        "class_id": 5,
+        "class_name": "Droplet",
+        "IoU": 0.588372221821298,
+        "mIoU": 0.638772573062032
+      },
+      {
+        "group": "WF1 initial",
+        "grid": "canonical512",
+        "seed": 42,
+        "model": "complete",
+        "class_id": 6,
+        "class_name": "Columnar",
+        "IoU": 0.5327149986878934,
+        "mIoU": 0.638772573062032
+      },
+      {
+        "group": "WF1 initial",
+        "grid": "canonical512",
+        "seed": 42,
+        "model": "complete",
+        "class_id": 7,
+        "class_name": "Clustered",
+        "IoU": 0.6732257315557515,
+        "mIoU": 0.638772573062032
+      },
+      {
+        "group": "WF1 initial",
+        "grid": "canonical512",
+        "seed": 2024,
+        "model": "global",
+        "class_id": 0,
+        "class_name": "Background",
+        "IoU": 0.9966511934757917,
+        "mIoU": 0.6069448617403188
+      },
+      {
+        "group": "WF1 initial",
+        "grid": "canonical512",
+        "seed": 2024,
+        "model": "global",
+        "class_id": 1,
+        "class_name": "Rock",
+        "IoU": 0.9784429217448786,
+        "mIoU": 0.6069448617403188
+      },
+      {
+        "group": "WF1 initial",
+        "grid": "canonical512",
+        "seed": 2024,
+        "model": "global",
+        "class_id": 2,
+        "class_name": "Water",
+        "IoU": 0.7949890472495132,
+        "mIoU": 0.6069448617403188
+      },
+      {
+        "group": "WF1 initial",
+        "grid": "canonical512",
+        "seed": 2024,
+        "model": "global",
+        "class_id": 3,
+        "class_name": "Film",
+        "IoU": 0.09650767641916556,
+        "mIoU": 0.6069448617403188
+      },
+      {
+        "group": "WF1 initial",
+        "grid": "canonical512",
+        "seed": 2024,
+        "model": "global",
+        "class_id": 4,
+        "class_name": "Pore-corner",
+        "IoU": 0.31488916841804965,
+        "mIoU": 0.6069448617403188
+      },
+      {
+        "group": "WF1 initial",
+        "grid": "canonical512",
+        "seed": 2024,
+        "model": "global",
+        "class_id": 5,
+        "class_name": "Droplet",
+        "IoU": 0.5518931051732293,
+        "mIoU": 0.6069448617403188
+      },
+      {
+        "group": "WF1 initial",
+        "grid": "canonical512",
+        "seed": 2024,
+        "model": "global",
+        "class_id": 6,
+        "class_name": "Columnar",
+        "IoU": 0.4825531791923412,
+        "mIoU": 0.6069448617403188
+      },
+      {
+        "group": "WF1 initial",
+        "grid": "canonical512",
+        "seed": 2024,
+        "model": "global",
+        "class_id": 7,
+        "class_name": "Clustered",
+        "IoU": 0.6396326022495813,
+        "mIoU": 0.6069448617403188
+      },
+      {
+        "group": "WF1 initial",
+        "grid": "canonical512",
+        "seed": 2024,
+        "model": "complete",
+        "class_id": 0,
+        "class_name": "Background",
+        "IoU": 0.997424108451573,
+        "mIoU": 0.6364672217654105
+      },
+      {
+        "group": "WF1 initial",
+        "grid": "canonical512",
+        "seed": 2024,
+        "model": "complete",
+        "class_id": 1,
+        "class_name": "Rock",
+        "IoU": 0.9831765260212835,
+        "mIoU": 0.6364672217654105
+      },
+      {
+        "group": "WF1 initial",
+        "grid": "canonical512",
+        "seed": 2024,
+        "model": "complete",
+        "class_id": 2,
+        "class_name": "Water",
+        "IoU": 0.837176372165702,
+        "mIoU": 0.6364672217654105
+      },
+      {
+        "group": "WF1 initial",
+        "grid": "canonical512",
+        "seed": 2024,
+        "model": "complete",
+        "class_id": 3,
+        "class_name": "Film",
+        "IoU": 0.10426562768713762,
+        "mIoU": 0.6364672217654105
+      },
+      {
+        "group": "WF1 initial",
+        "grid": "canonical512",
+        "seed": 2024,
+        "model": "complete",
+        "class_id": 4,
+        "class_name": "Pore-corner",
+        "IoU": 0.34198721504717844,
+        "mIoU": 0.6364672217654105
+      },
+      {
+        "group": "WF1 initial",
+        "grid": "canonical512",
+        "seed": 2024,
+        "model": "complete",
+        "class_id": 5,
+        "class_name": "Droplet",
+        "IoU": 0.6090984606556433,
+        "mIoU": 0.6364672217654105
+      },
+      {
+        "group": "WF1 initial",
+        "grid": "canonical512",
+        "seed": 2024,
+        "model": "complete",
+        "class_id": 6,
+        "class_name": "Columnar",
+        "IoU": 0.5441233315791979,
+        "mIoU": 0.6364672217654105
+      },
+      {
+        "group": "WF1 initial",
+        "grid": "canonical512",
+        "seed": 2024,
+        "model": "complete",
+        "class_id": 7,
+        "class_name": "Clustered",
+        "IoU": 0.6744861325155681,
+        "mIoU": 0.6364672217654105
+      },
+      {
+        "group": "WF1 initial",
+        "grid": "canonical512",
+        "seed": 2025,
+        "model": "global",
+        "class_id": 0,
+        "class_name": "Background",
+        "IoU": 0.9968776913789609,
+        "mIoU": 0.6384974305070854
+      },
+      {
+        "group": "WF1 initial",
+        "grid": "canonical512",
+        "seed": 2025,
+        "model": "global",
+        "class_id": 1,
+        "class_name": "Rock",
+        "IoU": 0.9835161512224396,
+        "mIoU": 0.6384974305070854
+      },
+      {
+        "group": "WF1 initial",
+        "grid": "canonical512",
+        "seed": 2025,
+        "model": "global",
+        "class_id": 2,
+        "class_name": "Water",
+        "IoU": 0.8427179489256026,
+        "mIoU": 0.6384974305070854
+      },
+      {
+        "group": "WF1 initial",
+        "grid": "canonical512",
+        "seed": 2025,
+        "model": "global",
+        "class_id": 3,
+        "class_name": "Film",
+        "IoU": 0.10769913699684645,
+        "mIoU": 0.6384974305070854
+      },
+      {
+        "group": "WF1 initial",
+        "grid": "canonical512",
+        "seed": 2025,
+        "model": "global",
+        "class_id": 4,
+        "class_name": "Pore-corner",
+        "IoU": 0.35346671860730783,
+        "mIoU": 0.6384974305070854
+      },
+      {
+        "group": "WF1 initial",
+        "grid": "canonical512",
+        "seed": 2025,
+        "model": "global",
+        "class_id": 5,
+        "class_name": "Droplet",
+        "IoU": 0.6121323387424925,
+        "mIoU": 0.6384974305070854
+      },
+      {
+        "group": "WF1 initial",
+        "grid": "canonical512",
+        "seed": 2025,
+        "model": "global",
+        "class_id": 6,
+        "class_name": "Columnar",
+        "IoU": 0.5364828397660347,
+        "mIoU": 0.6384974305070854
+      },
+      {
+        "group": "WF1 initial",
+        "grid": "canonical512",
+        "seed": 2025,
+        "model": "global",
+        "class_id": 7,
+        "class_name": "Clustered",
+        "IoU": 0.6750866184169995,
+        "mIoU": 0.6384974305070854
+      },
+      {
+        "group": "WF1 initial",
+        "grid": "canonical512",
+        "seed": 2025,
+        "model": "complete",
+        "class_id": 0,
+        "class_name": "Background",
+        "IoU": 0.9976917932146517,
+        "mIoU": 0.6430279128826151
+      },
+      {
+        "group": "WF1 initial",
+        "grid": "canonical512",
+        "seed": 2025,
+        "model": "complete",
+        "class_id": 1,
+        "class_name": "Rock",
+        "IoU": 0.9846559937868968,
+        "mIoU": 0.6430279128826151
+      },
+      {
+        "group": "WF1 initial",
+        "grid": "canonical512",
+        "seed": 2025,
+        "model": "complete",
+        "class_id": 2,
+        "class_name": "Water",
+        "IoU": 0.8516024407128897,
+        "mIoU": 0.6430279128826151
+      },
+      {
+        "group": "WF1 initial",
+        "grid": "canonical512",
+        "seed": 2025,
+        "model": "complete",
+        "class_id": 3,
+        "class_name": "Film",
+        "IoU": 0.15750044912868089,
+        "mIoU": 0.6430279128826151
+      },
+      {
+        "group": "WF1 initial",
+        "grid": "canonical512",
+        "seed": 2025,
+        "model": "complete",
+        "class_id": 4,
+        "class_name": "Pore-corner",
+        "IoU": 0.3547234865113875,
+        "mIoU": 0.6430279128826151
+      },
+      {
+        "group": "WF1 initial",
+        "grid": "canonical512",
+        "seed": 2025,
+        "model": "complete",
+        "class_id": 5,
+        "class_name": "Droplet",
+        "IoU": 0.5905916931683751,
+        "mIoU": 0.6430279128826151
+      },
+      {
+        "group": "WF1 initial",
+        "grid": "canonical512",
+        "seed": 2025,
+        "model": "complete",
+        "class_id": 6,
+        "class_name": "Columnar",
+        "IoU": 0.5408918851614186,
+        "mIoU": 0.6430279128826151
+      },
+      {
+        "group": "WF1 initial",
+        "grid": "canonical512",
+        "seed": 2025,
+        "model": "complete",
+        "class_id": 7,
+        "class_name": "Clustered",
+        "IoU": 0.66656556137662,
+        "mIoU": 0.6430279128826151
+      },
+      {
+        "group": "WF1 initial",
+        "grid": "native",
+        "seed": 42,
+        "model": "global",
+        "class_id": 0,
+        "class_name": "Background",
+        "IoU": 0.9971123563219242,
+        "mIoU": 0.6176050973238935
+      },
+      {
+        "group": "WF1 initial",
+        "grid": "native",
+        "seed": 42,
+        "model": "global",
+        "class_id": 1,
+        "class_name": "Rock",
+        "IoU": 0.9824136856834077,
+        "mIoU": 0.6176050973238935
+      },
+      {
+        "group": "WF1 initial",
+        "grid": "native",
+        "seed": 42,
+        "model": "global",
+        "class_id": 2,
+        "class_name": "Water",
+        "IoU": 0.8320120801290144,
+        "mIoU": 0.6176050973238935
+      },
+      {
+        "group": "WF1 initial",
+        "grid": "native",
+        "seed": 42,
+        "model": "global",
+        "class_id": 3,
+        "class_name": "Film",
+        "IoU": 0.09146423245942624,
+        "mIoU": 0.6176050973238935
+      },
+      {
+        "group": "WF1 initial",
+        "grid": "native",
+        "seed": 42,
+        "model": "global",
+        "class_id": 4,
+        "class_name": "Pore-corner",
+        "IoU": 0.33824635892308774,
+        "mIoU": 0.6176050973238935
+      },
+      {
+        "group": "WF1 initial",
+        "grid": "native",
+        "seed": 42,
+        "model": "global",
+        "class_id": 5,
+        "class_name": "Droplet",
+        "IoU": 0.5304284292701372,
+        "mIoU": 0.6176050973238935
+      },
+      {
+        "group": "WF1 initial",
+        "grid": "native",
+        "seed": 42,
+        "model": "global",
+        "class_id": 6,
+        "class_name": "Columnar",
+        "IoU": 0.5069281661080242,
+        "mIoU": 0.6176050973238935
+      },
+      {
+        "group": "WF1 initial",
+        "grid": "native",
+        "seed": 42,
+        "model": "global",
+        "class_id": 7,
+        "class_name": "Clustered",
+        "IoU": 0.6622354696961256,
+        "mIoU": 0.6176050973238935
+      },
+      {
+        "group": "WF1 initial",
+        "grid": "native",
+        "seed": 42,
+        "model": "complete",
+        "class_id": 0,
+        "class_name": "Background",
+        "IoU": 0.9976001713314601,
+        "mIoU": 0.6390212112725813
+      },
+      {
+        "group": "WF1 initial",
+        "grid": "native",
+        "seed": 42,
+        "model": "complete",
+        "class_id": 1,
+        "class_name": "Rock",
+        "IoU": 0.98462389142358,
+        "mIoU": 0.6390212112725813
+      },
+      {
+        "group": "WF1 initial",
+        "grid": "native",
+        "seed": 42,
+        "model": "complete",
+        "class_id": 2,
+        "class_name": "Water",
+        "IoU": 0.8461144625943828,
+        "mIoU": 0.6390212112725813
+      },
+      {
+        "group": "WF1 initial",
+        "grid": "native",
+        "seed": 42,
+        "model": "complete",
+        "class_id": 3,
+        "class_name": "Film",
+        "IoU": 0.1490153949289417,
+        "mIoU": 0.6390212112725813
+      },
+      {
+        "group": "WF1 initial",
+        "grid": "native",
+        "seed": 42,
+        "model": "complete",
+        "class_id": 4,
+        "class_name": "Pore-corner",
+        "IoU": 0.3363687197512197,
+        "mIoU": 0.6390212112725813
+      },
+      {
+        "group": "WF1 initial",
+        "grid": "native",
+        "seed": 42,
+        "model": "complete",
+        "class_id": 5,
+        "class_name": "Droplet",
+        "IoU": 0.5904578449296455,
+        "mIoU": 0.6390212112725813
+      },
+      {
+        "group": "WF1 initial",
+        "grid": "native",
+        "seed": 42,
+        "model": "complete",
+        "class_id": 6,
+        "class_name": "Columnar",
+        "IoU": 0.534110748485722,
+        "mIoU": 0.6390212112725813
+      },
+      {
+        "group": "WF1 initial",
+        "grid": "native",
+        "seed": 42,
+        "model": "complete",
+        "class_id": 7,
+        "class_name": "Clustered",
+        "IoU": 0.6738784567356982,
+        "mIoU": 0.6390212112725813
+      },
+      {
+        "group": "WF1 initial",
+        "grid": "native",
+        "seed": 2024,
+        "model": "global",
+        "class_id": 0,
+        "class_name": "Background",
+        "IoU": 0.9971134454535142,
+        "mIoU": 0.610801078420264
+      },
+      {
+        "group": "WF1 initial",
+        "grid": "native",
+        "seed": 2024,
+        "model": "global",
+        "class_id": 1,
+        "class_name": "Rock",
+        "IoU": 0.9797648846263776,
+        "mIoU": 0.610801078420264
+      },
+      {
+        "group": "WF1 initial",
+        "grid": "native",
+        "seed": 2024,
+        "model": "global",
+        "class_id": 2,
+        "class_name": "Water",
+        "IoU": 0.7996630732122642,
+        "mIoU": 0.610801078420264
+      },
+      {
+        "group": "WF1 initial",
+        "grid": "native",
+        "seed": 2024,
+        "model": "global",
+        "class_id": 3,
+        "class_name": "Film",
+        "IoU": 0.09677269040514877,
+        "mIoU": 0.610801078420264
+      },
+      {
+        "group": "WF1 initial",
+        "grid": "native",
+        "seed": 2024,
+        "model": "global",
+        "class_id": 4,
+        "class_name": "Pore-corner",
+        "IoU": 0.3189792710239126,
+        "mIoU": 0.610801078420264
+      },
+      {
+        "group": "WF1 initial",
+        "grid": "native",
+        "seed": 2024,
+        "model": "global",
+        "class_id": 5,
+        "class_name": "Droplet",
+        "IoU": 0.5625871842168638,
+        "mIoU": 0.610801078420264
+      },
+      {
+        "group": "WF1 initial",
+        "grid": "native",
+        "seed": 2024,
+        "model": "global",
+        "class_id": 6,
+        "class_name": "Columnar",
+        "IoU": 0.48864724398088694,
+        "mIoU": 0.610801078420264
+      },
+      {
+        "group": "WF1 initial",
+        "grid": "native",
+        "seed": 2024,
+        "model": "global",
+        "class_id": 7,
+        "class_name": "Clustered",
+        "IoU": 0.6428808344431434,
+        "mIoU": 0.610801078420264
+      },
+      {
+        "group": "WF1 initial",
+        "grid": "native",
+        "seed": 2024,
+        "model": "complete",
+        "class_id": 0,
+        "class_name": "Background",
+        "IoU": 0.9973441749479003,
+        "mIoU": 0.6362831643390117
+      },
+      {
+        "group": "WF1 initial",
+        "grid": "native",
+        "seed": 2024,
+        "model": "complete",
+        "class_id": 1,
+        "class_name": "Rock",
+        "IoU": 0.983038338831447,
+        "mIoU": 0.6362831643390117
+      },
+      {
+        "group": "WF1 initial",
+        "grid": "native",
+        "seed": 2024,
+        "model": "complete",
+        "class_id": 2,
+        "class_name": "Water",
+        "IoU": 0.833404098531399,
+        "mIoU": 0.6362831643390117
+      },
+      {
+        "group": "WF1 initial",
+        "grid": "native",
+        "seed": 2024,
+        "model": "complete",
+        "class_id": 3,
+        "class_name": "Film",
+        "IoU": 0.10383328392964171,
+        "mIoU": 0.6362831643390117
+      },
+      {
+        "group": "WF1 initial",
+        "grid": "native",
+        "seed": 2024,
+        "model": "complete",
+        "class_id": 4,
+        "class_name": "Pore-corner",
+        "IoU": 0.3426358150917927,
+        "mIoU": 0.6362831643390117
+      },
+      {
+        "group": "WF1 initial",
+        "grid": "native",
+        "seed": 2024,
+        "model": "complete",
+        "class_id": 5,
+        "class_name": "Droplet",
+        "IoU": 0.6109502138744242,
+        "mIoU": 0.6362831643390117
+      },
+      {
+        "group": "WF1 initial",
+        "grid": "native",
+        "seed": 2024,
+        "model": "complete",
+        "class_id": 6,
+        "class_name": "Columnar",
+        "IoU": 0.544733385495724,
+        "mIoU": 0.6362831643390117
+      },
+      {
+        "group": "WF1 initial",
+        "grid": "native",
+        "seed": 2024,
+        "model": "complete",
+        "class_id": 7,
+        "class_name": "Clustered",
+        "IoU": 0.6743260040097643,
+        "mIoU": 0.6362831643390117
+      },
+      {
+        "group": "WF1 initial",
+        "grid": "native",
+        "seed": 2025,
+        "model": "global",
+        "class_id": 0,
+        "class_name": "Background",
+        "IoU": 0.9971862637708097,
+        "mIoU": 0.6437307941989219
+      },
+      {
+        "group": "WF1 initial",
+        "grid": "native",
+        "seed": 2025,
+        "model": "global",
+        "class_id": 1,
+        "class_name": "Rock",
+        "IoU": 0.9857036712415929,
+        "mIoU": 0.6437307941989219
+      },
+      {
+        "group": "WF1 initial",
+        "grid": "native",
+        "seed": 2025,
+        "model": "global",
+        "class_id": 2,
+        "class_name": "Water",
+        "IoU": 0.852699715553849,
+        "mIoU": 0.6437307941989219
+      },
+      {
+        "group": "WF1 initial",
+        "grid": "native",
+        "seed": 2025,
+        "model": "global",
+        "class_id": 3,
+        "class_name": "Film",
+        "IoU": 0.10710884470823712,
+        "mIoU": 0.6437307941989219
+      },
+      {
+        "group": "WF1 initial",
+        "grid": "native",
+        "seed": 2025,
+        "model": "global",
+        "class_id": 4,
+        "class_name": "Pore-corner",
+        "IoU": 0.35814521094473084,
+        "mIoU": 0.6437307941989219
+      },
+      {
+        "group": "WF1 initial",
+        "grid": "native",
+        "seed": 2025,
+        "model": "global",
+        "class_id": 5,
+        "class_name": "Droplet",
+        "IoU": 0.6242308179330924,
+        "mIoU": 0.6437307941989219
+      },
+      {
+        "group": "WF1 initial",
+        "grid": "native",
+        "seed": 2025,
+        "model": "global",
+        "class_id": 6,
+        "class_name": "Columnar",
+        "IoU": 0.5431173767980529,
+        "mIoU": 0.6437307941989219
+      },
+      {
+        "group": "WF1 initial",
+        "grid": "native",
+        "seed": 2025,
+        "model": "global",
+        "class_id": 7,
+        "class_name": "Clustered",
+        "IoU": 0.6816544526410098,
+        "mIoU": 0.6437307941989219
+      },
+      {
+        "group": "WF1 initial",
+        "grid": "native",
+        "seed": 2025,
+        "model": "complete",
+        "class_id": 0,
+        "class_name": "Background",
+        "IoU": 0.9976032431358778,
+        "mIoU": 0.6436391171998999
+      },
+      {
+        "group": "WF1 initial",
+        "grid": "native",
+        "seed": 2025,
+        "model": "complete",
+        "class_id": 1,
+        "class_name": "Rock",
+        "IoU": 0.9848108025744065,
+        "mIoU": 0.6436391171998999
+      },
+      {
+        "group": "WF1 initial",
+        "grid": "native",
+        "seed": 2025,
+        "model": "complete",
+        "class_id": 2,
+        "class_name": "Water",
+        "IoU": 0.8507120785563271,
+        "mIoU": 0.6436391171998999
+      },
+      {
+        "group": "WF1 initial",
+        "grid": "native",
+        "seed": 2025,
+        "model": "complete",
+        "class_id": 3,
+        "class_name": "Film",
+        "IoU": 0.15871388157717994,
+        "mIoU": 0.6436391171998999
+      },
+      {
+        "group": "WF1 initial",
+        "grid": "native",
+        "seed": 2025,
+        "model": "complete",
+        "class_id": 4,
+        "class_name": "Pore-corner",
+        "IoU": 0.35567309747904835,
+        "mIoU": 0.6436391171998999
+      },
+      {
+        "group": "WF1 initial",
+        "grid": "native",
+        "seed": 2025,
+        "model": "complete",
+        "class_id": 5,
+        "class_name": "Droplet",
+        "IoU": 0.5930332891069953,
+        "mIoU": 0.6436391171998999
+      },
+      {
+        "group": "WF1 initial",
+        "grid": "native",
+        "seed": 2025,
+        "model": "complete",
+        "class_id": 6,
+        "class_name": "Columnar",
+        "IoU": 0.5419365206246781,
+        "mIoU": 0.6436391171998999
+      },
+      {
+        "group": "WF1 initial",
+        "grid": "native",
+        "seed": 2025,
+        "model": "complete",
+        "class_id": 7,
+        "class_name": "Clustered",
+        "IoU": 0.6666300245446849,
+        "mIoU": 0.6436391171998999
+      },
+      {
+        "group": "WF1 repeat",
+        "grid": "canonical512",
+        "seed": 42,
+        "model": "global",
+        "class_id": 0,
+        "class_name": "Background",
+        "IoU": 0.9969325039875914,
+        "mIoU": 0.6153373074119485
+      },
+      {
+        "group": "WF1 repeat",
+        "grid": "canonical512",
+        "seed": 42,
+        "model": "global",
+        "class_id": 1,
+        "class_name": "Rock",
+        "IoU": 0.9809403378828145,
+        "mIoU": 0.6153373074119485
+      },
+      {
+        "group": "WF1 repeat",
+        "grid": "canonical512",
+        "seed": 42,
+        "model": "global",
+        "class_id": 2,
+        "class_name": "Water",
+        "IoU": 0.8289439757374241,
+        "mIoU": 0.6153373074119485
+      },
+      {
+        "group": "WF1 repeat",
+        "grid": "canonical512",
+        "seed": 42,
+        "model": "global",
+        "class_id": 3,
+        "class_name": "Film",
+        "IoU": 0.09308812700472441,
+        "mIoU": 0.6153373074119485
+      },
+      {
+        "group": "WF1 repeat",
+        "grid": "canonical512",
+        "seed": 42,
+        "model": "global",
+        "class_id": 4,
+        "class_name": "Pore-corner",
+        "IoU": 0.3269813029851657,
+        "mIoU": 0.6153373074119485
+      },
+      {
+        "group": "WF1 repeat",
+        "grid": "canonical512",
+        "seed": 42,
+        "model": "global",
+        "class_id": 5,
+        "class_name": "Droplet",
+        "IoU": 0.540860983512166,
+        "mIoU": 0.6153373074119485
+      },
+      {
+        "group": "WF1 repeat",
+        "grid": "canonical512",
+        "seed": 42,
+        "model": "global",
+        "class_id": 6,
+        "class_name": "Columnar",
+        "IoU": 0.4944060522753224,
+        "mIoU": 0.6153373074119485
+      },
+      {
+        "group": "WF1 repeat",
+        "grid": "canonical512",
+        "seed": 42,
+        "model": "global",
+        "class_id": 7,
+        "class_name": "Clustered",
+        "IoU": 0.6605451759103791,
+        "mIoU": 0.6153373074119485
+      },
+      {
+        "group": "WF1 repeat",
+        "grid": "canonical512",
+        "seed": 42,
+        "model": "complete",
+        "class_id": 0,
+        "class_name": "Background",
+        "IoU": 0.997666046287941,
+        "mIoU": 0.6403682115435453
+      },
+      {
+        "group": "WF1 repeat",
+        "grid": "canonical512",
+        "seed": 42,
+        "model": "complete",
+        "class_id": 1,
+        "class_name": "Rock",
+        "IoU": 0.9833941081804306,
+        "mIoU": 0.6403682115435453
+      },
+      {
+        "group": "WF1 repeat",
+        "grid": "canonical512",
+        "seed": 42,
+        "model": "complete",
+        "class_id": 2,
+        "class_name": "Water",
+        "IoU": 0.8498657336817566,
+        "mIoU": 0.6403682115435453
+      },
+      {
+        "group": "WF1 repeat",
+        "grid": "canonical512",
+        "seed": 42,
+        "model": "complete",
+        "class_id": 3,
+        "class_name": "Film",
+        "IoU": 0.16932387784718705,
+        "mIoU": 0.6403682115435453
+      },
+      {
+        "group": "WF1 repeat",
+        "grid": "canonical512",
+        "seed": 42,
+        "model": "complete",
+        "class_id": 4,
+        "class_name": "Pore-corner",
+        "IoU": 0.3302511563235861,
+        "mIoU": 0.6403682115435453
+      },
+      {
+        "group": "WF1 repeat",
+        "grid": "canonical512",
+        "seed": 42,
+        "model": "complete",
+        "class_id": 5,
+        "class_name": "Droplet",
+        "IoU": 0.5956452226073337,
+        "mIoU": 0.6403682115435453
+      },
+      {
+        "group": "WF1 repeat",
+        "grid": "canonical512",
+        "seed": 42,
+        "model": "complete",
+        "class_id": 6,
+        "class_name": "Columnar",
+        "IoU": 0.5249353940838835,
+        "mIoU": 0.6403682115435453
+      },
+      {
+        "group": "WF1 repeat",
+        "grid": "canonical512",
+        "seed": 42,
+        "model": "complete",
+        "class_id": 7,
+        "class_name": "Clustered",
+        "IoU": 0.6718641533362434,
+        "mIoU": 0.6403682115435453
+      },
+      {
+        "group": "WF1 repeat",
+        "grid": "canonical512",
+        "seed": 2024,
+        "model": "global",
+        "class_id": 0,
+        "class_name": "Background",
+        "IoU": 0.996799067229909,
+        "mIoU": 0.606425849601688
+      },
+      {
+        "group": "WF1 repeat",
+        "grid": "canonical512",
+        "seed": 2024,
+        "model": "global",
+        "class_id": 1,
+        "class_name": "Rock",
+        "IoU": 0.9806337041203231,
+        "mIoU": 0.606425849601688
+      },
+      {
+        "group": "WF1 repeat",
+        "grid": "canonical512",
+        "seed": 2024,
+        "model": "global",
+        "class_id": 2,
+        "class_name": "Water",
+        "IoU": 0.8169206277696309,
+        "mIoU": 0.606425849601688
+      },
+      {
+        "group": "WF1 repeat",
+        "grid": "canonical512",
+        "seed": 2024,
+        "model": "global",
+        "class_id": 3,
+        "class_name": "Film",
+        "IoU": 0.08152832363109355,
+        "mIoU": 0.606425849601688
+      },
+      {
+        "group": "WF1 repeat",
+        "grid": "canonical512",
+        "seed": 2024,
+        "model": "global",
+        "class_id": 4,
+        "class_name": "Pore-corner",
+        "IoU": 0.3111358471476026,
+        "mIoU": 0.606425849601688
+      },
+      {
+        "group": "WF1 repeat",
+        "grid": "canonical512",
+        "seed": 2024,
+        "model": "global",
+        "class_id": 5,
+        "class_name": "Droplet",
+        "IoU": 0.5377230153655438,
+        "mIoU": 0.606425849601688
+      },
+      {
+        "group": "WF1 repeat",
+        "grid": "canonical512",
+        "seed": 2024,
+        "model": "global",
+        "class_id": 6,
+        "class_name": "Columnar",
+        "IoU": 0.47656843104300806,
+        "mIoU": 0.606425849601688
+      },
+      {
+        "group": "WF1 repeat",
+        "grid": "canonical512",
+        "seed": 2024,
+        "model": "global",
+        "class_id": 7,
+        "class_name": "Clustered",
+        "IoU": 0.6500977805063931,
+        "mIoU": 0.606425849601688
+      },
+      {
+        "group": "WF1 repeat",
+        "grid": "canonical512",
+        "seed": 2024,
+        "model": "complete",
+        "class_id": 0,
+        "class_name": "Background",
+        "IoU": 0.9975583479049308,
+        "mIoU": 0.634298999211744
+      },
+      {
+        "group": "WF1 repeat",
+        "grid": "canonical512",
+        "seed": 2024,
+        "model": "complete",
+        "class_id": 1,
+        "class_name": "Rock",
+        "IoU": 0.9847666235230297,
+        "mIoU": 0.634298999211744
+      },
+      {
+        "group": "WF1 repeat",
+        "grid": "canonical512",
+        "seed": 2024,
+        "model": "complete",
+        "class_id": 2,
+        "class_name": "Water",
+        "IoU": 0.8564708692471694,
+        "mIoU": 0.634298999211744
+      },
+      {
+        "group": "WF1 repeat",
+        "grid": "canonical512",
+        "seed": 2024,
+        "model": "complete",
+        "class_id": 3,
+        "class_name": "Film",
+        "IoU": 0.11284875682780801,
+        "mIoU": 0.634298999211744
+      },
+      {
+        "group": "WF1 repeat",
+        "grid": "canonical512",
+        "seed": 2024,
+        "model": "complete",
+        "class_id": 4,
+        "class_name": "Pore-corner",
+        "IoU": 0.32730351826587833,
+        "mIoU": 0.634298999211744
+      },
+      {
+        "group": "WF1 repeat",
+        "grid": "canonical512",
+        "seed": 2024,
+        "model": "complete",
+        "class_id": 5,
+        "class_name": "Droplet",
+        "IoU": 0.5941870014296065,
+        "mIoU": 0.634298999211744
+      },
+      {
+        "group": "WF1 repeat",
+        "grid": "canonical512",
+        "seed": 2024,
+        "model": "complete",
+        "class_id": 6,
+        "class_name": "Columnar",
+        "IoU": 0.5267460272465675,
+        "mIoU": 0.634298999211744
+      },
+      {
+        "group": "WF1 repeat",
+        "grid": "canonical512",
+        "seed": 2024,
+        "model": "complete",
+        "class_id": 7,
+        "class_name": "Clustered",
+        "IoU": 0.6745108492489628,
+        "mIoU": 0.634298999211744
+      },
+      {
+        "group": "WF1 repeat",
+        "grid": "canonical512",
+        "seed": 2025,
+        "model": "global",
+        "class_id": 0,
+        "class_name": "Background",
+        "IoU": 0.9967453609537998,
+        "mIoU": 0.6349891717665876
+      },
+      {
+        "group": "WF1 repeat",
+        "grid": "canonical512",
+        "seed": 2025,
+        "model": "global",
+        "class_id": 1,
+        "class_name": "Rock",
+        "IoU": 0.9832115436087724,
+        "mIoU": 0.6349891717665876
+      },
+      {
+        "group": "WF1 repeat",
+        "grid": "canonical512",
+        "seed": 2025,
+        "model": "global",
+        "class_id": 2,
+        "class_name": "Water",
+        "IoU": 0.838403264957521,
+        "mIoU": 0.6349891717665876
+      },
+      {
+        "group": "WF1 repeat",
+        "grid": "canonical512",
+        "seed": 2025,
+        "model": "global",
+        "class_id": 3,
+        "class_name": "Film",
+        "IoU": 0.09938803857846082,
+        "mIoU": 0.6349891717665876
+      },
+      {
+        "group": "WF1 repeat",
+        "grid": "canonical512",
+        "seed": 2025,
+        "model": "global",
+        "class_id": 4,
+        "class_name": "Pore-corner",
+        "IoU": 0.356483122477913,
+        "mIoU": 0.6349891717665876
+      },
+      {
+        "group": "WF1 repeat",
+        "grid": "canonical512",
+        "seed": 2025,
+        "model": "global",
+        "class_id": 5,
+        "class_name": "Droplet",
+        "IoU": 0.6013544422942724,
+        "mIoU": 0.6349891717665876
+      },
+      {
+        "group": "WF1 repeat",
+        "grid": "canonical512",
+        "seed": 2025,
+        "model": "global",
+        "class_id": 6,
+        "class_name": "Columnar",
+        "IoU": 0.5310375525481648,
+        "mIoU": 0.6349891717665876
+      },
+      {
+        "group": "WF1 repeat",
+        "grid": "canonical512",
+        "seed": 2025,
+        "model": "global",
+        "class_id": 7,
+        "class_name": "Clustered",
+        "IoU": 0.6732900487137975,
+        "mIoU": 0.6349891717665876
+      },
+      {
+        "group": "WF1 repeat",
+        "grid": "canonical512",
+        "seed": 2025,
+        "model": "complete",
+        "class_id": 0,
+        "class_name": "Background",
+        "IoU": 0.9975008558427458,
+        "mIoU": 0.6482789288061468
+      },
+      {
+        "group": "WF1 repeat",
+        "grid": "canonical512",
+        "seed": 2025,
+        "model": "complete",
+        "class_id": 1,
+        "class_name": "Rock",
+        "IoU": 0.9849317244913952,
+        "mIoU": 0.6482789288061468
+      },
+      {
+        "group": "WF1 repeat",
+        "grid": "canonical512",
+        "seed": 2025,
+        "model": "complete",
+        "class_id": 2,
+        "class_name": "Water",
+        "IoU": 0.8488021643961166,
+        "mIoU": 0.6482789288061468
+      },
+      {
+        "group": "WF1 repeat",
+        "grid": "canonical512",
+        "seed": 2025,
+        "model": "complete",
+        "class_id": 3,
+        "class_name": "Film",
+        "IoU": 0.18212684404167906,
+        "mIoU": 0.6482789288061468
+      },
+      {
+        "group": "WF1 repeat",
+        "grid": "canonical512",
+        "seed": 2025,
+        "model": "complete",
+        "class_id": 4,
+        "class_name": "Pore-corner",
+        "IoU": 0.35453788812813625,
+        "mIoU": 0.6482789288061468
+      },
+      {
+        "group": "WF1 repeat",
+        "grid": "canonical512",
+        "seed": 2025,
+        "model": "complete",
+        "class_id": 5,
+        "class_name": "Droplet",
+        "IoU": 0.5888300754072331,
+        "mIoU": 0.6482789288061468
+      },
+      {
+        "group": "WF1 repeat",
+        "grid": "canonical512",
+        "seed": 2025,
+        "model": "complete",
+        "class_id": 6,
+        "class_name": "Columnar",
+        "IoU": 0.5559985523357719,
+        "mIoU": 0.6482789288061468
+      },
+      {
+        "group": "WF1 repeat",
+        "grid": "canonical512",
+        "seed": 2025,
+        "model": "complete",
+        "class_id": 7,
+        "class_name": "Clustered",
+        "IoU": 0.6735033258060963,
+        "mIoU": 0.6482789288061468
+      },
+      {
+        "group": "WF1 repeat",
+        "grid": "native",
+        "seed": 42,
+        "model": "global",
+        "class_id": 0,
+        "class_name": "Background",
+        "IoU": 0.9972384713985668,
+        "mIoU": 0.6193081137542749
+      },
+      {
+        "group": "WF1 repeat",
+        "grid": "native",
+        "seed": 42,
+        "model": "global",
+        "class_id": 1,
+        "class_name": "Rock",
+        "IoU": 0.982642300465005,
+        "mIoU": 0.6193081137542749
+      },
+      {
+        "group": "WF1 repeat",
+        "grid": "native",
+        "seed": 42,
+        "model": "global",
+        "class_id": 2,
+        "class_name": "Water",
+        "IoU": 0.8361157669818919,
+        "mIoU": 0.6193081137542749
+      },
+      {
+        "group": "WF1 repeat",
+        "grid": "native",
+        "seed": 42,
+        "model": "global",
+        "class_id": 3,
+        "class_name": "Film",
+        "IoU": 0.09329570356806169,
+        "mIoU": 0.6193081137542749
+      },
+      {
+        "group": "WF1 repeat",
+        "grid": "native",
+        "seed": 42,
+        "model": "global",
+        "class_id": 4,
+        "class_name": "Pore-corner",
+        "IoU": 0.3313082500727197,
+        "mIoU": 0.6193081137542749
+      },
+      {
+        "group": "WF1 repeat",
+        "grid": "native",
+        "seed": 42,
+        "model": "global",
+        "class_id": 5,
+        "class_name": "Droplet",
+        "IoU": 0.5494769084089944,
+        "mIoU": 0.6193081137542749
+      },
+      {
+        "group": "WF1 repeat",
+        "grid": "native",
+        "seed": 42,
+        "model": "global",
+        "class_id": 6,
+        "class_name": "Columnar",
+        "IoU": 0.49960524174200616,
+        "mIoU": 0.6193081137542749
+      },
+      {
+        "group": "WF1 repeat",
+        "grid": "native",
+        "seed": 42,
+        "model": "global",
+        "class_id": 7,
+        "class_name": "Clustered",
+        "IoU": 0.6647822673969527,
+        "mIoU": 0.6193081137542749
+      },
+      {
+        "group": "WF1 repeat",
+        "grid": "native",
+        "seed": 42,
+        "model": "complete",
+        "class_id": 0,
+        "class_name": "Background",
+        "IoU": 0.9975399565573179,
+        "mIoU": 0.6408554512851254
+      },
+      {
+        "group": "WF1 repeat",
+        "grid": "native",
+        "seed": 42,
+        "model": "complete",
+        "class_id": 1,
+        "class_name": "Rock",
+        "IoU": 0.9835359006424047,
+        "mIoU": 0.6408554512851254
+      },
+      {
+        "group": "WF1 repeat",
+        "grid": "native",
+        "seed": 42,
+        "model": "complete",
+        "class_id": 2,
+        "class_name": "Water",
+        "IoU": 0.8472731351693177,
+        "mIoU": 0.6408554512851254
+      },
+      {
+        "group": "WF1 repeat",
+        "grid": "native",
+        "seed": 42,
+        "model": "complete",
+        "class_id": 3,
+        "class_name": "Film",
+        "IoU": 0.1696147188922345,
+        "mIoU": 0.6408554512851254
+      },
+      {
+        "group": "WF1 repeat",
+        "grid": "native",
+        "seed": 42,
+        "model": "complete",
+        "class_id": 4,
+        "class_name": "Pore-corner",
+        "IoU": 0.3314480483000338,
+        "mIoU": 0.6408554512851254
+      },
+      {
+        "group": "WF1 repeat",
+        "grid": "native",
+        "seed": 42,
+        "model": "complete",
+        "class_id": 5,
+        "class_name": "Droplet",
+        "IoU": 0.5984682470991459,
+        "mIoU": 0.6408554512851254
+      },
+      {
+        "group": "WF1 repeat",
+        "grid": "native",
+        "seed": 42,
+        "model": "complete",
+        "class_id": 6,
+        "class_name": "Columnar",
+        "IoU": 0.5263425733764846,
+        "mIoU": 0.6408554512851254
+      },
+      {
+        "group": "WF1 repeat",
+        "grid": "native",
+        "seed": 42,
+        "model": "complete",
+        "class_id": 7,
+        "class_name": "Clustered",
+        "IoU": 0.6726210302440639,
+        "mIoU": 0.6408554512851254
+      },
+      {
+        "group": "WF1 repeat",
+        "grid": "native",
+        "seed": 2024,
+        "model": "global",
+        "class_id": 0,
+        "class_name": "Background",
+        "IoU": 0.9970684713159296,
+        "mIoU": 0.6101499110483048
+      },
+      {
+        "group": "WF1 repeat",
+        "grid": "native",
+        "seed": 2024,
+        "model": "global",
+        "class_id": 1,
+        "class_name": "Rock",
+        "IoU": 0.9821409442760993,
+        "mIoU": 0.6101499110483048
+      },
+      {
+        "group": "WF1 repeat",
+        "grid": "native",
+        "seed": 2024,
+        "model": "global",
+        "class_id": 2,
+        "class_name": "Water",
+        "IoU": 0.8222836346240395,
+        "mIoU": 0.6101499110483048
+      },
+      {
+        "group": "WF1 repeat",
+        "grid": "native",
+        "seed": 2024,
+        "model": "global",
+        "class_id": 3,
+        "class_name": "Film",
+        "IoU": 0.0810874538673786,
+        "mIoU": 0.6101499110483048
+      },
+      {
+        "group": "WF1 repeat",
+        "grid": "native",
+        "seed": 2024,
+        "model": "global",
+        "class_id": 4,
+        "class_name": "Pore-corner",
+        "IoU": 0.31502704473023413,
+        "mIoU": 0.6101499110483048
+      },
+      {
+        "group": "WF1 repeat",
+        "grid": "native",
+        "seed": 2024,
+        "model": "global",
+        "class_id": 5,
+        "class_name": "Droplet",
+        "IoU": 0.5478246858148521,
+        "mIoU": 0.6101499110483048
+      },
+      {
+        "group": "WF1 repeat",
+        "grid": "native",
+        "seed": 2024,
+        "model": "global",
+        "class_id": 6,
+        "class_name": "Columnar",
+        "IoU": 0.4820979601803101,
+        "mIoU": 0.6101499110483048
+      },
+      {
+        "group": "WF1 repeat",
+        "grid": "native",
+        "seed": 2024,
+        "model": "global",
+        "class_id": 7,
+        "class_name": "Clustered",
+        "IoU": 0.6536690935775955,
+        "mIoU": 0.6101499110483048
+      },
+      {
+        "group": "WF1 repeat",
+        "grid": "native",
+        "seed": 2024,
+        "model": "complete",
+        "class_id": 0,
+        "class_name": "Background",
+        "IoU": 0.9974698521494005,
+        "mIoU": 0.6344024199397945
+      },
+      {
+        "group": "WF1 repeat",
+        "grid": "native",
+        "seed": 2024,
+        "model": "complete",
+        "class_id": 1,
+        "class_name": "Rock",
+        "IoU": 0.9846765671511305,
+        "mIoU": 0.6344024199397945
+      },
+      {
+        "group": "WF1 repeat",
+        "grid": "native",
+        "seed": 2024,
+        "model": "complete",
+        "class_id": 2,
+        "class_name": "Water",
+        "IoU": 0.8533026042232497,
+        "mIoU": 0.6344024199397945
+      },
+      {
+        "group": "WF1 repeat",
+        "grid": "native",
+        "seed": 2024,
+        "model": "complete",
+        "class_id": 3,
+        "class_name": "Film",
+        "IoU": 0.11400589950546029,
+        "mIoU": 0.6344024199397945
+      },
+      {
+        "group": "WF1 repeat",
+        "grid": "native",
+        "seed": 2024,
+        "model": "complete",
+        "class_id": 4,
+        "class_name": "Pore-corner",
+        "IoU": 0.32785984522994527,
+        "mIoU": 0.6344024199397945
+      },
+      {
+        "group": "WF1 repeat",
+        "grid": "native",
+        "seed": 2024,
+        "model": "complete",
+        "class_id": 5,
+        "class_name": "Droplet",
+        "IoU": 0.5957581815323101,
+        "mIoU": 0.6344024199397945
+      },
+      {
+        "group": "WF1 repeat",
+        "grid": "native",
+        "seed": 2024,
+        "model": "complete",
+        "class_id": 6,
+        "class_name": "Columnar",
+        "IoU": 0.5275830208998205,
+        "mIoU": 0.6344024199397945
+      },
+      {
+        "group": "WF1 repeat",
+        "grid": "native",
+        "seed": 2024,
+        "model": "complete",
+        "class_id": 7,
+        "class_name": "Clustered",
+        "IoU": 0.6745633888270393,
+        "mIoU": 0.6344024199397945
+      },
+      {
+        "group": "WF1 repeat",
+        "grid": "native",
+        "seed": 2025,
+        "model": "global",
+        "class_id": 0,
+        "class_name": "Background",
+        "IoU": 0.9970122785796409,
+        "mIoU": 0.6398108283593318
+      },
+      {
+        "group": "WF1 repeat",
+        "grid": "native",
+        "seed": 2025,
+        "model": "global",
+        "class_id": 1,
+        "class_name": "Rock",
+        "IoU": 0.9851477707625523,
+        "mIoU": 0.6398108283593318
+      },
+      {
+        "group": "WF1 repeat",
+        "grid": "native",
+        "seed": 2025,
+        "model": "global",
+        "class_id": 2,
+        "class_name": "Water",
+        "IoU": 0.8446611889960228,
+        "mIoU": 0.6398108283593318
+      },
+      {
+        "group": "WF1 repeat",
+        "grid": "native",
+        "seed": 2025,
+        "model": "global",
+        "class_id": 3,
+        "class_name": "Film",
+        "IoU": 0.098054323843444,
+        "mIoU": 0.6398108283593318
+      },
+      {
+        "group": "WF1 repeat",
+        "grid": "native",
+        "seed": 2025,
+        "model": "global",
+        "class_id": 4,
+        "class_name": "Pore-corner",
+        "IoU": 0.3617465411221194,
+        "mIoU": 0.6398108283593318
+      },
+      {
+        "group": "WF1 repeat",
+        "grid": "native",
+        "seed": 2025,
+        "model": "global",
+        "class_id": 5,
+        "class_name": "Droplet",
+        "IoU": 0.6137082780075404,
+        "mIoU": 0.6398108283593318
+      },
+      {
+        "group": "WF1 repeat",
+        "grid": "native",
+        "seed": 2025,
+        "model": "global",
+        "class_id": 6,
+        "class_name": "Columnar",
+        "IoU": 0.5380062618773463,
+        "mIoU": 0.6398108283593318
+      },
+      {
+        "group": "WF1 repeat",
+        "grid": "native",
+        "seed": 2025,
+        "model": "global",
+        "class_id": 7,
+        "class_name": "Clustered",
+        "IoU": 0.680149983685988,
+        "mIoU": 0.6398108283593318
+      },
+      {
+        "group": "WF1 repeat",
+        "grid": "native",
+        "seed": 2025,
+        "model": "complete",
+        "class_id": 0,
+        "class_name": "Background",
+        "IoU": 0.9974199122614991,
+        "mIoU": 0.648776071965747
+      },
+      {
+        "group": "WF1 repeat",
+        "grid": "native",
+        "seed": 2025,
+        "model": "complete",
+        "class_id": 1,
+        "class_name": "Rock",
+        "IoU": 0.9850451333673947,
+        "mIoU": 0.648776071965747
+      },
+      {
+        "group": "WF1 repeat",
+        "grid": "native",
+        "seed": 2025,
+        "model": "complete",
+        "class_id": 2,
+        "class_name": "Water",
+        "IoU": 0.8482091174108519,
+        "mIoU": 0.648776071965747
+      },
+      {
+        "group": "WF1 repeat",
+        "grid": "native",
+        "seed": 2025,
+        "model": "complete",
+        "class_id": 3,
+        "class_name": "Film",
+        "IoU": 0.1832125641241,
+        "mIoU": 0.648776071965747
+      },
+      {
+        "group": "WF1 repeat",
+        "grid": "native",
+        "seed": 2025,
+        "model": "complete",
+        "class_id": 4,
+        "class_name": "Pore-corner",
+        "IoU": 0.3551619540103418,
+        "mIoU": 0.648776071965747
+      },
+      {
+        "group": "WF1 repeat",
+        "grid": "native",
+        "seed": 2025,
+        "model": "complete",
+        "class_id": 5,
+        "class_name": "Droplet",
+        "IoU": 0.5909997882329963,
+        "mIoU": 0.648776071965747
+      },
+      {
+        "group": "WF1 repeat",
+        "grid": "native",
+        "seed": 2025,
+        "model": "complete",
+        "class_id": 6,
+        "class_name": "Columnar",
+        "IoU": 0.5568341305071608,
+        "mIoU": 0.648776071965747
+      },
+      {
+        "group": "WF1 repeat",
+        "grid": "native",
+        "seed": 2025,
+        "model": "complete",
+        "class_id": 7,
+        "class_name": "Clustered",
+        "IoU": 0.6733259758116317,
+        "mIoU": 0.648776071965747
+      }
+    ],
+    {
+      "sources": [
+        {
+          "role": "original paired external evaluation",
+          "sha256": "1ac28c9da9b59e8a7c8c022174cbe9d08765c1bdcdf0da41cba55c08f5bdee5f"
+        },
+        {
+          "role": "whole WF1 paired repeat",
+          "sha256": "1ef30dc9c064715558d579ab04c51403946ea863dee85440d2d02cadde78ad05"
+        }
+      ],
+      "seeds": [
+        42,
+        2024,
+        2025
+      ],
+      "groups": [
+        "Bentheimer",
+        "WF1 initial",
+        "WF1 repeat"
+      ],
+      "grids": [
+        "canonical512",
+        "native"
+      ],
+      "classes": [
+        "Background",
+        "Rock",
+        "Water",
+        "Film",
+        "Pore-corner",
+        "Droplet",
+        "Columnar",
+        "Clustered"
+      ],
+      "values_axis_order": [
+        "group",
+        "grid",
+        "seed",
+        "model",
+        "class"
+      ],
+      "class_IoU": [
+        [
+          [
+            [
+              [
+                0.9973136609349476,
+                0.9694678040386703,
+                0.8524765300614442,
+                0.18909560021714483,
+                0.31213729750534613,
+                0.313691684952209,
+                0.42717528504596086,
+                0.8147793393685662
+              ],
+              [
+                0.9990727132973551,
+                0.9754045549985231,
+                0.879721757995353,
+                0.23174963299063675,
+                0.34440810663486837,
+                0.30334743218363014,
+                0.5149715568927821,
+                0.8393133188322884
+              ]
+            ],
+            [
+              [
+                0.9963934221641452,
+                0.9696575945563957,
+                0.8537870634142422,
+                0.18726378093119356,
+                0.31507883034622963,
+                0.30641511176794245,
+                0.4142297645032856,
+                0.8024838677704885
+              ],
+              [
+                0.9992600209466951,
+                0.9780871963759521,
+                0.8916823031091468,
+                0.21566744409369207,
+                0.3110691472000021,
+                0.3075314232338817,
+                0.4866068228676855,
+                0.8282232196192568
+              ]
+            ],
+            [
+              [
+                0.9974452140095007,
+                0.9704994597354751,
+                0.8546561071143288,
+                0.19920494699634073,
+                0.31836550287384396,
+                0.3263615212952593,
+                0.4506389909955744,
+                0.8163795592759905
+              ],
+              [
+                0.9995494975376632,
+                0.9779545004718572,
+                0.8942305220300257,
+                0.22195393759273033,
+                0.33112693159353057,
+                0.31633288894038974,
+                0.4927273712834949,
+                0.8428122106400255
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                0.999036709087885,
+                0.9757056624166281,
+                0.8806675183479613,
+                0.204400268975329,
+                0.31989672818918413,
+                0.31843561700760625,
+                0.43463670033238283,
+                0.8239757269077878
+              ],
+              [
+                0.9988980541217561,
+                0.9736859866581469,
+                0.8717711819659059,
+                0.22844507209747503,
+                0.3470473488206892,
+                0.303705993809477,
+                0.515157364203537,
+                0.8391884721583166
+              ]
+            ],
+            [
+              [
+                0.9987974973636753,
+                0.9770424663920824,
+                0.8856099100871805,
+                0.20694025610764238,
+                0.32076991466498067,
+                0.30974463677807024,
+                0.41974842542130025,
+                0.8105206095619749
+              ],
+              [
+                0.9992432866017524,
+                0.977175221809594,
+                0.8877903281125705,
+                0.21060468973833021,
+                0.31363897699595517,
+                0.3076891637576878,
+                0.4875576388756291,
+                0.8284638199233972
+              ]
+            ],
+            [
+              [
+                0.9990449521248186,
+                0.9755210899356817,
+                0.8784014584286551,
+                0.21106470201488745,
+                0.3266212740631344,
+                0.33071240209996344,
+                0.45789422413715625,
+                0.8258327474062231
+              ],
+              [
+                0.9995379532159919,
+                0.977064120607487,
+                0.8900420944933916,
+                0.21794435173513982,
+                0.33204938723724886,
+                0.31653079440642035,
+                0.4932296417693502,
+                0.8425993245847985
+              ]
+            ]
+          ]
+        ],
+        [
+          [
+            [
+              [
+                0.9968675253553385,
+                0.9808101362873474,
+                0.8263990368114793,
+                0.09116200382216916,
+                0.33355337099120536,
+                0.5223892024936756,
+                0.5018000116897922,
+                0.6579977064214934
+              ],
+              [
+                0.9977309749134308,
+                0.9845628954035274,
+                0.8490370814100959,
+                0.14917727326460956,
+                0.3353594074396491,
+                0.588372221821298,
+                0.5327149986878934,
+                0.6732257315557515
+              ]
+            ],
+            [
+              [
+                0.9966511934757917,
+                0.9784429217448786,
+                0.7949890472495132,
+                0.09650767641916556,
+                0.31488916841804965,
+                0.5518931051732293,
+                0.4825531791923412,
+                0.6396326022495813
+              ],
+              [
+                0.997424108451573,
+                0.9831765260212835,
+                0.837176372165702,
+                0.10426562768713762,
+                0.34198721504717844,
+                0.6090984606556433,
+                0.5441233315791979,
+                0.6744861325155681
+              ]
+            ],
+            [
+              [
+                0.9968776913789609,
+                0.9835161512224396,
+                0.8427179489256026,
+                0.10769913699684645,
+                0.35346671860730783,
+                0.6121323387424925,
+                0.5364828397660347,
+                0.6750866184169995
+              ],
+              [
+                0.9976917932146517,
+                0.9846559937868968,
+                0.8516024407128897,
+                0.15750044912868089,
+                0.3547234865113875,
+                0.5905916931683751,
+                0.5408918851614186,
+                0.66656556137662
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                0.9971123563219242,
+                0.9824136856834077,
+                0.8320120801290144,
+                0.09146423245942624,
+                0.33824635892308774,
+                0.5304284292701372,
+                0.5069281661080242,
+                0.6622354696961256
+              ],
+              [
+                0.9976001713314601,
+                0.98462389142358,
+                0.8461144625943828,
+                0.1490153949289417,
+                0.3363687197512197,
+                0.5904578449296455,
+                0.534110748485722,
+                0.6738784567356982
+              ]
+            ],
+            [
+              [
+                0.9971134454535142,
+                0.9797648846263776,
+                0.7996630732122642,
+                0.09677269040514877,
+                0.3189792710239126,
+                0.5625871842168638,
+                0.48864724398088694,
+                0.6428808344431434
+              ],
+              [
+                0.9973441749479003,
+                0.983038338831447,
+                0.833404098531399,
+                0.10383328392964171,
+                0.3426358150917927,
+                0.6109502138744242,
+                0.544733385495724,
+                0.6743260040097643
+              ]
+            ],
+            [
+              [
+                0.9971862637708097,
+                0.9857036712415929,
+                0.852699715553849,
+                0.10710884470823712,
+                0.35814521094473084,
+                0.6242308179330924,
+                0.5431173767980529,
+                0.6816544526410098
+              ],
+              [
+                0.9976032431358778,
+                0.9848108025744065,
+                0.8507120785563271,
+                0.15871388157717994,
+                0.35567309747904835,
+                0.5930332891069953,
+                0.5419365206246781,
+                0.6666300245446849
+              ]
+            ]
+          ]
+        ],
+        [
+          [
+            [
+              [
+                0.9969325039875914,
+                0.9809403378828145,
+                0.8289439757374241,
+                0.09308812700472441,
+                0.3269813029851657,
+                0.540860983512166,
+                0.4944060522753224,
+                0.6605451759103791
+              ],
+              [
+                0.997666046287941,
+                0.9833941081804306,
+                0.8498657336817566,
+                0.16932387784718705,
+                0.3302511563235861,
+                0.5956452226073337,
+                0.5249353940838835,
+                0.6718641533362434
+              ]
+            ],
+            [
+              [
+                0.996799067229909,
+                0.9806337041203231,
+                0.8169206277696309,
+                0.08152832363109355,
+                0.3111358471476026,
+                0.5377230153655438,
+                0.47656843104300806,
+                0.6500977805063931
+              ],
+              [
+                0.9975583479049308,
+                0.9847666235230297,
+                0.8564708692471694,
+                0.11284875682780801,
+                0.32730351826587833,
+                0.5941870014296065,
+                0.5267460272465675,
+                0.6745108492489628
+              ]
+            ],
+            [
+              [
+                0.9967453609537998,
+                0.9832115436087724,
+                0.838403264957521,
+                0.09938803857846082,
+                0.356483122477913,
+                0.6013544422942724,
+                0.5310375525481648,
+                0.6732900487137975
+              ],
+              [
+                0.9975008558427458,
+                0.9849317244913952,
+                0.8488021643961166,
+                0.18212684404167906,
+                0.35453788812813625,
+                0.5888300754072331,
+                0.5559985523357719,
+                0.6735033258060963
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                0.9972384713985668,
+                0.982642300465005,
+                0.8361157669818919,
+                0.09329570356806169,
+                0.3313082500727197,
+                0.5494769084089944,
+                0.49960524174200616,
+                0.6647822673969527
+              ],
+              [
+                0.9975399565573179,
+                0.9835359006424047,
+                0.8472731351693177,
+                0.1696147188922345,
+                0.3314480483000338,
+                0.5984682470991459,
+                0.5263425733764846,
+                0.6726210302440639
+              ]
+            ],
+            [
+              [
+                0.9970684713159296,
+                0.9821409442760993,
+                0.8222836346240395,
+                0.0810874538673786,
+                0.31502704473023413,
+                0.5478246858148521,
+                0.4820979601803101,
+                0.6536690935775955
+              ],
+              [
+                0.9974698521494005,
+                0.9846765671511305,
+                0.8533026042232497,
+                0.11400589950546029,
+                0.32785984522994527,
+                0.5957581815323101,
+                0.5275830208998205,
+                0.6745633888270393
+              ]
+            ],
+            [
+              [
+                0.9970122785796409,
+                0.9851477707625523,
+                0.8446611889960228,
+                0.098054323843444,
+                0.3617465411221194,
+                0.6137082780075404,
+                0.5380062618773463,
+                0.680149983685988
+              ],
+              [
+                0.9974199122614991,
+                0.9850451333673947,
+                0.8482091174108519,
+                0.1832125641241,
+                0.3551619540103418,
+                0.5909997882329963,
+                0.5568341305071608,
+                0.6733259758116317
+              ]
+            ]
+          ]
+        ]
+      ],
+      "models": [
+        "Global",
+        "Complete"
+      ],
+      "display_size_mm": [
+        114.0,
+        160.0
+      ],
+      "minimum_font_pt": 7,
+      "summary": "arithmetic mean and sample SD (ddof=1)",
+      "replicate_unit": "training seeds on fixed same-source test partitions, not independent cores",
+      "original_repeat_pooled": false,
+      "excluded_seeds": [],
+      "excluded_classes": [],
+      "all_test_images": {
+        "Bentheimer": 180,
+        "WF1": 950
+      },
+      "heatmap": "mean paired Complete-minus-Global class IoU, with sample SD below each mean",
+      "source_category": "completed target-labelled adaptation; whole post-hoc WF1 repetition kept separate"
+    }
+  ]
+}

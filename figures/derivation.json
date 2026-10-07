@@ -1,0 +1,190 @@
+{
+  "modules": [
+    {
+      "module": "fig1_poremorph_v9",
+      "original_sha256": "52176452c379780e71f42df1b51fbd821b20f5afcc624dd50ad5464d260eb152",
+      "replaced_input_functions": [],
+      "removed_noncurrent_entry_points": [],
+      "unchanged_functions": [
+        "main"
+      ]
+    },
+    {
+      "module": "fig2_main_compound_v1",
+      "original_sha256": "d90d063e81dbe64b29b1c2feaf5a8f5a13a4cf958ff1067f200ff359b91d2ea3",
+      "replaced_input_functions": [
+        "read_sources"
+      ],
+      "removed_noncurrent_entry_points": [],
+      "unchanged_functions": [
+        "main",
+        "sha"
+      ]
+    },
+    {
+      "module": "fig3_spatial_context_v1",
+      "original_sha256": "66622aa13e7e015b3b72a1fe4386b710ca9410ba355a759f457c622270ebe8e2",
+      "replaced_input_functions": [
+        "read_volume"
+      ],
+      "removed_noncurrent_entry_points": [
+        "main"
+      ],
+      "unchanged_functions": [
+        "add_mesh",
+        "cut_face_quads",
+        "overlay",
+        "section",
+        "sha",
+        "volume_panel"
+      ]
+    },
+    {
+      "module": "fig3_spatial_quantification_v2",
+      "original_sha256": "cd743227e93c38c271f5af66c23ed0ca5f816651948eb9ef3d88643670a60a09",
+      "replaced_input_functions": [
+        "read_composition"
+      ],
+      "removed_noncurrent_entry_points": [],
+      "unchanged_functions": [
+        "add_spatial_coordinates",
+        "main",
+        "plot_composition",
+        "section_directions"
+      ]
+    },
+    {
+      "module": "fig4_external_statistics",
+      "original_sha256": "61c1824d04aa7055f8be1e542ddeb8ebf1242480621998a123ffcb11f931bfbf",
+      "replaced_input_functions": [
+        "load_values"
+      ],
+      "removed_noncurrent_entry_points": [],
+      "unchanged_functions": [
+        "main",
+        "read",
+        "sha"
+      ]
+    },
+    {
+      "module": "fig5_body_size",
+      "original_sha256": "f07f8bfd4da4724703ec1714a5594786ddfb307b5ea00b24761e86a5607035d8",
+      "replaced_input_functions": [],
+      "removed_noncurrent_entry_points": [],
+      "unchanged_functions": [
+        "canvas",
+        "export",
+        "main",
+        "sha",
+        "style"
+      ]
+    },
+    {
+      "module": "figS1_oil_morphologies",
+      "original_sha256": "156b79603c301af466ee2615604400fe0ba5cced3a3631c996214fbb40de6b29",
+      "replaced_input_functions": [
+        "read_panels"
+      ],
+      "removed_noncurrent_entry_points": [],
+      "unchanged_functions": [
+        "main"
+      ]
+    },
+    {
+      "module": "figS2_stage_contributions",
+      "original_sha256": "edd4d27c7de323f48e6150decd66040342171936f97de10228870ea0e30901de",
+      "replaced_input_functions": [],
+      "removed_noncurrent_entry_points": [
+        "main"
+      ],
+      "unchanged_functions": [
+        "data",
+        "style"
+      ]
+    },
+    {
+      "module": "figS3_composition_bias",
+      "original_sha256": "3ff6c5f01517da899d7936619a7210eb42b1ca5873a12446597fb83bd3edaa4b",
+      "replaced_input_functions": [],
+      "removed_noncurrent_entry_points": [],
+      "unchanged_functions": [
+        "data",
+        "main"
+      ]
+    },
+    {
+      "module": "figS4_external_qualitative",
+      "original_sha256": "415e8d9d9c5f7aac10e30c8c384de6646b834988ae37341f0081d6b75a0ed342",
+      "replaced_input_functions": [
+        "load_case"
+      ],
+      "removed_noncurrent_entry_points": [
+        "choose_roi",
+        "gallery",
+        "load_predictions",
+        "scan"
+      ],
+      "unchanged_functions": [
+        "draw",
+        "read",
+        "scores",
+        "sha"
+      ]
+    },
+    {
+      "module": "spatial_error_comparison",
+      "original_sha256": "2f0111347f0de7af0fa526bc3667620d65c15e88d30808cddea86f92fc81dfc9",
+      "replaced_input_functions": [],
+      "removed_noncurrent_entry_points": [],
+      "unchanged_functions": [
+        "error_rgb",
+        "relative_errors"
+      ]
+    }
+  ],
+  "snapshots": [
+    {
+      "name": "main_comparison",
+      "image_arrays": 20,
+      "source": "source_data/main_comparison.json"
+    },
+    {
+      "name": "composition",
+      "image_arrays": 0,
+      "source": "source_data/composition.json"
+    },
+    {
+      "name": "external",
+      "image_arrays": 0,
+      "source": "source_data/external.json"
+    },
+    {
+      "name": "spatial",
+      "image_arrays": 2,
+      "source": "source_data/spatial.json"
+    },
+    {
+      "name": "morphology_examples",
+      "image_arrays": 5,
+      "source": "source_data/morphology_examples.json"
+    },
+    {
+      "name": "external_bentheimer",
+      "image_arrays": 4,
+      "source": "source_data/external_bentheimer.json"
+    },
+    {
+      "name": "external_wf1",
+      "image_arrays": 4,
+      "source": "source_data/external_wf1.json"
+    }
+  ],
+  "array_serialization": "numeric decimal round-trip; image arrays byte-exact in separate NPZ assets",
+  "normalization": "source workstation paths replaced by logical input identifiers; scientific values unchanged",
+  "source_summary_sha256": "037368473ef7087e76bd746693a05bd06b52e195e6feb61de6b7386e26db9b45",
+  "source_size_sha256": "c5f55de9237a15e85cdd8dddc512c7ddd1a94a90e27d8d028c240f9989cefffc",
+  "source_architecture_manifest_sha256": "25f3f704b123965fc5473b4a43efd521e46251bdebd83599dc7d1e40cf6acaa2",
+  "no_new_training": true,
+  "no_new_inference": true,
+  "no_new_case_selection": true
+}

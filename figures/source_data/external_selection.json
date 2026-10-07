@@ -1,0 +1,53 @@
+{
+  "selection_type": "performance-selected qualitative advantage examples",
+  "seed": 42,
+  "selection_rationale": "Both were the top eligible whole-field oil-IoU gain cases in the fixed seed-42 scan; visual review confirmed readable local errors and diverse oil forms. Local windows were also performance-selected using the recorded deterministic rule.",
+  "bentheimer": {
+    "index": 44,
+    "label_id": "bentheimer_core1_0814",
+    "full_field_mIoU_gain_pp": 12.978756219300625,
+    "full_field_oil_IoU_gain_pp": 20.904339371261905,
+    "roi": {
+      "y0": 416,
+      "y1": 672,
+      "x0": 672,
+      "x1": 928,
+      "mIoU_gain_pp": 36.19994251694125,
+      "oil_IoU_gain_pp": 54.51232215714005,
+      "reference_class_pixels": [
+        0,
+        50128,
+        10558,
+        0,
+        146,
+        127,
+        464,
+        4113
+      ]
+    }
+  },
+  "wf1": {
+    "index": 251,
+    "label_id": "wf1_top_0251",
+    "full_field_mIoU_gain_pp": 17.627474052982084,
+    "full_field_oil_IoU_gain_pp": 27.997723964417197,
+    "roi": {
+      "y0": 544,
+      "y1": 800,
+      "x0": 352,
+      "x1": 608,
+      "mIoU_gain_pp": 43.58182089110731,
+      "oil_IoU_gain_pp": 61.17671218543921,
+      "reference_class_pixels": [
+        0,
+        51946,
+        2240,
+        721,
+        390,
+        75,
+        0,
+        10164
+      ]
+    }
+  }
+}

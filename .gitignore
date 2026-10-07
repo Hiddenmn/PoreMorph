@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+resources/
+resource_metadata/
+figure_assets/
+runs/
+checks/
+figure_outputs*/
+*.pth
+*.pt
+*.ckpt
+*.zip
+

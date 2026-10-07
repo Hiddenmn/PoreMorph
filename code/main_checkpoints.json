@@ -1,0 +1,68 @@
+{
+  "42": {
+    "global_checkpoint": {
+      "path": "实验/multimodal_remaining_oil_outputs_fusion_order_ablation/models/seed_42_fusion_before_ppm/best_model.pth",
+      "sha256": "87660bf633dad323022b44877ab5edef9ee9ca236b5137945a2f9cab5333aed4"
+    },
+    "tokenizer": {
+      "path": "实验/multimodal_remaining_oil_outputs_fusion_order_ablation/models/seed_42_fusion_before_ppm/tokenizer.json",
+      "sha256": "f0a1ec5c799f5430e8fedd06d391d02f4e685306347b30283b1031953d6e8969"
+    },
+    "native_checkpoint": {
+      "path": "实验/native_detail_context_control_20260930/outputs/native_no_context_seed42/best.pth",
+      "sha256": "a482034167370b11ff966c87e206c22c42d36d06f8d6c76d51dcea4a041aafad"
+    },
+    "separate_checkpoint": {
+      "path": "实验/body_interface_decoder_20260930/outputs/pair12_seed42/separate_best.pth",
+      "sha256": "2df29666d0329d3d3838394ca3e0e80dac4f9546bae9b38f84b6d425eeade5e6"
+    },
+    "pointwise_checkpoint": {
+      "path": "实验/body_pointwise_control_20260930/outputs/control12_seed42/best.pth",
+      "sha256": "944ac4e283736490fba8ad5a613320a6aebf0cfcd470ff1aa9ad810ae5ff5b26"
+    }
+  },
+  "2024": {
+    "global_checkpoint": {
+      "path": "实验/multimodal_remaining_oil_outputs_fusion_order_ablation/models/seed_2024_fusion_before_ppm/best_model.pth",
+      "sha256": "ac56bc532e39d89120ebe31038f0540f48d3d0466f1e2b6e936b9f76b2185c7d"
+    },
+    "tokenizer": {
+      "path": "实验/multimodal_remaining_oil_outputs_fusion_order_ablation/models/seed_2024_fusion_before_ppm/tokenizer.json",
+      "sha256": "f0a1ec5c799f5430e8fedd06d391d02f4e685306347b30283b1031953d6e8969"
+    },
+    "native_checkpoint": {
+      "path": "实验/native_detail_replication_20260930/outputs/native_no_context_seed2024/best.pth",
+      "sha256": "19b1485e3e6adbbc3df13608f535ed8809ca68f02967fe2e6721b62bd2cf6b46"
+    },
+    "separate_checkpoint": {
+      "path": "实验/body_decoder_replication_20260930/outputs/pair12_seed2024/separate_best.pth",
+      "sha256": "2e0b5ecf157919d4489a2fe4b3b89124b3a68a9e33007721937b9a325551b78f"
+    },
+    "pointwise_checkpoint": {
+      "path": "实验/body_decoder_replication_20260930/outputs/pair12_seed2024/pointwise_best.pth",
+      "sha256": "5cf374c1fab6e009f1c9925d6e8a83f9d70364f65e7b121c6af1f70679b6e55d"
+    }
+  },
+  "2025": {
+    "global_checkpoint": {
+      "path": "实验/multimodal_remaining_oil_outputs_fusion_order_ablation/models/seed_2025_fusion_before_ppm/best_model.pth",
+      "sha256": "b7e309a727af15627e2fc3f21aed4825300be0d7e062ecf3797fe3e1f94bbebf"
+    },
+    "tokenizer": {
+      "path": "实验/multimodal_remaining_oil_outputs_fusion_order_ablation/models/seed_2025_fusion_before_ppm/tokenizer.json",
+      "sha256": "f0a1ec5c799f5430e8fedd06d391d02f4e685306347b30283b1031953d6e8969"
+    },
+    "native_checkpoint": {
+      "path": "实验/native_detail_replication_seed2025_20260930/outputs/native_no_context_seed2025/best.pth",
+      "sha256": "67f24c827403cb3a6e1510df8ed772feda6a89f67107ab405bb93f89ae01c14e"
+    },
+    "separate_checkpoint": {
+      "path": "实验/body_decoder_replication_20260930/outputs/pair12_seed2025/separate_best.pth",
+      "sha256": "360e365e174b622cb017f3618a0e7d8d43a7286e61dbf1102d438922d52bc6cd"
+    },
+    "pointwise_checkpoint": {
+      "path": "实验/body_decoder_replication_20260930/outputs/pair12_seed2025/pointwise_best.pth",
+      "sha256": "bc834208061d4c2ee241e97fa0e1d29962c2d405f1aff9c86af49f78c6f1b969"
+    }
+  }
+}

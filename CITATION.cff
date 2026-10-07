@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use PoreMorph, cite this version and the original datasets listed in DATA_SOURCES.md."
+type: software
+title: "PoreMorph: Prior-conditioned phase segmentation and fixed-support morphology recognition of remaining oil"
+authors:
+  - family-names: Zhou
+    given-names: Qisong
+  - family-names: Zhang
+    given-names: Shu
+  - family-names: Zeng
+    given-names: Xingjie
+  - family-names: Ma
+    given-names: Biao
+  - family-names: Wang
+    given-names: Yang
+  - family-names: Pu
+    given-names: Leijie
+  - family-names: Guo
+    given-names: Zixi
+version: 0.1.0
+date-released: 2026-10-07
+repository-code: "https://github.com/Hiddenmn/PoreMorph"
+url: "https://github.com/Hiddenmn/PoreMorph/releases/tag/v0.1.0"
+license: MIT
+abstract: "PoreMorph combines sample-prior-conditioned phase segmentation, native-resolution detail recovery, and fixed-support oil-body morphology recognition. Author-generated data and selected model states are separately CC BY 4.0; third-party materials retain their own terms."
+keywords:
+  - remaining oil
+  - image segmentation
+  - micro-CT
+  - morphology recognition
+  - multimodal learning
